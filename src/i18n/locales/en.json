@@ -20,6 +20,12 @@
     "localNameMm": "Local Name (Myanmar)",
     "notFound": "Not found.",
     "loading": "Loading...",
-    "children": "Contains"
+    "children": "Contains",
+    "population": "Population",
+    "male": "Male",
+    "female": "Female",
+    "total": "Total",
+    "ageRange": "Age Distribution",
+    "dummy": "Dummy"
   }
 }
