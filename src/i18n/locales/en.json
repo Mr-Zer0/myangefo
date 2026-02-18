@@ -1,0 +1,11 @@
+{
+  "app": {
+    "title": "Welcome",
+    "description": "Get started by editing your App."
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "mm": "Myanmar"
+  }
+}
