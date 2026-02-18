@@ -3,11 +3,8 @@
     "title": "Myangefo"
   },
   "search": {
-    "placeholder": "Search states, townships, villages..."
-  },
-  "language": {
-    "label": "Language",
-    "en": "English",
-    "mm": "Myanmar"
+    "placeholder": "Search states, townships, villages...",
+    "button": "Search",
+    "advanced": "Advanced Search"
   }
 }
