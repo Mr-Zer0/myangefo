@@ -19,6 +19,11 @@ function SearchResults() {
   const q = searchParams.get("q") ?? "";
 
   const [query, setQuery] = useState(q);
+
+  // Sync input with URL param when it changes
+  useEffect(() => {
+    setQuery(q);
+  }, [q]);
   const [results, setResults] = useState<Map<ResultType, SearchResult[]>>(
     new Map()
   );
@@ -29,7 +34,8 @@ function SearchResults() {
   const containerRef = useRef<HTMLDivElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(null);
 
-  const lang = detectLang(q);
+  const resultLang = detectLang(q);
+  const suggestLang = detectLang(query);
 
   // Full search for results page
   useEffect(() => {
@@ -121,17 +127,17 @@ function SearchResults() {
                       className="flex cursor-pointer items-center gap-3 px-4 py-2 hover:bg-accent"
                       onClick={() => {
                         const name =
-                          lang === "mm" ? r.name_mm : r.name_en;
+                          suggestLang === "mm" ? r.name_mm : r.name_en;
                         setQuery(name);
                         submitSearch(name);
                       }}
                     >
                       <Search className="h-3.5 w-3.5 shrink-0 text-muted-foreground" />
                       <span className="truncate text-sm">
-                        {(lang === "mm" ? r.breadcrumb_mm : r.breadcrumb_en).join(" / ")}
+                        {(suggestLang === "mm" ? r.breadcrumb_mm : r.breadcrumb_en).join(" / ")}
                       </span>
                       <span className="ml-auto shrink-0 text-xs text-muted-foreground">
-                        {getTypeLabel(r.type, lang)}
+                        {getTypeLabel(r.type, suggestLang)}
                       </span>
                     </li>
                   ))}
@@ -165,7 +171,7 @@ function SearchResults() {
           Array.from(results.entries()).map(([type, items]) => (
             <div key={type} className="mb-8">
               <h2 className="mb-3 border-b pb-2 text-lg font-semibold">
-                {getTypeLabel(type, lang)}
+                {getTypeLabel(type, resultLang)}
                 <span className="ml-2 text-sm font-normal text-muted-foreground">
                   ({items.length})
                 </span>
@@ -178,10 +184,10 @@ function SearchResults() {
                   >
                     <div className="min-w-0 flex-1">
                       <p className="font-medium">
-                        {lang === "mm" ? r.name_mm : r.name_en}
+                        {resultLang === "mm" ? r.name_mm : r.name_en}
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        {(lang === "mm" ? r.breadcrumb_mm : r.breadcrumb_en).join(" / ")}
+                        {(resultLang === "mm" ? r.breadcrumb_mm : r.breadcrumb_en).join(" / ")}
                       </p>
                     </div>
                   </li>
