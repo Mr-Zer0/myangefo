@@ -87,11 +87,8 @@ function App() {
                   >
                     <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
                     <div className="min-w-0 flex-1">
-                      <p className="truncate font-medium">
-                        {lang === "mm" ? r.name_mm : r.name_en}
-                      </p>
                       <p className="truncate text-sm text-muted-foreground">
-                        {lang === "mm" ? r.name_en : r.name_mm}
+                        {(lang === "mm" ? r.breadcrumb_mm : r.breadcrumb_en).join(" / ")}
                       </p>
                     </div>
                     <span className="shrink-0 rounded-full bg-muted px-2.5 py-0.5 text-xs text-muted-foreground">

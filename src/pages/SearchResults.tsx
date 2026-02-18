@@ -127,7 +127,7 @@ function SearchResults() {
                     >
                       <Search className="h-3.5 w-3.5 shrink-0 text-muted-foreground" />
                       <span className="truncate text-sm">
-                        {lang === "mm" ? r.name_mm : r.name_en}
+                        {(lang === "mm" ? r.breadcrumb_mm : r.breadcrumb_en).join(" / ")}
                       </span>
                       <span className="ml-auto shrink-0 text-xs text-muted-foreground">
                         {getTypeLabel(r.type, lang)}
@@ -180,12 +180,9 @@ function SearchResults() {
                         {lang === "mm" ? r.name_mm : r.name_en}
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        {lang === "mm" ? r.name_en : r.name_mm}
+                        {(lang === "mm" ? r.breadcrumb_mm : r.breadcrumb_en).join(" / ")}
                       </p>
                     </div>
-                    <span className="shrink-0 text-xs text-muted-foreground">
-                      {r.pcode}
-                    </span>
                   </li>
                 ))}
               </ul>
