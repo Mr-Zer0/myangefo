@@ -95,61 +95,56 @@ function SearchResults() {
   }, []);
 
   return (
-    <div className="min-h-svh w-full">
-      {/* Search header */}
-      <div className="sticky top-0 z-20 border-b bg-background px-6 py-4">
-        <div className="mx-auto flex max-w-4xl items-center gap-4">
-          <h1
-            className="cursor-pointer text-2xl font-bold"
-            onClick={() => navigate("/")}
-          >
-            {t("app.title")}
-          </h1>
+    <div className="min-h-svh w-full px-6">
+      <div className="mx-auto max-w-3xl pt-10">
+        <h1
+          className="cursor-pointer text-3xl font-bold"
+          onClick={() => navigate("/")}
+        >
+          {t("app.title")}
+        </h1>
 
-          <div ref={containerRef} className="relative flex-1">
-            <Search className="absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-            <Input
-              type="text"
-              value={query}
-              onChange={(e) => handleInputChange(e.target.value)}
-              onKeyDown={handleKeyDown}
-              onFocus={() => suggestions.length > 0 && setShowSuggestions(true)}
-              placeholder={t("search.placeholder")}
-              className="h-11 rounded-full border pl-11 pr-4 shadow-sm focus-visible:shadow-md focus-visible:ring-0 focus-visible:border-primary"
-            />
+        <div ref={containerRef} className="relative mt-6">
+          <Search className="absolute left-5 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+          <Input
+            type="text"
+            value={query}
+            onChange={(e) => handleInputChange(e.target.value)}
+            onKeyDown={handleKeyDown}
+            onFocus={() => suggestions.length > 0 && setShowSuggestions(true)}
+            placeholder={t("search.placeholder")}
+            className="h-14 rounded-full border-2 pl-14 pr-6 text-lg shadow-md transition-shadow focus-visible:shadow-lg focus-visible:ring-0 focus-visible:border-primary hover:shadow-lg"
+          />
 
-            {showSuggestions && (
-              <div className="absolute top-full left-0 z-10 mt-1 w-full overflow-hidden rounded-xl border bg-popover shadow-lg">
-                <ul className="max-h-72 overflow-y-auto py-1">
-                  {suggestions.map((r) => (
-                    <li
-                      key={`${r.type}-${r.pcode}`}
-                      className="flex cursor-pointer items-center gap-3 px-4 py-2 hover:bg-accent"
-                      onClick={() => {
-                        const name =
-                          suggestLang === "mm" ? r.name_mm : r.name_en;
-                        setQuery(name);
-                        submitSearch(name);
-                      }}
-                    >
-                      <Search className="h-3.5 w-3.5 shrink-0 text-muted-foreground" />
-                      <span className="truncate text-sm">
-                        {(suggestLang === "mm" ? r.breadcrumb_mm : r.breadcrumb_en).join(" / ")}
-                      </span>
-                      <span className="ml-auto shrink-0 text-xs text-muted-foreground">
-                        {getTypeLabel(r.type, suggestLang)}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
+          {showSuggestions && (
+            <div className="absolute top-full left-0 z-10 mt-2 w-full overflow-hidden rounded-xl border bg-popover shadow-lg">
+              <ul className="max-h-72 overflow-y-auto py-1">
+                {suggestions.map((r) => (
+                  <li
+                    key={`${r.type}-${r.pcode}`}
+                    className="flex cursor-pointer items-center gap-3 px-5 py-3 hover:bg-accent"
+                    onClick={() => {
+                      const name =
+                        suggestLang === "mm" ? r.name_mm : r.name_en;
+                      setQuery(name);
+                      submitSearch(name);
+                    }}
+                  >
+                    <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
+                    <span className="truncate text-sm">
+                      {(suggestLang === "mm" ? r.breadcrumb_mm : r.breadcrumb_en).join(" / ")}
+                    </span>
+                    <span className="ml-auto shrink-0 text-xs text-muted-foreground">
+                      {getTypeLabel(r.type, suggestLang)}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
-      </div>
 
-      {/* Results */}
-      <div className="mx-auto max-w-4xl px-6 py-6">
+        <div className="mt-8 border-t pt-6">
         {loading && (
           <div className="flex items-center gap-2 text-muted-foreground">
             <Loader2 className="h-4 w-4 animate-spin" />
@@ -195,6 +190,7 @@ function SearchResults() {
               </ul>
             </div>
           ))}
+        </div>
       </div>
     </div>
   );
