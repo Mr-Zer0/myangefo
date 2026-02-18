@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import { Search } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
@@ -7,6 +8,7 @@ import { search, getTypeLabel, type SearchResult } from "@/lib/search";
 
 function App() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [showResults, setShowResults] = useState(false);
@@ -19,7 +21,7 @@ function App() {
       setShowResults(false);
       return;
     }
-    const found = await search(q);
+    const found = await search(q, 10);
     setResults(found);
     setShowResults(found.length > 0);
   }, []);
@@ -30,8 +32,14 @@ function App() {
     debounceRef.current = setTimeout(() => doSearch(value), 300);
   };
 
-  const handleSearchClick = () => {
-    doSearch(query);
+  const submitSearch = () => {
+    if (query.trim().length < 2) return;
+    setShowResults(false);
+    navigate(`/search?q=${encodeURIComponent(query.trim())}`);
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === "Enter") submitSearch();
   };
 
   useEffect(() => {
@@ -57,6 +65,7 @@ function App() {
             type="text"
             value={query}
             onChange={(e) => handleChange(e.target.value)}
+            onKeyDown={handleKeyDown}
             onFocus={() => results.length > 0 && setShowResults(true)}
             placeholder={t("search.placeholder")}
             className="h-14 rounded-full border-2 pl-14 pr-6 text-lg shadow-md transition-shadow focus-visible:shadow-lg focus-visible:ring-0 focus-visible:border-primary hover:shadow-lg"
@@ -69,6 +78,12 @@ function App() {
                   <li
                     key={`${r.type}-${r.pcode}`}
                     className="flex cursor-pointer items-center gap-3 px-5 py-3 hover:bg-accent"
+                    onClick={() => {
+                      const name = lang === "mm" ? r.name_mm : r.name_en;
+                      setQuery(name);
+                      setShowResults(false);
+                      navigate(`/search?q=${encodeURIComponent(name)}`);
+                    }}
                   >
                     <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
                     <div className="min-w-0 flex-1">
@@ -90,7 +105,7 @@ function App() {
         </div>
 
         <div className="flex gap-3">
-          <Button onClick={handleSearchClick}>{t("search.button")}</Button>
+          <Button onClick={submitSearch}>{t("search.button")}</Button>
           <Button variant="outline">{t("search.advanced")}</Button>
         </div>
       </div>

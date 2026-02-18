@@ -63,7 +63,7 @@ async function loadAll(): Promise<{ data: RawEntry[]; type: ResultType }[]> {
   return loaded;
 }
 
-export async function search(query: string, limit = 20): Promise<SearchResult[]> {
+export async function search(query: string, limit?: number): Promise<SearchResult[]> {
   if (!query || query.trim().length === 0) return [];
 
   const q = query.toLowerCase().trim();
@@ -71,10 +71,10 @@ export async function search(query: string, limit = 20): Promise<SearchResult[]>
   const results: SearchResult[] = [];
 
   for (const { data, type } of all) {
-    if (results.length >= limit) break;
+    if (limit && results.length >= limit) break;
 
     for (const entry of data) {
-      if (results.length >= limit) break;
+      if (limit && results.length >= limit) break;
 
       if (
         entry.name_en?.toLowerCase().includes(q) ||
@@ -91,4 +91,25 @@ export async function search(query: string, limit = 20): Promise<SearchResult[]>
   }
 
   return results;
+}
+
+export const TYPE_ORDER: ResultType[] = [
+  "state_region",
+  "district",
+  "township",
+  "town",
+  "ward",
+  "village_tract",
+  "village",
+];
+
+export function groupByType(results: SearchResult[]): Map<ResultType, SearchResult[]> {
+  const grouped = new Map<ResultType, SearchResult[]>();
+  for (const type of TYPE_ORDER) {
+    const items = results.filter((r) => r.type === type);
+    if (items.length > 0) {
+      grouped.set(type, items);
+    }
+  }
+  return grouped;
 }

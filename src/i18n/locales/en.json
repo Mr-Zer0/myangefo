@@ -5,6 +5,9 @@
   "search": {
     "placeholder": "Search states, townships, villages...",
     "button": "Search",
-    "advanced": "Advanced Search"
+    "advanced": "Advanced Search",
+    "loading": "Searching...",
+    "noResults": "No results found.",
+    "resultCount": "{{count}} results found"
   }
 }
