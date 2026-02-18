@@ -10,6 +10,7 @@ import {
   type ChildGroup,
   type ResultType,
 } from "@/lib/search";
+import mmSvg from "@/assets/mm.svg";
 
 // Simple seeded RNG from a string so the same pcode always produces the same numbers
 function seededRng(seed: string) {
@@ -248,6 +249,23 @@ function DetailPage() {
               </>
             )}
           </dl>
+        </div>
+
+        {/* Map (dummy) */}
+        <div className="mt-6 rounded-xl border bg-card p-6">
+          <h3 className="mb-4 text-lg font-semibold">
+            {t("detail.map")}
+            <span className="ml-2 rounded-full bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800">
+              {t("detail.dummy")}
+            </span>
+          </h3>
+          <div className="flex justify-center rounded-lg bg-muted/50 p-4">
+            <img
+              src={mmSvg}
+              alt="Myanmar map"
+              className="h-80 w-auto"
+            />
+          </div>
         </div>
 
         {/* Population (dummy) */}
