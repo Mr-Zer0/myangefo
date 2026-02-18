@@ -1,7 +1,9 @@
 {
   "app": {
-    "title": "Welcome",
-    "description": "Get started by editing your App."
+    "title": "Myangefo"
+  },
+  "search": {
+    "placeholder": "Search states, townships, villages..."
   },
   "language": {
     "label": "Language",
