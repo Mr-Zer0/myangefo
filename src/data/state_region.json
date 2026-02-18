@@ -1,0 +1,102 @@
+[
+  {
+    "pcode": "MMR001",
+    "name_en": "Kachin",
+    "name_mm": "ကချင်ပြည်နယ်"
+  },
+  {
+    "pcode": "MMR002",
+    "name_en": "Kayah",
+    "name_mm": "ကယားပြည်နယ်"
+  },
+  {
+    "pcode": "MMR003",
+    "name_en": "Kayin",
+    "name_mm": "ကရင်ပြည်နယ်"
+  },
+  {
+    "pcode": "MMR004",
+    "name_en": "Chin",
+    "name_mm": "ချင်းပြည်နယ်"
+  },
+  {
+    "pcode": "MMR005",
+    "name_en": "Sagaing",
+    "name_mm": "စစ်ကိုင်းတိုင်းဒေသကြီး"
+  },
+  {
+    "pcode": "MMR006",
+    "name_en": "Tanintharyi",
+    "name_mm": "တနင်္သာရီတိုင်းဒေသကြီး"
+  },
+  {
+    "pcode": "MMR007",
+    "name_en": "Bago (East)",
+    "name_mm": "ပဲခူးတိုင်းဒေသကြီး (အရှေ့)"
+  },
+  {
+    "pcode": "MMR008",
+    "name_en": "Bago (West)",
+    "name_mm": "ပဲခူးတိုင်းဒေသကြီး (အနောက်)"
+  },
+  {
+    "pcode": "MMR009",
+    "name_en": "Magway",
+    "name_mm": "မကွေးတိုင်းဒေသကြီး"
+  },
+  {
+    "pcode": "MMR010",
+    "name_en": "Mandalay",
+    "name_mm": "မန္တလေးတိုင်းဒေသကြီး"
+  },
+  {
+    "pcode": "MMR011",
+    "name_en": "Mon",
+    "name_mm": "မွန်ပြည်နယ်"
+  },
+  {
+    "pcode": "MMR012",
+    "name_en": "Rakhine",
+    "name_mm": "ရခိုင်ပြည်နယ်"
+  },
+  {
+    "pcode": "MMR013",
+    "name_en": "Yangon",
+    "name_mm": "ရန်ကုန်တိုင်းဒေသကြီး"
+  },
+  {
+    "pcode": "MMR014",
+    "name_en": "Shan (South)",
+    "name_mm": "ရှမ်းပြည်နယ် (တောင်)"
+  },
+  {
+    "pcode": "MMR015",
+    "name_en": "Shan (North)",
+    "name_mm": "ရှမ်းပြည်နယ် (မြောက်)"
+  },
+  {
+    "pcode": "MMR016",
+    "name_en": "Shan (East)",
+    "name_mm": "ရှမ်းပြည်နယ် (အရှေ့)"
+  },
+  {
+    "pcode": "MMR017",
+    "name_en": "Ayeyarwady",
+    "name_mm": "ဧရာဝတီတိုင်းဒေသကြီး"
+  },
+  {
+    "pcode": "MMR018",
+    "name_en": "Nay Pyi Taw",
+    "name_mm": "နေပြည်တော်"
+  },
+  {
+    "pcode": "MMR111",
+    "name_en": "Bago",
+    "name_mm": "ပဲခူးတိုင်းဒေသကြီး"
+  },
+  {
+    "pcode": "MMR222",
+    "name_en": "Shan",
+    "name_mm": "ရှမ်းပြည်နယ်"
+  }
+]

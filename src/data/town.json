@@ -1,0 +1,5362 @@
+[
+  {
+    "pcode": "MMR017024701",
+    "name_en": "Bogale Town",
+    "name_mm": "ဘိုကလေး",
+    "latitude": 16.295,
+    "longitude": 95.3968,
+    "township_pcode": "MMR017024",
+    "district_pcode": "MMR017D006",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017022701",
+    "name_en": "Danubyu Town",
+    "name_mm": "ဓနုဖြူ",
+    "latitude": 17.25468,
+    "longitude": 95.59583,
+    "township_pcode": "MMR017022",
+    "district_pcode": "MMR017D005",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017026701",
+    "name_en": "Dedaye Town",
+    "name_mm": "ဒေးဒရဲ",
+    "latitude": 16.40806,
+    "longitude": 95.88512,
+    "township_pcode": "MMR017026",
+    "district_pcode": "MMR017D006",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017015701",
+    "name_en": "Einme Town",
+    "name_mm": "အိမ်မဲ",
+    "latitude": 16.8962,
+    "longitude": 95.1805,
+    "township_pcode": "MMR017015",
+    "district_pcode": "MMR017D003",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017008703",
+    "name_en": "Du Yar Town",
+    "name_mm": "ဒူးယား",
+    "latitude": 17.5616,
+    "longitude": 95.4802,
+    "township_pcode": "MMR017008",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017008701",
+    "name_en": "Hinthada Town",
+    "name_mm": "ဟင်္သာတ",
+    "latitude": 17.64958,
+    "longitude": 95.45818,
+    "township_pcode": "MMR017008",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017008702",
+    "name_en": "Ta Loke Htaw Town",
+    "name_mm": "တလုတ္ထော်",
+    "latitude": 17.6419,
+    "longitude": 95.3046,
+    "township_pcode": "MMR017008",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017013702",
+    "name_en": "Htoogyi Town",
+    "name_mm": "ထူးကြီး",
+    "latitude": 17.97132,
+    "longitude": 95.26073,
+    "township_pcode": "MMR017013",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017013701",
+    "name_en": "Ingapu Town",
+    "name_mm": "အင်္ဂပူ",
+    "latitude": 17.80981,
+    "longitude": 95.26926,
+    "township_pcode": "MMR017013",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017013703",
+    "name_en": "Me Za Li Kone Town",
+    "name_mm": "မဲဇလီကုန်း",
+    "latitude": 17.9009,
+    "longitude": 95.2288,
+    "township_pcode": "MMR017013",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017002701",
+    "name_en": "Kangyidaunt Town",
+    "name_mm": "ကန်ကြီးထောင့်",
+    "latitude": 16.9329,
+    "longitude": 94.89476,
+    "township_pcode": "MMR017002",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017025701",
+    "name_en": "Kyaiklat Town",
+    "name_mm": "ကျိုက်လတ်",
+    "latitude": 16.44431,
+    "longitude": 95.72614,
+    "township_pcode": "MMR017025",
+    "district_pcode": "MMR017D006",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017012702",
+    "name_en": "Batye Town",
+    "name_mm": "ဘက်ရဲ",
+    "latitude": 18.30044,
+    "longitude": 95.14703,
+    "township_pcode": "MMR017012",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017012701",
+    "name_en": "Kyangin Town",
+    "name_mm": "ကြံခင်း",
+    "latitude": 18.34035,
+    "longitude": 95.23914,
+    "township_pcode": "MMR017012",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017007701",
+    "name_en": "Kyaunggon Town",
+    "name_mm": "ကျောင်းကုန်း",
+    "latitude": 17.10768,
+    "longitude": 95.1904,
+    "township_pcode": "MMR017007",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017005702",
+    "name_en": "Ahtaung Town",
+    "name_mm": "အထောင်",
+    "latitude": 17.34855,
+    "longitude": 95.33365,
+    "township_pcode": "MMR017005",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017005701",
+    "name_en": "Kyonpyaw Town",
+    "name_mm": "ကျုံပျော်",
+    "latitude": 17.3,
+    "longitude": 95.2,
+    "township_pcode": "MMR017005",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017016704",
+    "name_en": "Hainggyikyun Town",
+    "name_mm": "ဟိုင်းကြီးကျွန်း",
+    "latitude": 15.8267697684,
+    "longitude": 94.8094333322,
+    "township_pcode": "MMR017016",
+    "district_pcode": "MMR017D004",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017016703",
+    "name_en": "Labutta (3) Mile Town",
+    "name_mm": "လပွတ္တာ (၃) မိုင်",
+    "latitude": 16.19983,
+    "longitude": 94.78124,
+    "township_pcode": "MMR017016",
+    "district_pcode": "MMR017D004",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017016701",
+    "name_en": "Labutta Town",
+    "name_mm": "လပွတ္တာ",
+    "latitude": 16.14557,
+    "longitude": 94.75889,
+    "township_pcode": "MMR017016",
+    "district_pcode": "MMR017D004",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017016702",
+    "name_en": "Pyinsalu Town",
+    "name_mm": "ပြင်စလူ",
+    "latitude": 15.8267697684,
+    "longitude": 94.8094333322,
+    "township_pcode": "MMR017016",
+    "district_pcode": "MMR017D004",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017010701",
+    "name_en": "Lemyethna Town",
+    "name_mm": "လေးမျက်နှာ",
+    "latitude": 17.60038,
+    "longitude": 95.17454,
+    "township_pcode": "MMR017010",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017019701",
+    "name_en": "Maubin Town",
+    "name_mm": "မအူပင်",
+    "latitude": 16.73023,
+    "longitude": 95.6494,
+    "township_pcode": "MMR017019",
+    "district_pcode": "MMR017D005",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017018701",
+    "name_en": "Mawlamyinegyun Town",
+    "name_mm": "မော်လမြိုင်ကျွန်း",
+    "latitude": 16.37894,
+    "longitude": 95.26298,
+    "township_pcode": "MMR017018",
+    "district_pcode": "MMR017D004",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017011703",
+    "name_en": "In Pin Town",
+    "name_mm": "အင်ပင်",
+    "latitude": 18.0935,
+    "longitude": 95.269,
+    "township_pcode": "MMR017011",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017011702",
+    "name_en": "Kanaung Town",
+    "name_mm": "ကနောင်",
+    "latitude": 18.2156600255,
+    "longitude": 95.3813651092,
+    "township_pcode": "MMR017011",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017011701",
+    "name_en": "Myanaung Town",
+    "name_mm": "မြန်အောင်",
+    "latitude": 18.28696,
+    "longitude": 95.31779,
+    "township_pcode": "MMR017011",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017014701",
+    "name_en": "Myaungmya Town",
+    "name_mm": "မြောင်းမြ",
+    "latitude": 16.59926,
+    "longitude": 94.92977,
+    "township_pcode": "MMR017014",
+    "district_pcode": "MMR017D003",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017004703",
+    "name_en": "Hainggyikyun Town",
+    "name_mm": "ဟိုင်းကြီးကျွန်း",
+    "latitude": 16.01602,
+    "longitude": 94.34411,
+    "township_pcode": "MMR017004",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017004701",
+    "name_en": "Ngapudaw Town",
+    "name_mm": "ငပုတော",
+    "latitude": 16.5431012528,
+    "longitude": 94.69224,
+    "township_pcode": "MMR017004",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017004702",
+    "name_en": "Ngayokekaung Town",
+    "name_mm": "ငရုတ်ကောင်း",
+    "latitude": 16.52089,
+    "longitude": 94.3019,
+    "township_pcode": "MMR017004",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017021701",
+    "name_en": "Nyaungdon Town",
+    "name_mm": "ညောင်တုန်း",
+    "latitude": 17.04903,
+    "longitude": 95.63359,
+    "township_pcode": "MMR017021",
+    "district_pcode": "MMR017D005",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017020701",
+    "name_en": "Pantanaw Town",
+    "name_mm": "ပန်းတနော်",
+    "latitude": 16.98212,
+    "longitude": 95.46595,
+    "township_pcode": "MMR017020",
+    "district_pcode": "MMR017D005",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017001704",
+    "name_en": "Chaung Thar Town",
+    "name_mm": "ချောင်းသာ",
+    "latitude": 16.9597,
+    "longitude": 94.4447,
+    "township_pcode": "MMR017001",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017001703",
+    "name_en": "Ngwesaung Town",
+    "name_mm": "ငွေဆောင်",
+    "latitude": 16.86379,
+    "longitude": 94.38711,
+    "township_pcode": "MMR017001",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017001701",
+    "name_en": "Pathein Town",
+    "name_mm": "ပုသိမ်",
+    "latitude": 16.77924,
+    "longitude": 94.73303,
+    "township_pcode": "MMR017001",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017001702",
+    "name_en": "Shwethaungyan Town",
+    "name_mm": "ရွှေသောင်ယံ",
+    "latitude": 17.07674,
+    "longitude": 94.46133,
+    "township_pcode": "MMR017001",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017023702",
+    "name_en": "Ahmar Town",
+    "name_mm": "အမာ",
+    "latitude": 15.7994,
+    "longitude": 95.29017,
+    "township_pcode": "MMR017023",
+    "district_pcode": "MMR017D006",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017023701",
+    "name_en": "Pyapon Town",
+    "name_mm": "ဖျာပုံ",
+    "latitude": 16.2916097042,
+    "longitude": 95.6801933256,
+    "township_pcode": "MMR017023",
+    "district_pcode": "MMR017D006",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017003701",
+    "name_en": "Thabaung Town",
+    "name_mm": "သာပေါင်း",
+    "latitude": 17.04734,
+    "longitude": 94.80589,
+    "township_pcode": "MMR017003",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017017702",
+    "name_en": "Kyonmangae Town",
+    "name_mm": "ကျုံမငေး",
+    "latitude": 16.4380347114,
+    "longitude": 95.1319032183,
+    "township_pcode": "MMR017017",
+    "district_pcode": "MMR017D003",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017017701",
+    "name_en": "Wakema Town",
+    "name_mm": "ဝါးခယ်မ",
+    "latitude": 16.60383,
+    "longitude": 95.18041,
+    "township_pcode": "MMR017017",
+    "district_pcode": "MMR017D003",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017006703",
+    "name_en": "Ahthoke Town",
+    "name_mm": "အသုတ်",
+    "latitude": 17.19974,
+    "longitude": 95.08331,
+    "township_pcode": "MMR017006",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017006702",
+    "name_en": "Ngathaingchaung Town",
+    "name_mm": "ငသိုင်းချောင်း",
+    "latitude": 17.39927,
+    "longitude": 95.07731,
+    "township_pcode": "MMR017006",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017006701",
+    "name_en": "Yegyi Town",
+    "name_mm": "ရေကြည်",
+    "latitude": 17.34456,
+    "longitude": 95.12067,
+    "township_pcode": "MMR017006",
+    "district_pcode": "MMR017D001",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017009701",
+    "name_en": "Zalun Town",
+    "name_mm": "ဇလွန်",
+    "latitude": 17.4781,
+    "longitude": 95.55666,
+    "township_pcode": "MMR017009",
+    "district_pcode": "MMR017D002",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR007001701",
+    "name_en": "Bago Town",
+    "name_mm": "ပဲခူး",
+    "latitude": 17.33583,
+    "longitude": 96.48389,
+    "township_pcode": "MMR007001",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007001702",
+    "name_en": "Hpayargyi Town",
+    "name_mm": "ဘုရားကြီး",
+    "latitude": 17.47538,
+    "longitude": 96.52654,
+    "township_pcode": "MMR007001",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007001703",
+    "name_en": "Inntakaw Town",
+    "name_mm": "အင်းတကော်",
+    "latitude": 17.18087,
+    "longitude": 96.37637,
+    "township_pcode": "MMR007001",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007007701",
+    "name_en": "Daik-U Town",
+    "name_mm": "ဒိုက်ဦး",
+    "latitude": 17.78967,
+    "longitude": 96.66969,
+    "township_pcode": "MMR007007",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007014701",
+    "name_en": "Htantabin Town",
+    "name_mm": "ထန်းတပင်",
+    "latitude": 18.8432975907,
+    "longitude": 96.4837587896,
+    "township_pcode": "MMR007014",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007003701",
+    "name_en": "Kawa Town",
+    "name_mm": "ကဝ",
+    "latitude": 17.08967,
+    "longitude": 96.46632,
+    "township_pcode": "MMR007003",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007003702",
+    "name_en": "Thetkala Town",
+    "name_mm": "သက္ကလ",
+    "latitude": 17.02939,
+    "longitude": 96.59657,
+    "township_pcode": "MMR007003",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007011701",
+    "name_en": "Kyaukkyi Town",
+    "name_mm": "ကျောက်ကြီး",
+    "latitude": 18.3276400303,
+    "longitude": 96.7686174166,
+    "township_pcode": "MMR007011",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007006703",
+    "name_en": "Hpa Do Town",
+    "name_mm": "ဖဒို",
+    "latitude": 18.0377,
+    "longitude": 96.5549,
+    "township_pcode": "MMR007006",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007006701",
+    "name_en": "Kyauktaga Town",
+    "name_mm": "ကျောက်တံခါး",
+    "latitude": 18.15867,
+    "longitude": 96.61391,
+    "township_pcode": "MMR007006",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007006702",
+    "name_en": "Penwegon Town",
+    "name_mm": "ပဲနွယ်ကုန်း",
+    "latitude": 18.22271,
+    "longitude": 96.56886,
+    "township_pcode": "MMR007006",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007005702",
+    "name_en": "Madauk Town",
+    "name_mm": "မဒေါက်",
+    "latitude": 17.91491,
+    "longitude": 96.84535,
+    "township_pcode": "MMR007005",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007005701",
+    "name_en": "Nyaunglebin Town",
+    "name_mm": "ညောင်လေးပင်",
+    "latitude": 17.95323,
+    "longitude": 96.72151,
+    "township_pcode": "MMR007005",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007005704",
+    "name_en": "Peinzalok Town",
+    "name_mm": "ပိန်းဇလုပ်",
+    "latitude": 18.0699,
+    "longitude": 96.66836,
+    "township_pcode": "MMR007005",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007005703",
+    "name_en": "Pyuntasa Town",
+    "name_mm": "ပြွန်တန်ဆာ",
+    "latitude": 17.87517,
+    "longitude": 96.71597,
+    "township_pcode": "MMR007005",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007013702",
+    "name_en": "Kywe Pwe Town",
+    "name_mm": "ကျွဲပွဲ",
+    "latitude": 18.7,
+    "longitude": 96.4099,
+    "township_pcode": "MMR007013",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007013701",
+    "name_en": "Oktwin Town",
+    "name_mm": "အုတ်တွင်း",
+    "latitude": 18.83293,
+    "longitude": 96.41363,
+    "township_pcode": "MMR007013",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007012702",
+    "name_en": "Kanyutkwin Town",
+    "name_mm": "ကညွတ်ကွင်း",
+    "latitude": 18.3404,
+    "longitude": 96.49218,
+    "township_pcode": "MMR007012",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007012701",
+    "name_en": "Phyu Town",
+    "name_mm": "ဖြူး",
+    "latitude": 18.48438,
+    "longitude": 96.43572,
+    "township_pcode": "MMR007012",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007012703",
+    "name_en": "Zayyawadi Town",
+    "name_mm": "ဇေယျ၀တီ",
+    "latitude": 18.54097,
+    "longitude": 96.43084,
+    "township_pcode": "MMR007012",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007008701",
+    "name_en": "Shwegyin Town",
+    "name_mm": "ရွှေကျင်",
+    "latitude": 17.92304,
+    "longitude": 96.87767,
+    "township_pcode": "MMR007008",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007009702",
+    "name_en": "Kaytumati Town",
+    "name_mm": "ကေတုမတီ",
+    "latitude": 19.01432,
+    "longitude": 96.40357,
+    "township_pcode": "MMR007009",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007009701",
+    "name_en": "Taungoo Town",
+    "name_mm": "တောင်ငူ",
+    "latitude": 18.93953,
+    "longitude": 96.43314,
+    "township_pcode": "MMR007009",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007002701",
+    "name_en": "Thanatpin Town",
+    "name_mm": "သနပ်ပင်",
+    "latitude": 17.28903,
+    "longitude": 96.57664,
+    "township_pcode": "MMR007002",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007004701",
+    "name_en": "Waw Town",
+    "name_mm": "ဝေါ",
+    "latitude": 17.4836,
+    "longitude": 96.68234,
+    "township_pcode": "MMR007004",
+    "district_pcode": "MMR007D001",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007010702",
+    "name_en": "Hswar Town",
+    "name_mm": "ဆွာ",
+    "latitude": 19.26498,
+    "longitude": 96.29072,
+    "township_pcode": "MMR007010",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007010704",
+    "name_en": "Myo Hla Town",
+    "name_mm": "မြို့လှ",
+    "latitude": 19.40442,
+    "longitude": 96.26628,
+    "township_pcode": "MMR007010",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007010703",
+    "name_en": "Yae Ni Town",
+    "name_mm": "ရေနီ",
+    "latitude": 19.47438,
+    "longitude": 96.26804,
+    "township_pcode": "MMR007010",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007010701",
+    "name_en": "Yedashe Town",
+    "name_mm": "ရေတာရှည်",
+    "latitude": 19.15693,
+    "longitude": 96.34234,
+    "township_pcode": "MMR007010",
+    "district_pcode": "MMR007D002",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR008014701",
+    "name_en": "Gyobingauk Town",
+    "name_mm": "ကြို့ပင်ကောက်",
+    "latitude": 18.22989,
+    "longitude": 95.65259,
+    "township_pcode": "MMR008014",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008008701",
+    "name_en": "Letpadan Town",
+    "name_mm": "လက်ပံတန်း",
+    "latitude": 17.779,
+    "longitude": 95.74529,
+    "township_pcode": "MMR008008",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008009701",
+    "name_en": "Minhla Town",
+    "name_mm": "မင်းလှ",
+    "latitude": 17.97389,
+    "longitude": 95.70905,
+    "township_pcode": "MMR008009",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008009702",
+    "name_en": "Sit Kwin Town",
+    "name_mm": "စစ်ကွင်း",
+    "latitude": 17.8941,
+    "longitude": 95.7232,
+    "township_pcode": "MMR008009",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008013701",
+    "name_en": "Monyo Town",
+    "name_mm": "မိုးညို",
+    "latitude": 18.02719,
+    "longitude": 95.51185,
+    "township_pcode": "MMR008013",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008012701",
+    "name_en": "Nattalin Town",
+    "name_mm": "နတ်တလင်း",
+    "latitude": 18.42753,
+    "longitude": 95.54731,
+    "township_pcode": "MMR008012",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008012702",
+    "name_en": "Tar Pun Town",
+    "name_mm": "တာပွန်",
+    "latitude": 18.361,
+    "longitude": 95.4549,
+    "township_pcode": "MMR008012",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008010702",
+    "name_en": "Oe Thei Kone Town",
+    "name_mm": "အိုးသည်ကုန်း",
+    "latitude": 18.0432,
+    "longitude": 95.6935,
+    "township_pcode": "MMR008010",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008010701",
+    "name_en": "Okpho Town",
+    "name_mm": "အုတ်ဖို",
+    "latitude": 18.13022,
+    "longitude": 95.67177,
+    "township_pcode": "MMR008010",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008003702",
+    "name_en": "Oakshitpin Town",
+    "name_mm": "ဥရှစ်ပင်",
+    "latitude": 18.68519,
+    "longitude": 95.01383,
+    "township_pcode": "MMR008003",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008003701",
+    "name_en": "Padaung Town",
+    "name_mm": "ပန်းတောင်း",
+    "latitude": 18.71797,
+    "longitude": 95.15353,
+    "township_pcode": "MMR008003",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008002701",
+    "name_en": "Paukkhaung Town",
+    "name_mm": "ပေါက်ခေါင်း",
+    "latitude": 18.9028,
+    "longitude": 95.54819,
+    "township_pcode": "MMR008002",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008004701",
+    "name_en": "Paungde Town",
+    "name_mm": "ပေါင်းတည်",
+    "latitude": 18.48947,
+    "longitude": 95.50721,
+    "township_pcode": "MMR008004",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008001702",
+    "name_en": "Paungdale Town",
+    "name_mm": "ပေါင်းတလည်",
+    "latitude": 18.84968,
+    "longitude": 95.38459,
+    "township_pcode": "MMR008001",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008001701",
+    "name_en": "Pyay Town",
+    "name_mm": "ပြည်",
+    "latitude": 18.82151,
+    "longitude": 95.22103,
+    "township_pcode": "MMR008001",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008006701",
+    "name_en": "Shwedaung Town",
+    "name_mm": "ရွှေတောင်",
+    "latitude": 18.7051,
+    "longitude": 95.21404,
+    "township_pcode": "MMR008006",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008007701",
+    "name_en": "Thayarwady Town",
+    "name_mm": "သာယာဝတီ",
+    "latitude": 17.65441,
+    "longitude": 95.78629,
+    "township_pcode": "MMR008007",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008007702",
+    "name_en": "Thonse Town",
+    "name_mm": "သုံးဆယ်",
+    "latitude": 17.62988,
+    "longitude": 95.78985,
+    "township_pcode": "MMR008007",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008005703",
+    "name_en": "Inn Ma Town",
+    "name_mm": "အင်းမ",
+    "latitude": 18.52806,
+    "longitude": 95.34904,
+    "township_pcode": "MMR008005",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008005702",
+    "name_en": "Puteekone Town",
+    "name_mm": "ပုတီးကုန်း",
+    "latitude": 18.57236,
+    "longitude": 95.45645,
+    "township_pcode": "MMR008005",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008005704",
+    "name_en": "Sin Mee Swea Town",
+    "name_mm": "ဆင်မြီးဆွဲ",
+    "latitude": 18.7369,
+    "longitude": 95.3594,
+    "township_pcode": "MMR008005",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008005701",
+    "name_en": "Thegon Town",
+    "name_mm": "သဲကုန်း",
+    "latitude": 18.64698,
+    "longitude": 95.41721,
+    "township_pcode": "MMR008005",
+    "district_pcode": "MMR008D001",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008011701",
+    "name_en": "Zigon Town",
+    "name_mm": "ဇီးကုန်း",
+    "latitude": 18.33846,
+    "longitude": 95.62304,
+    "township_pcode": "MMR008011",
+    "district_pcode": "MMR008D002",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR004001701",
+    "name_en": "Falam Town",
+    "name_mm": "ဖလမ်း",
+    "latitude": 22.91105,
+    "longitude": 93.68034,
+    "township_pcode": "MMR004001",
+    "district_pcode": "MMR004D001",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004001702",
+    "name_en": "Rihkhawdar Town",
+    "name_mm": "ရိခေါ်ဒါရ်",
+    "latitude": 23.3609688889,
+    "longitude": 93.3886907624,
+    "township_pcode": "MMR004001",
+    "district_pcode": "MMR004D001",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004001703",
+    "name_en": "Webula Town",
+    "name_mm": "ဝေဘူလ",
+    "latitude": 23.0168,
+    "longitude": 93.9133,
+    "township_pcode": "MMR004001",
+    "district_pcode": "MMR004D001",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004002701",
+    "name_en": "Hakha Town",
+    "name_mm": "ဟားခါး",
+    "latitude": 22.64011,
+    "longitude": 93.60483,
+    "township_pcode": "MMR004002",
+    "district_pcode": "MMR004D003",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004002702",
+    "name_en": "Surkhua Town",
+    "name_mm": "ဆူရ်ခွား",
+    "latitude": 22.255529,
+    "longitude": 93.634163,
+    "township_pcode": "MMR004002",
+    "district_pcode": "MMR004D003",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004008701",
+    "name_en": "Kanpetlet Town",
+    "name_mm": "ကန်ပက်လက်",
+    "latitude": 21.19337,
+    "longitude": 94.05666,
+    "township_pcode": "MMR004008",
+    "district_pcode": "MMR004D002",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004008702",
+    "name_en": "Kyin Dway Town",
+    "name_mm": "ကျင်ဒွေး",
+    "latitude": 20.973,
+    "longitude": 93.8382,
+    "township_pcode": "MMR004008",
+    "district_pcode": "MMR004D002",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004007703",
+    "name_en": "Lalengpi Town",
+    "name_mm": "လိုင်လင်းပီ",
+    "latitude": 21.9592,
+    "longitude": 93.1143,
+    "township_pcode": "MMR004007",
+    "district_pcode": "MMR004D004",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004007701",
+    "name_en": "Matupi Town",
+    "name_mm": "မတူပီ",
+    "latitude": 21.60475,
+    "longitude": 93.44086,
+    "township_pcode": "MMR004007",
+    "district_pcode": "MMR004D004",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004007702",
+    "name_en": "Rezua Town",
+    "name_mm": "ရေဇွာ",
+    "latitude": 22.05289,
+    "longitude": 93.40857,
+    "township_pcode": "MMR004007",
+    "district_pcode": "MMR004D004",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004006701",
+    "name_en": "Mindat Town",
+    "name_mm": "မင်းတပ်",
+    "latitude": 21.37176,
+    "longitude": 93.97365,
+    "township_pcode": "MMR004006",
+    "district_pcode": "MMR004D002",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004006702",
+    "name_en": "M'kuiimnu Town",
+    "name_mm": "မကွီအိမ်နူး",
+    "latitude": 21.1727,
+    "longitude": 93.5945,
+    "township_pcode": "MMR004006",
+    "district_pcode": "MMR004D002",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004009701",
+    "name_en": "Paletwa Town",
+    "name_mm": "ပလက်ဝ",
+    "latitude": 21.30441,
+    "longitude": 92.85461,
+    "township_pcode": "MMR004009",
+    "district_pcode": "MMR004D004",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004009702",
+    "name_en": "Samee Town",
+    "name_mm": "ဆမီး",
+    "latitude": 21.29333,
+    "longitude": 93.09649,
+    "township_pcode": "MMR004009",
+    "district_pcode": "MMR004D004",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004004702",
+    "name_en": "Khaikam Town",
+    "name_mm": "ခိုင်ကမ်း",
+    "latitude": 23.2175,
+    "longitude": 93.9551,
+    "township_pcode": "MMR004004",
+    "district_pcode": "MMR004D001",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004004701",
+    "name_en": "Tedim Town",
+    "name_mm": "တီးတိန်",
+    "latitude": 23.37058,
+    "longitude": 93.65619,
+    "township_pcode": "MMR004004",
+    "district_pcode": "MMR004D001",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004003702",
+    "name_en": "Hnaring Town",
+    "name_mm": "နှာဟရိန်",
+    "latitude": 22.1898,
+    "longitude": 93.4361,
+    "township_pcode": "MMR004003",
+    "district_pcode": "MMR004D003",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004003701",
+    "name_en": "Thantlang Town",
+    "name_mm": "ထန်တလန်",
+    "latitude": 22.69843,
+    "longitude": 93.4278,
+    "township_pcode": "MMR004003",
+    "district_pcode": "MMR004D003",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004005702",
+    "name_en": "Cikha Town",
+    "name_mm": "ကျီခါး",
+    "latitude": 23.88976,
+    "longitude": 93.53347,
+    "township_pcode": "MMR004005",
+    "district_pcode": "MMR004D001",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004005701",
+    "name_en": "Tonzang Town",
+    "name_mm": "တွန်းဇန်",
+    "latitude": 23.60306,
+    "longitude": 93.69175,
+    "township_pcode": "MMR004005",
+    "district_pcode": "MMR004D001",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR001010701",
+    "name_en": "Bhamo Town",
+    "name_mm": "ဗန်းမော်",
+    "latitude": 24.25493,
+    "longitude": 97.23441,
+    "township_pcode": "MMR001010",
+    "district_pcode": "MMR001D003",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001005701",
+    "name_en": "Chipwi Town",
+    "name_mm": "ချီဖွေ",
+    "latitude": 25.88635,
+    "longitude": 98.12976,
+    "township_pcode": "MMR001005",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001005702",
+    "name_en": "Pang War Town",
+    "name_mm": "ပန်ဝါ",
+    "latitude": 25.59866,
+    "longitude": 98.37863,
+    "township_pcode": "MMR001005",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001009701",
+    "name_en": "Hpakant Town",
+    "name_mm": "ဖားကန့်",
+    "latitude": 25.6128,
+    "longitude": 96.31212,
+    "township_pcode": "MMR001009",
+    "district_pcode": "MMR001D002",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001009702",
+    "name_en": "Kamaing Town",
+    "name_mm": "ကာမိုင်း",
+    "latitude": 25.5226,
+    "longitude": 96.71153,
+    "township_pcode": "MMR001009",
+    "district_pcode": "MMR001D002",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001003701",
+    "name_en": "Injangyang Town",
+    "name_mm": "အင်ဂျန်းယန်",
+    "latitude": 25.82991,
+    "longitude": 97.72671,
+    "township_pcode": "MMR001003",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001018701",
+    "name_en": "Khaunglanhpu Town",
+    "name_mm": "ခေါင်လန်ဖူး",
+    "latitude": 27.0604297567,
+    "longitude": 98.3603427383,
+    "township_pcode": "MMR001018",
+    "district_pcode": "MMR001D004",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001016701",
+    "name_en": "Machanbaw Town",
+    "name_mm": "မချမ်းဘော",
+    "latitude": 27.28395,
+    "longitude": 97.58937,
+    "township_pcode": "MMR001016",
+    "district_pcode": "MMR001D004",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001013701",
+    "name_en": "Mansi Town",
+    "name_mm": "မံစီ",
+    "latitude": 24.11962,
+    "longitude": 97.29311,
+    "township_pcode": "MMR001013",
+    "district_pcode": "MMR001D003",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001008701",
+    "name_en": "Mogaung Town",
+    "name_mm": "မိုးကောင်း",
+    "latitude": 25.30274,
+    "longitude": 96.94038,
+    "township_pcode": "MMR001008",
+    "district_pcode": "MMR001D002",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001008702",
+    "name_en": "Nammatee Town",
+    "name_mm": "နမ္မတီး",
+    "latitude": 25.37835,
+    "longitude": 97.00896,
+    "township_pcode": "MMR001008",
+    "district_pcode": "MMR001D002",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001007702",
+    "name_en": "Hopin Town",
+    "name_mm": "ဟိုပင်",
+    "latitude": 24.99183,
+    "longitude": 96.53019,
+    "township_pcode": "MMR001007",
+    "district_pcode": "MMR001D002",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001007703",
+    "name_en": "Inn Taw Gyi Town",
+    "name_mm": "အင်းတော်ကြီး",
+    "latitude": 25.0929,
+    "longitude": 96.2876,
+    "township_pcode": "MMR001007",
+    "district_pcode": "MMR001D002",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001007701",
+    "name_en": "Mohnyin Town",
+    "name_mm": "မိုးညှင်း",
+    "latitude": 24.7771131683,
+    "longitude": 96.3649259651,
+    "township_pcode": "MMR001007",
+    "district_pcode": "MMR001D002",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001007705",
+    "name_en": "Nam Mar Town",
+    "name_mm": "နန်းမား",
+    "latitude": 24.873985,
+    "longitude": 96.436251,
+    "township_pcode": "MMR001007",
+    "district_pcode": "MMR001D002",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001007704",
+    "name_en": "Nam Mun Town",
+    "name_mm": "နန့်မွန်း",
+    "latitude": 25.0047,
+    "longitude": 96.3548,
+    "township_pcode": "MMR001007",
+    "district_pcode": "MMR001D002",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001012703",
+    "name_en": "Dawthponeyan Town",
+    "name_mm": "ဒေါ့ဖုန်းယန်",
+    "latitude": 24.61398,
+    "longitude": 97.46127,
+    "township_pcode": "MMR001012",
+    "district_pcode": "MMR001D003",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001012702",
+    "name_en": "Lwegel Town",
+    "name_mm": "လွယ်ဂျယ်",
+    "latitude": 24.19932,
+    "longitude": 97.72077,
+    "township_pcode": "MMR001012",
+    "district_pcode": "MMR001D003",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001012701",
+    "name_en": "Momauk Town",
+    "name_mm": "မိုးမောက်",
+    "latitude": 24.2509493642,
+    "longitude": 97.3465314811,
+    "township_pcode": "MMR001012",
+    "district_pcode": "MMR001D003",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001001701",
+    "name_en": "Myitkyina Town",
+    "name_mm": "မြစ်ကြီးနား",
+    "latitude": 25.38749,
+    "longitude": 97.39036,
+    "township_pcode": "MMR001001",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001001702",
+    "name_en": "Sinbo Town",
+    "name_mm": "ဆင်ဘို",
+    "latitude": 24.77923,
+    "longitude": 97.03917,
+    "township_pcode": "MMR001001",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001017701",
+    "name_en": "Nawngmun Town",
+    "name_mm": "နောင်မွန်း",
+    "latitude": 27.50532,
+    "longitude": 97.81785,
+    "township_pcode": "MMR001017",
+    "district_pcode": "MMR001D004",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001017702",
+    "name_en": "Pannandin Town",
+    "name_mm": "ပန်နန်းဒင်",
+    "latitude": 27.7281019827,
+    "longitude": 97.8766184189,
+    "township_pcode": "MMR001017",
+    "district_pcode": "MMR001D004",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001014701",
+    "name_en": "Puta-O Town",
+    "name_mm": "ပူတာအို",
+    "latitude": 27.29934,
+    "longitude": 97.4159,
+    "township_pcode": "MMR001014",
+    "district_pcode": "MMR001D004",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001011702",
+    "name_en": "Myo Hla Town",
+    "name_mm": "မြို့လှ",
+    "latitude": 24.478563394,
+    "longitude": 96.6552155933,
+    "township_pcode": "MMR001011",
+    "district_pcode": "MMR001D003",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001011701",
+    "name_en": "Shwegu Town",
+    "name_mm": "ရွှေကူ",
+    "latitude": 24.20695,
+    "longitude": 96.80606,
+    "township_pcode": "MMR001011",
+    "district_pcode": "MMR001D003",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001015701",
+    "name_en": "Sumprabum Town",
+    "name_mm": "ဆွမ်ပရာဘွမ်",
+    "latitude": 26.54373,
+    "longitude": 97.5677,
+    "township_pcode": "MMR001015",
+    "district_pcode": "MMR001D004",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001004702",
+    "name_en": "Shin Bway Yang Town",
+    "name_mm": "ရှင်ဗွေယန်",
+    "latitude": 26.69478,
+    "longitude": 96.2094,
+    "township_pcode": "MMR001004",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001004701",
+    "name_en": "Tanai Town",
+    "name_mm": "တနိုင်း",
+    "latitude": 26.35797,
+    "longitude": 96.71655,
+    "township_pcode": "MMR001004",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001006701",
+    "name_en": "Tsawlaw Town",
+    "name_mm": "ဆော့လော်",
+    "latitude": 26.1541860735,
+    "longitude": 98.2704868075,
+    "township_pcode": "MMR001006",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001002703",
+    "name_en": "Kan Paik Ti Town",
+    "name_mm": "ကန်ပိုက်တီ",
+    "latitude": 25.40319,
+    "longitude": 98.11739,
+    "township_pcode": "MMR001002",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001002702",
+    "name_en": "Sadung Town",
+    "name_mm": "ဆဒုံး",
+    "latitude": 25.397088956,
+    "longitude": 97.8999605316,
+    "township_pcode": "MMR001002",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001002701",
+    "name_en": "Waingmaw Town",
+    "name_mm": "ဝိုင်းမော်",
+    "latitude": 25.35099,
+    "longitude": 97.44281,
+    "township_pcode": "MMR001002",
+    "district_pcode": "MMR001D001",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR002005701",
+    "name_en": "Bawlake Town",
+    "name_mm": "ဘောလခဲ",
+    "latitude": 19.1725581843,
+    "longitude": 97.3428424157,
+    "township_pcode": "MMR002005",
+    "district_pcode": "MMR002D002",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002005702",
+    "name_en": "Ywarthit Town",
+    "name_mm": "ရွာသစ်",
+    "latitude": 19.16673,
+    "longitude": 97.4995,
+    "township_pcode": "MMR002005",
+    "district_pcode": "MMR002D002",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002002701",
+    "name_en": "Demoso Town",
+    "name_mm": "ဒီးမော့ဆို",
+    "latitude": 19.53832,
+    "longitude": 97.15881,
+    "township_pcode": "MMR002002",
+    "district_pcode": "MMR002D001",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002002702",
+    "name_en": "Nan Mei Khon Town",
+    "name_mm": "နန်းမယ်ခုံ",
+    "latitude": 19.6696,
+    "longitude": 97.1091,
+    "township_pcode": "MMR002002",
+    "district_pcode": "MMR002D001",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002006701",
+    "name_en": "Hpasawng Town",
+    "name_mm": "ဖားဆောင်း",
+    "latitude": 18.87063,
+    "longitude": 97.31592,
+    "township_pcode": "MMR002006",
+    "district_pcode": "MMR002D002",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002003701",
+    "name_en": "Hpruso Town",
+    "name_mm": "ဖရူဆို",
+    "latitude": 19.4138694754,
+    "longitude": 97.1279939299,
+    "township_pcode": "MMR002003",
+    "district_pcode": "MMR002D001",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002001703",
+    "name_en": "Law Pi Ta Town",
+    "name_mm": "လောပိတ",
+    "latitude": 19.54909,
+    "longitude": 97.329287,
+    "township_pcode": "MMR002001",
+    "district_pcode": "MMR002D001",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002001701",
+    "name_en": "Loikaw Town",
+    "name_mm": "လွိုင်ကော်",
+    "latitude": 19.67424,
+    "longitude": 97.20993,
+    "township_pcode": "MMR002001",
+    "district_pcode": "MMR002D001",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002001702",
+    "name_en": "Loilen Lay Town",
+    "name_mm": "လွိုင်လင်လေး",
+    "latitude": 19.8777,
+    "longitude": 97.2318,
+    "township_pcode": "MMR002001",
+    "district_pcode": "MMR002D001",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002007701",
+    "name_en": "Mese Town",
+    "name_mm": "မယ်စဲ",
+    "latitude": 18.6724617739,
+    "longitude": 97.6627732859,
+    "township_pcode": "MMR002007",
+    "district_pcode": "MMR002D002",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002004701",
+    "name_en": "Shadaw Town",
+    "name_mm": "ရှားတော",
+    "latitude": 19.63174,
+    "longitude": 97.52073,
+    "township_pcode": "MMR002004",
+    "district_pcode": "MMR002D001",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR003002701",
+    "name_en": "Hlaingbwe Town",
+    "name_mm": "လှိုင်းဘွဲ့",
+    "latitude": 17.12574,
+    "longitude": 97.81871,
+    "township_pcode": "MMR003002",
+    "district_pcode": "MMR003D001",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003002702",
+    "name_en": "Paingkyon Town",
+    "name_mm": "ပိုင်ကျုံ",
+    "latitude": 17.0216995839,
+    "longitude": 97.9859650047,
+    "township_pcode": "MMR003002",
+    "district_pcode": "MMR003D001",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003002703",
+    "name_en": "Shan Ywar Thit Town",
+    "name_mm": "ရှမ်းရွာသစ်",
+    "latitude": 17.42438,
+    "longitude": 97.88778,
+    "township_pcode": "MMR003002",
+    "district_pcode": "MMR003D001",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003001701",
+    "name_en": "Hpa-An Town",
+    "name_mm": "ဘားအံ",
+    "latitude": 16.88076,
+    "longitude": 97.63691,
+    "township_pcode": "MMR003001",
+    "district_pcode": "MMR003D001",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003003701",
+    "name_en": "Hpapun Town",
+    "name_mm": "ဖာပွန်",
+    "latitude": 18.0630564312,
+    "longitude": 97.4432143773,
+    "township_pcode": "MMR003003",
+    "district_pcode": "MMR003D004",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003003702",
+    "name_en": "Kamarmaung Town",
+    "name_mm": "ကမမောင်း",
+    "latitude": 17.34688,
+    "longitude": 97.6529,
+    "township_pcode": "MMR003003",
+    "district_pcode": "MMR003D004",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003006701",
+    "name_en": "Kawkareik Town",
+    "name_mm": "ကော့ကရိတ်",
+    "latitude": 16.55553,
+    "longitude": 98.23996,
+    "township_pcode": "MMR003006",
+    "district_pcode": "MMR003D003",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003006702",
+    "name_en": "Kyondoe Town",
+    "name_mm": "ကျုံဒိုး",
+    "latitude": 16.59446,
+    "longitude": 98.04353,
+    "township_pcode": "MMR003006",
+    "district_pcode": "MMR003D003",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003007702",
+    "name_en": "Hpayarthonesu Town",
+    "name_mm": "ဘုရားသုံးဆူ",
+    "latitude": 15.30444,
+    "longitude": 98.37808,
+    "township_pcode": "MMR003007",
+    "district_pcode": "MMR003D003",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003007703",
+    "name_en": "Kyaikdon Town",
+    "name_mm": "ကျိုက်ဒုံ",
+    "latitude": 16.0025306161,
+    "longitude": 98.3926839597,
+    "township_pcode": "MMR003007",
+    "district_pcode": "MMR003D003",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003007701",
+    "name_en": "Kyainseikgyi Town",
+    "name_mm": "ကြာအင်းဆိပ်ကြီး",
+    "latitude": 16.04079,
+    "longitude": 98.12322,
+    "township_pcode": "MMR003007",
+    "district_pcode": "MMR003D003",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003005701",
+    "name_en": "Myawaddy Town",
+    "name_mm": "မြဝတီ",
+    "latitude": 16.6886775819,
+    "longitude": 98.51303563,
+    "township_pcode": "MMR003005",
+    "district_pcode": "MMR003D002",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003005702",
+    "name_en": "Su Ka Li Town",
+    "name_mm": "စုကလိ",
+    "latitude": 16.15439,
+    "longitude": 98.59621,
+    "township_pcode": "MMR003005",
+    "district_pcode": "MMR003D002",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003005703",
+    "name_en": "Waw Lay Myaing (Waw Lay) Town",
+    "name_mm": "​ဝေါလေမြိုင် (ဝေါလေ)",
+    "latitude": 16.29392,
+    "longitude": 98.71324,
+    "township_pcode": "MMR003005",
+    "district_pcode": "MMR003D002",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003004704",
+    "name_en": "Baw Ga Li Town",
+    "name_mm": "ဘောဂလိ",
+    "latitude": 18.91451,
+    "longitude": 96.78565,
+    "township_pcode": "MMR003004",
+    "district_pcode": "MMR003D001",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003004703",
+    "name_en": "Leik Tho Town",
+    "name_mm": "လိပ်သို",
+    "latitude": 19.22235,
+    "longitude": 96.58097,
+    "township_pcode": "MMR003004",
+    "district_pcode": "MMR003D001",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003004702",
+    "name_en": "Thandaung Town",
+    "name_mm": "သံတောင်",
+    "latitude": 19.02175,
+    "longitude": 96.58266,
+    "township_pcode": "MMR003004",
+    "district_pcode": "MMR003D001",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003004701",
+    "name_en": "Thandaunggyi Town",
+    "name_mm": "သံတောင်ကြီး",
+    "latitude": 19.07339,
+    "longitude": 96.67547,
+    "township_pcode": "MMR003004",
+    "district_pcode": "MMR003D001",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR009016701",
+    "name_en": "Aunglan Town",
+    "name_mm": "အောင်လံ",
+    "latitude": 19.35855,
+    "longitude": 95.21684,
+    "township_pcode": "MMR009016",
+    "district_pcode": "MMR009D003",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009003701",
+    "name_en": "Chauk Town",
+    "name_mm": "ချောက်",
+    "latitude": 20.8909778734,
+    "longitude": 94.8182946468,
+    "township_pcode": "MMR009003",
+    "district_pcode": "MMR009D001",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009003702",
+    "name_en": "Sa Lay Town",
+    "name_mm": "စလေ",
+    "latitude": 20.8338,
+    "longitude": 94.7424,
+    "township_pcode": "MMR009003",
+    "district_pcode": "MMR009D001",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009023701",
+    "name_en": "Gangaw Town",
+    "name_mm": "ဂန့်ဂေါ",
+    "latitude": 22.17421,
+    "longitude": 94.13582,
+    "township_pcode": "MMR009023",
+    "district_pcode": "MMR009D005",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009023702",
+    "name_en": "Kyaw Town",
+    "name_mm": "ကျော",
+    "latitude": 21.92737,
+    "longitude": 94.35789,
+    "township_pcode": "MMR009023",
+    "district_pcode": "MMR009D005",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009015701",
+    "name_en": "Kamma Town",
+    "name_mm": "ကံမ",
+    "latitude": 19.02897,
+    "longitude": 95.09594,
+    "township_pcode": "MMR009015",
+    "district_pcode": "MMR009D003",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009001701",
+    "name_en": "Magway Town",
+    "name_mm": "မကွေး",
+    "latitude": 20.14027,
+    "longitude": 94.92696,
+    "township_pcode": "MMR009001",
+    "district_pcode": "MMR009D001",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009007701",
+    "name_en": "Minbu Town",
+    "name_mm": "မင်းဘူး",
+    "latitude": 20.17161,
+    "longitude": 94.87518,
+    "township_pcode": "MMR009007",
+    "district_pcode": "MMR009D002",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009007702",
+    "name_en": "Saku Town",
+    "name_mm": "စကု",
+    "latitude": 20.22609,
+    "longitude": 94.76831,
+    "township_pcode": "MMR009007",
+    "district_pcode": "MMR009D002",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009014701",
+    "name_en": "Mindon Town",
+    "name_mm": "မင်းတုန်း",
+    "latitude": 19.3513106735,
+    "longitude": 94.7323348844,
+    "township_pcode": "MMR009014",
+    "district_pcode": "MMR009D003",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009013701",
+    "name_en": "Minhla Town",
+    "name_mm": "မင်းလှ",
+    "latitude": 19.96559,
+    "longitude": 95.0367,
+    "township_pcode": "MMR009013",
+    "district_pcode": "MMR009D003",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009020701",
+    "name_en": "Myaing Town",
+    "name_mm": "မြိုင်",
+    "latitude": 21.61256,
+    "longitude": 94.85432,
+    "township_pcode": "MMR009020",
+    "district_pcode": "MMR009D004",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009005701",
+    "name_en": "Myothit Town",
+    "name_mm": "မြို့သစ်",
+    "latitude": 20.19919,
+    "longitude": 95.44692,
+    "township_pcode": "MMR009005",
+    "district_pcode": "MMR009D001",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009006701",
+    "name_en": "Natmauk Town",
+    "name_mm": "နတ်မောက်",
+    "latitude": 20.35339,
+    "longitude": 95.39966,
+    "township_pcode": "MMR009006",
+    "district_pcode": "MMR009D001",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009009701",
+    "name_en": "Ngape Town",
+    "name_mm": "ငဖဲ",
+    "latitude": 20.07538,
+    "longitude": 94.46767,
+    "township_pcode": "MMR009009",
+    "district_pcode": "MMR009D002",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009018702",
+    "name_en": "Kamma Town",
+    "name_mm": "ကမ္မ",
+    "latitude": 21.38358,
+    "longitude": 94.81558,
+    "township_pcode": "MMR009018",
+    "district_pcode": "MMR009D004",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009018703",
+    "name_en": "Myit Chay Town",
+    "name_mm": "မြစ်ခြေ",
+    "latitude": 21.2454,
+    "longitude": 94.8511,
+    "township_pcode": "MMR009018",
+    "district_pcode": "MMR009D004",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009018701",
+    "name_en": "Pakokku Town",
+    "name_mm": "ပခုက္ကူ",
+    "latitude": 21.335,
+    "longitude": 95.08227,
+    "township_pcode": "MMR009018",
+    "district_pcode": "MMR009D004",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009021701",
+    "name_en": "Pauk Town",
+    "name_mm": "ပေါက်",
+    "latitude": 21.45215,
+    "longitude": 94.47374,
+    "township_pcode": "MMR009021",
+    "district_pcode": "MMR009D004",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009008701",
+    "name_en": "Pwintbyu Town",
+    "name_mm": "ပွင့်ဖြူ",
+    "latitude": 20.36334,
+    "longitude": 94.66933,
+    "township_pcode": "MMR009008",
+    "district_pcode": "MMR009D002",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009010701",
+    "name_en": "Salin Town",
+    "name_mm": "စလင်း",
+    "latitude": 20.5772,
+    "longitude": 94.65936,
+    "township_pcode": "MMR009010",
+    "district_pcode": "MMR009D002",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009010702",
+    "name_en": "Sinphyukyun Town",
+    "name_mm": "ဆင်ဖြူကျွန်း",
+    "latitude": 20.6641996868,
+    "longitude": 94.6929049089,
+    "township_pcode": "MMR009010",
+    "district_pcode": "MMR009D002",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009025702",
+    "name_en": "Kyaukhtu Town",
+    "name_mm": "ကျောက်ထု",
+    "latitude": 21.406,
+    "longitude": 94.136,
+    "township_pcode": "MMR009025",
+    "district_pcode": "MMR009D005",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009025701",
+    "name_en": "Saw Town",
+    "name_mm": "ဆော",
+    "latitude": 21.1522370502,
+    "longitude": 94.1546582156,
+    "township_pcode": "MMR009025",
+    "district_pcode": "MMR009D005",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009022701",
+    "name_en": "Seikphyu Town",
+    "name_mm": "ဆိပ်ဖြူ",
+    "latitude": 20.90651,
+    "longitude": 94.79243,
+    "township_pcode": "MMR009022",
+    "district_pcode": "MMR009D004",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009011701",
+    "name_en": "Sidoktaya Town",
+    "name_mm": "စေတုတ္ထရာ",
+    "latitude": 20.4466,
+    "longitude": 94.24559,
+    "township_pcode": "MMR009011",
+    "district_pcode": "MMR009D002",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009017701",
+    "name_en": "Sinbaungwe Town",
+    "name_mm": "ဆင်ပေါင်ဝဲ",
+    "latitude": 19.7229198631,
+    "longitude": 95.1618598631,
+    "township_pcode": "MMR009017",
+    "district_pcode": "MMR009D003",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009004701",
+    "name_en": "Taungdwingyi Town",
+    "name_mm": "တောင်တွင်းကြီး",
+    "latitude": 20.00187,
+    "longitude": 95.54614,
+    "township_pcode": "MMR009004",
+    "district_pcode": "MMR009D001",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009012701",
+    "name_en": "Thayet Town",
+    "name_mm": "သရက်",
+    "latitude": 19.3215,
+    "longitude": 95.17716,
+    "township_pcode": "MMR009012",
+    "district_pcode": "MMR009D003",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009024701",
+    "name_en": "Tilin Town",
+    "name_mm": "ထီးလင်း",
+    "latitude": 21.69636,
+    "longitude": 94.09278,
+    "township_pcode": "MMR009024",
+    "district_pcode": "MMR009D005",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009002701",
+    "name_en": "Yenangyaung Town",
+    "name_mm": "ရေနံချောင်း",
+    "latitude": 20.45837,
+    "longitude": 94.8731,
+    "township_pcode": "MMR009002",
+    "district_pcode": "MMR009D001",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009019701",
+    "name_en": "Yesagyo Town",
+    "name_mm": "ရေစကြို",
+    "latitude": 21.633878303,
+    "longitude": 95.2453005753,
+    "township_pcode": "MMR009019",
+    "district_pcode": "MMR009D004",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR010006701",
+    "name_en": "Amarapura Town",
+    "name_mm": "အမရပူရ",
+    "latitude": 21.90314,
+    "longitude": 96.04948,
+    "township_pcode": "MMR010006",
+    "district_pcode": "MMR010D001",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010006702",
+    "name_en": "Myitnge Town",
+    "name_mm": "မြစ်ငယ်",
+    "latitude": 21.85418,
+    "longitude": 96.06856,
+    "township_pcode": "MMR010006",
+    "district_pcode": "MMR010D001",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010001701",
+    "name_en": "Aungmyaythazan Town",
+    "name_mm": "အောင်မြေသာဇံ",
+    "latitude": 21.993206,
+    "longitude": 96.096861,
+    "township_pcode": "MMR010001",
+    "district_pcode": "MMR010D001",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010000777",
+    "name_en": "Mandalay City",
+    "name_mm": "မန္တလေး",
+    "latitude": 21.9894028624,
+    "longitude": 96.092101078,
+    "township_pcode": "MMR010001",
+    "district_pcode": "MMR010D001",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010002701",
+    "name_en": "Chanayethazan Town",
+    "name_mm": "ချမ်းအေးသာဇံ",
+    "latitude": 21.97535,
+    "longitude": 96.094599,
+    "township_pcode": "MMR010002",
+    "district_pcode": "MMR010D001",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010004701",
+    "name_en": "Chanmyathazi Town",
+    "name_mm": "ချမ်းမြသာစည်",
+    "latitude": 21.939404,
+    "longitude": 96.095838,
+    "township_pcode": "MMR010004",
+    "district_pcode": "MMR010D001",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010020701",
+    "name_en": "Kyaukpadaung Town",
+    "name_mm": "ကျောက်ပန်းတောင်း",
+    "latitude": 20.84248,
+    "longitude": 95.13218,
+    "township_pcode": "MMR010020",
+    "district_pcode": "MMR010D005",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010013701",
+    "name_en": "Kyaukse Town",
+    "name_mm": "ကျောက်ဆည်",
+    "latitude": 21.61325,
+    "longitude": 96.13033,
+    "township_pcode": "MMR010013",
+    "district_pcode": "MMR010D003",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010009701",
+    "name_en": "Madaya Town",
+    "name_mm": "မတ္တရာ",
+    "latitude": 22.21036,
+    "longitude": 96.10639,
+    "township_pcode": "MMR010009",
+    "district_pcode": "MMR010D002",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010003701",
+    "name_en": "Mahaaungmyay Town",
+    "name_mm": "မဟာအောင်မြေ",
+    "latitude": 21.97535,
+    "longitude": 96.094599,
+    "township_pcode": "MMR010003",
+    "district_pcode": "MMR010D001",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010029701",
+    "name_en": "Mahlaing Town",
+    "name_mm": "မလှိုင်",
+    "latitude": 21.09867,
+    "longitude": 95.64698,
+    "township_pcode": "MMR010029",
+    "district_pcode": "MMR010D007",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010028701",
+    "name_en": "Meiktila Town",
+    "name_mm": "မိတ္ထီလာ",
+    "latitude": 20.88189,
+    "longitude": 95.86311,
+    "township_pcode": "MMR010028",
+    "district_pcode": "MMR010D007",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010011701",
+    "name_en": "Mogoke Town",
+    "name_mm": "မိုးကုတ်",
+    "latitude": 22.92139,
+    "longitude": 96.5054,
+    "township_pcode": "MMR010011",
+    "district_pcode": "MMR010D002",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010017701",
+    "name_en": "Myingyan Town",
+    "name_mm": "မြင်းခြံ",
+    "latitude": 21.45745,
+    "longitude": 95.39179,
+    "township_pcode": "MMR010017",
+    "district_pcode": "MMR010D004",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010017702",
+    "name_en": "Si Mee Khon Town",
+    "name_mm": "ဆီမီးခုံ",
+    "latitude": 21.735,
+    "longitude": 95.4221,
+    "township_pcode": "MMR010017",
+    "district_pcode": "MMR010D004",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010015702",
+    "name_en": "Ku Me Town",
+    "name_mm": "ကူမဲ",
+    "latitude": 21.3583,
+    "longitude": 96.1603,
+    "township_pcode": "MMR010015",
+    "district_pcode": "MMR010D003",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010015701",
+    "name_en": "Myittha Town",
+    "name_mm": "မြစ်သား",
+    "latitude": 21.42427,
+    "longitude": 96.13086,
+    "township_pcode": "MMR010015",
+    "district_pcode": "MMR010D003",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010019701",
+    "name_en": "Natogyi Town",
+    "name_mm": "နွားထိုးကြီး",
+    "latitude": 21.4237,
+    "longitude": 95.6545,
+    "township_pcode": "MMR010019",
+    "district_pcode": "MMR010D004",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010021701",
+    "name_en": "Ngazun Town",
+    "name_mm": "ငါန်းဇွန်",
+    "latitude": 21.8984566497,
+    "longitude": 95.6872315149,
+    "township_pcode": "MMR010021",
+    "district_pcode": "MMR010D004",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010022702",
+    "name_en": "Bagan Town",
+    "name_mm": "ပုဂံ",
+    "latitude": 21.13197,
+    "longitude": 94.86257,
+    "township_pcode": "MMR010022",
+    "district_pcode": "MMR010D005",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010022703",
+    "name_en": "Ngathayauk Town",
+    "name_mm": "ငါ့သရောက်",
+    "latitude": 21.15058,
+    "longitude": 95.13772,
+    "township_pcode": "MMR010022",
+    "district_pcode": "MMR010D005",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010022701",
+    "name_en": "Nyaung-U Town",
+    "name_mm": "ညောင်ဦး",
+    "latitude": 21.19543,
+    "longitude": 94.91011,
+    "township_pcode": "MMR010022",
+    "district_pcode": "MMR010D005",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010007701",
+    "name_en": "Patheingyi Town",
+    "name_mm": "ပုသိမ်ကြီး",
+    "latitude": 22.0039939404,
+    "longitude": 96.1646506554,
+    "township_pcode": "MMR010007",
+    "district_pcode": "MMR010D001",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010024701",
+    "name_en": "Pyawbwe Town",
+    "name_mm": "ပျော်ဘွယ်",
+    "latitude": 20.59472,
+    "longitude": 96.05094,
+    "township_pcode": "MMR010024",
+    "district_pcode": "MMR010D006",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010005701",
+    "name_en": "Pyigyitagon Town",
+    "name_mm": "ပြည်ကြီးတံခွန်",
+    "latitude": 21.901964,
+    "longitude": 96.104181,
+    "township_pcode": "MMR010005",
+    "district_pcode": "MMR010D001",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010008701",
+    "name_en": "Pyinoolwin Town",
+    "name_mm": "ပြင်ဦးလွင်",
+    "latitude": 22.01397,
+    "longitude": 96.45634,
+    "township_pcode": "MMR010008",
+    "district_pcode": "MMR010D002",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010010701",
+    "name_en": "Singu Town",
+    "name_mm": "စဉ့်ကူး",
+    "latitude": 22.5483820667,
+    "longitude": 95.9965510525,
+    "township_pcode": "MMR010010",
+    "district_pcode": "MMR010D002",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010014701",
+    "name_en": "Sintgaing Town",
+    "name_mm": "စဉ့်ကိုင်",
+    "latitude": 21.7311371071,
+    "longitude": 96.1061098179,
+    "township_pcode": "MMR010014",
+    "district_pcode": "MMR010D003",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010016701",
+    "name_en": "Tada-U Town",
+    "name_mm": "တံတားဦး",
+    "latitude": 21.8151001711,
+    "longitude": 95.970694747,
+    "township_pcode": "MMR010016",
+    "district_pcode": "MMR010D003",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010018701",
+    "name_en": "Taungtha Town",
+    "name_mm": "တောင်သာ",
+    "latitude": 21.27603,
+    "longitude": 95.44541,
+    "township_pcode": "MMR010018",
+    "district_pcode": "MMR010D004",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010012702",
+    "name_en": "Takaung Town",
+    "name_mm": "တကောင်း",
+    "latitude": 23.50188,
+    "longitude": 96.01367,
+    "township_pcode": "MMR010012",
+    "district_pcode": "MMR010D002",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010012701",
+    "name_en": "Thabeikkyin Town",
+    "name_mm": "သပိတ်ကျင်း",
+    "latitude": 22.88593,
+    "longitude": 95.97525,
+    "township_pcode": "MMR010012",
+    "district_pcode": "MMR010D002",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010030701",
+    "name_en": "Thazi Town",
+    "name_mm": "သာစည်",
+    "latitude": 20.85019,
+    "longitude": 96.05838,
+    "township_pcode": "MMR010030",
+    "district_pcode": "MMR010D007",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010031701",
+    "name_en": "Wundwin Town",
+    "name_mm": "ဝမ်းတွင်း",
+    "latitude": 21.09691,
+    "longitude": 96.03001,
+    "township_pcode": "MMR010031",
+    "district_pcode": "MMR010D007",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010023701",
+    "name_en": "Yamethin Town",
+    "name_mm": "ရမည်းသင်း",
+    "latitude": 20.4305,
+    "longitude": 96.13747,
+    "township_pcode": "MMR010023",
+    "district_pcode": "MMR010D006",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR011010701",
+    "name_en": "Bilin Town",
+    "name_mm": "ဘီးလင်း",
+    "latitude": 17.21987,
+    "longitude": 97.23931,
+    "township_pcode": "MMR011010",
+    "district_pcode": "MMR011D002",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011003701",
+    "name_en": "Chaungzon Town",
+    "name_mm": "ချောင်းဆုံ",
+    "latitude": 16.35125,
+    "longitude": 97.55048,
+    "township_pcode": "MMR011003",
+    "district_pcode": "MMR011D001",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011002701",
+    "name_en": "Kyaikmaraw Town",
+    "name_mm": "ကျိုက်မရော",
+    "latitude": 16.37045,
+    "longitude": 97.72411,
+    "township_pcode": "MMR011002",
+    "district_pcode": "MMR011D001",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011009701",
+    "name_en": "Kyaikto Town",
+    "name_mm": "ကျိုက်ထို",
+    "latitude": 17.31156,
+    "longitude": 97.01989,
+    "township_pcode": "MMR011009",
+    "district_pcode": "MMR011D002",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011009702",
+    "name_en": "Thein Za Yat Town",
+    "name_mm": "သိမ်ဇရပ်",
+    "latitude": 17.5137,
+    "longitude": 96.884,
+    "township_pcode": "MMR011009",
+    "district_pcode": "MMR011D002",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011001701",
+    "name_en": "Mawlamyine Town",
+    "name_mm": "မော်လမြိုင်",
+    "latitude": 16.48459,
+    "longitude": 97.62593,
+    "township_pcode": "MMR011001",
+    "district_pcode": "MMR011D001",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011005702",
+    "name_en": "Kamarwet Town",
+    "name_mm": "ကမာ၀က်",
+    "latitude": 16.1409,
+    "longitude": 97.73403,
+    "township_pcode": "MMR011005",
+    "district_pcode": "MMR011D001",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011005701",
+    "name_en": "Mudon Town",
+    "name_mm": "မုဒုံ",
+    "latitude": 16.25812,
+    "longitude": 97.72478,
+    "township_pcode": "MMR011005",
+    "district_pcode": "MMR011D001",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011008701",
+    "name_en": "Paung Town",
+    "name_mm": "ပေါင်",
+    "latitude": 16.61679,
+    "longitude": 97.45672,
+    "township_pcode": "MMR011008",
+    "district_pcode": "MMR011D002",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011008702",
+    "name_en": "Zinkyaik Town",
+    "name_mm": "ဇင်းကျိုက်",
+    "latitude": 16.69655,
+    "longitude": 97.42371,
+    "township_pcode": "MMR011008",
+    "district_pcode": "MMR011D002",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011004702",
+    "name_en": "Kyaikkhami Town",
+    "name_mm": "ကျိုက္ခမီ",
+    "latitude": 16.08,
+    "longitude": 97.5675,
+    "township_pcode": "MMR011004",
+    "district_pcode": "MMR011D001",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011004701",
+    "name_en": "Thanbyuzayat Town",
+    "name_mm": "သံဖြူဇရပ်",
+    "latitude": 15.9667,
+    "longitude": 97.7333,
+    "township_pcode": "MMR011004",
+    "district_pcode": "MMR011D001",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011007701",
+    "name_en": "Thaton Town",
+    "name_mm": "သထုံ",
+    "latitude": 16.9197,
+    "longitude": 97.3678,
+    "township_pcode": "MMR011007",
+    "district_pcode": "MMR011D002",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011007702",
+    "name_en": "Thuwunnawady Town",
+    "name_mm": "သုဝဏ္ဏဝတီ",
+    "latitude": 17.06022,
+    "longitude": 97.30482,
+    "township_pcode": "MMR011007",
+    "district_pcode": "MMR011D002",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011006703",
+    "name_en": "Khawzar Town",
+    "name_mm": "ခေါဇာ",
+    "latitude": 15.03752,
+    "longitude": 97.82935,
+    "township_pcode": "MMR011006",
+    "district_pcode": "MMR011D001",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011006702",
+    "name_en": "Lamaing Town",
+    "name_mm": "လမိုင်း",
+    "latitude": 15.50351,
+    "longitude": 97.83215,
+    "township_pcode": "MMR011006",
+    "district_pcode": "MMR011D001",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011006701",
+    "name_en": "Ye Town",
+    "name_mm": "ရေး",
+    "latitude": 15.2453917363,
+    "longitude": 97.8493539243,
+    "township_pcode": "MMR011006",
+    "district_pcode": "MMR011D001",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR018004701",
+    "name_en": "Det Khi Na Thi Ri Town",
+    "name_mm": "ဒက္ခိဏသီရိ",
+    "latitude": 19.7002617446,
+    "longitude": 96.0904971774,
+    "township_pcode": "MMR018004",
+    "district_pcode": "MMR018D002",
+    "sr_pcode": "MMR018"
+  },
+  {
+    "pcode": "MMR018007701",
+    "name_en": "Lewe Town",
+    "name_mm": "လယ်ဝေး",
+    "latitude": 19.63467,
+    "longitude": 96.11007,
+    "township_pcode": "MMR018007",
+    "district_pcode": "MMR018D002",
+    "sr_pcode": "MMR018"
+  },
+  {
+    "pcode": "MMR018008701",
+    "name_en": "Oke Ta Ra Thi Ri Town",
+    "name_mm": "ဥတ္တရသီရိ",
+    "latitude": 19.891,
+    "longitude": 96.043,
+    "township_pcode": "MMR018008",
+    "district_pcode": "MMR018D001",
+    "sr_pcode": "MMR018"
+  },
+  {
+    "pcode": "MMR018005701",
+    "name_en": "Poke Ba Thi RiTown",
+    "name_mm": "ပုဗ္ဗသီရိ",
+    "latitude": 19.84383343,
+    "longitude": 96.1825241078,
+    "township_pcode": "MMR018005",
+    "district_pcode": "MMR018D001",
+    "sr_pcode": "MMR018"
+  },
+  {
+    "pcode": "MMR018006701",
+    "name_en": "Pyinmana Town",
+    "name_mm": "ပျဉ်းမနား",
+    "latitude": 19.7361,
+    "longitude": 96.20895,
+    "township_pcode": "MMR018006",
+    "district_pcode": "MMR018D002",
+    "sr_pcode": "MMR018"
+  },
+  {
+    "pcode": "MMR018003701",
+    "name_en": "Tatkon Town",
+    "name_mm": "တပ်ကုန်း",
+    "latitude": 20.13041,
+    "longitude": 96.20297,
+    "township_pcode": "MMR018003",
+    "district_pcode": "MMR018D001",
+    "sr_pcode": "MMR018"
+  },
+  {
+    "pcode": "MMR018002701",
+    "name_en": "Za Bu Thi Ri Town",
+    "name_mm": "ဇမ္ဗူသီရိ",
+    "latitude": 19.7686736421,
+    "longitude": 96.072608724,
+    "township_pcode": "MMR018002",
+    "district_pcode": "MMR018D002",
+    "sr_pcode": "MMR018"
+  },
+  {
+    "pcode": "MMR018000777",
+    "name_en": "Nay Pyi Taw Town",
+    "name_mm": "နေပြည်တော်",
+    "latitude": 19.80326,
+    "longitude": 96.18566,
+    "township_pcode": "MMR018001",
+    "district_pcode": "MMR018D001",
+    "sr_pcode": "MMR018"
+  },
+  {
+    "pcode": "MMR018001701",
+    "name_en": "Zay Yar Thi Ri Town",
+    "name_mm": "ဇေယျာသီရိ",
+    "latitude": 19.862,
+    "longitude": 96.309,
+    "township_pcode": "MMR018001",
+    "district_pcode": "MMR018D001",
+    "sr_pcode": "MMR018"
+  },
+  {
+    "pcode": "MMR012014701",
+    "name_en": "Ann Town",
+    "name_mm": "အမ်း",
+    "latitude": 19.79537,
+    "longitude": 94.04791,
+    "township_pcode": "MMR012014",
+    "district_pcode": "MMR012D003",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012014702",
+    "name_en": "Tat Taung Town",
+    "name_mm": "တပ်တောင်",
+    "latitude": 19.5682,
+    "longitude": 93.9358,
+    "township_pcode": "MMR012014",
+    "district_pcode": "MMR012D003",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012010701",
+    "name_en": "Buthidaung Town",
+    "name_mm": "ဘူးသီးတောင်",
+    "latitude": 20.87498,
+    "longitude": 92.525,
+    "township_pcode": "MMR012010",
+    "district_pcode": "MMR012D002",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012017701",
+    "name_en": "Gwa Town",
+    "name_mm": "ဂွ",
+    "latitude": 17.59369,
+    "longitude": 94.57996,
+    "township_pcode": "MMR012017",
+    "district_pcode": "MMR012D004",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012017702",
+    "name_en": "Kyeintali Town",
+    "name_mm": "ကျိန္တလီ",
+    "latitude": 18.00712,
+    "longitude": 94.49141,
+    "township_pcode": "MMR012017",
+    "district_pcode": "MMR012D004",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012011701",
+    "name_en": "Kyaukpyu Town",
+    "name_mm": "ကျောက်ဖြူ",
+    "latitude": 19.4239,
+    "longitude": 93.5544,
+    "township_pcode": "MMR012011",
+    "district_pcode": "MMR012D003",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012011702",
+    "name_en": "Sa Ne Town",
+    "name_mm": "စနဲ",
+    "latitude": 19.2166,
+    "longitude": 93.7336,
+    "township_pcode": "MMR012011",
+    "district_pcode": "MMR012D003",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012004701",
+    "name_en": "Kyauktaw Town",
+    "name_mm": "ကျောက်တော်",
+    "latitude": 20.84396,
+    "longitude": 92.97282,
+    "township_pcode": "MMR012004",
+    "district_pcode": "MMR012D005",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012009703",
+    "name_en": "Kha Maung Seik Town",
+    "name_mm": "ခမောင်းဆိပ်",
+    "latitude": 21.26554,
+    "longitude": 92.27141,
+    "township_pcode": "MMR012009",
+    "district_pcode": "MMR012D002",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012009701",
+    "name_en": "Maungdaw Town",
+    "name_mm": "မောင်တော",
+    "latitude": 20.81897,
+    "longitude": 92.36776,
+    "township_pcode": "MMR012009",
+    "district_pcode": "MMR012D002",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012009704",
+    "name_en": "Myin Hlut Town",
+    "name_mm": "မြင်းလွှတ်",
+    "latitude": 20.62786,
+    "longitude": 92.50212,
+    "township_pcode": "MMR012009",
+    "district_pcode": "MMR012D002",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012009702",
+    "name_en": "Taungpyoletwea Town",
+    "name_mm": "တောင်ပြိုလက်ဝဲ",
+    "latitude": 21.1999092126,
+    "longitude": 92.2006843411,
+    "township_pcode": "MMR012009",
+    "district_pcode": "MMR012D002",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012005701",
+    "name_en": "Minbya Town",
+    "name_mm": "မင်းပြား",
+    "latitude": 20.36452,
+    "longitude": 93.27269,
+    "township_pcode": "MMR012005",
+    "district_pcode": "MMR012D005",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012003701",
+    "name_en": "Mrauk-U Town",
+    "name_mm": "မြောက်ဦး",
+    "latitude": 20.59185,
+    "longitude": 93.18844,
+    "township_pcode": "MMR012003",
+    "district_pcode": "MMR012D005",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012012701",
+    "name_en": "Munaung Town",
+    "name_mm": "မာန်အောင်",
+    "latitude": 18.85506,
+    "longitude": 93.7215,
+    "township_pcode": "MMR012012",
+    "district_pcode": "MMR012D003",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012006702",
+    "name_en": "Kanhtauntkyi Town",
+    "name_mm": "ကမ်းထောင့်ကြီး",
+    "latitude": 19.85695,
+    "longitude": 93.75902,
+    "township_pcode": "MMR012006",
+    "district_pcode": "MMR012D005",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012006701",
+    "name_en": "Myebon Town",
+    "name_mm": "မြေပုံ",
+    "latitude": 20.04676,
+    "longitude": 93.37376,
+    "township_pcode": "MMR012006",
+    "district_pcode": "MMR012D005",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012007701",
+    "name_en": "Pauktaw Town",
+    "name_mm": "ပေါက်တော",
+    "latitude": 20.18098,
+    "longitude": 93.06817,
+    "township_pcode": "MMR012007",
+    "district_pcode": "MMR012D001",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012002701",
+    "name_en": "Ponnagyun Town",
+    "name_mm": "ပုဏ္ဏားကျွန်း",
+    "latitude": 20.33199,
+    "longitude": 93.0043,
+    "township_pcode": "MMR012002",
+    "district_pcode": "MMR012D001",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012013702",
+    "name_en": "Lay Taung Town",
+    "name_mm": "လေးတောင်",
+    "latitude": 19.038619,
+    "longitude": 93.694846,
+    "township_pcode": "MMR012013",
+    "district_pcode": "MMR012D003",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012013701",
+    "name_en": "Ramree Town",
+    "name_mm": "ရမ်းဗြဲ",
+    "latitude": 19.08769,
+    "longitude": 93.85886,
+    "township_pcode": "MMR012013",
+    "district_pcode": "MMR012D003",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012008701",
+    "name_en": "Rathedaung Town",
+    "name_mm": "ရသေ့တောင်",
+    "latitude": 20.482153632,
+    "longitude": 92.7560568655,
+    "township_pcode": "MMR012008",
+    "district_pcode": "MMR012D001",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012001701",
+    "name_en": "Sittwe Town",
+    "name_mm": "စစ်တွေ",
+    "latitude": 20.13727,
+    "longitude": 92.88551,
+    "township_pcode": "MMR012001",
+    "district_pcode": "MMR012D001",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012015702",
+    "name_en": "Ngapali Town",
+    "name_mm": "ငပလီ",
+    "latitude": 18.43755,
+    "longitude": 94.3206,
+    "township_pcode": "MMR012015",
+    "district_pcode": "MMR012D004",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012015701",
+    "name_en": "Thandwe Town",
+    "name_mm": "သံတွဲ",
+    "latitude": 18.4661997,
+    "longitude": 94.3677026,
+    "township_pcode": "MMR012015",
+    "district_pcode": "MMR012D004",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012016702",
+    "name_en": "Ma-Ei Town",
+    "name_mm": "မအီ",
+    "latitude": 19.34234,
+    "longitude": 94.13845,
+    "township_pcode": "MMR012016",
+    "district_pcode": "MMR012D004",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012016703",
+    "name_en": "Tan Hlwe Ywar Ma Town",
+    "name_mm": "တန်းလွဲရွာမ",
+    "latitude": 18.998289,
+    "longitude": 94.12645,
+    "township_pcode": "MMR012016",
+    "district_pcode": "MMR012D004",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012016701",
+    "name_en": "Toungup Town",
+    "name_mm": "တောင်ကုတ်",
+    "latitude": 18.85353,
+    "longitude": 94.23972,
+    "township_pcode": "MMR012016",
+    "district_pcode": "MMR012D004",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR005014701",
+    "name_en": "Ayadaw Town",
+    "name_mm": "အရာတော်",
+    "latitude": 22.28525,
+    "longitude": 95.45068,
+    "township_pcode": "MMR005014",
+    "district_pcode": "MMR005D003",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005023701",
+    "name_en": "Banmauk Town",
+    "name_mm": "ဗန်းမောက်",
+    "latitude": 24.39986,
+    "longitude": 95.85767,
+    "township_pcode": "MMR005023",
+    "district_pcode": "MMR005D004",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005013701",
+    "name_en": "Budalin Town",
+    "name_mm": "ဘုတလင်",
+    "latitude": 22.38918,
+    "longitude": 95.14857,
+    "township_pcode": "MMR005013",
+    "district_pcode": "MMR005D003",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005015701",
+    "name_en": "Chaung-U Town",
+    "name_mm": "ချောင်းဦး",
+    "latitude": 21.95693,
+    "longitude": 95.27363,
+    "township_pcode": "MMR005015",
+    "district_pcode": "MMR005D003",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005033701",
+    "name_en": "Hkamti Town",
+    "name_mm": "ခန္တီး",
+    "latitude": 25.99243,
+    "longitude": 95.69547,
+    "township_pcode": "MMR005033",
+    "district_pcode": "MMR005D008",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005034701",
+    "name_en": "Homalin Town",
+    "name_mm": "ဟုမ္မလင်း",
+    "latitude": 24.8644,
+    "longitude": 94.91088,
+    "township_pcode": "MMR005034",
+    "district_pcode": "MMR005D008",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005034703",
+    "name_en": "Mo Waing Lut Town",
+    "name_mm": "မိုဝိုင်းလွတ်",
+    "latitude": 25.0833955826,
+    "longitude": 94.9644979905,
+    "township_pcode": "MMR005034",
+    "district_pcode": "MMR005D008",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005034702",
+    "name_en": "Shwe Pyi Aye Town",
+    "name_mm": "ရွှေပြည်အေး",
+    "latitude": 24.683435372,
+    "longitude": 94.731467741,
+    "township_pcode": "MMR005034",
+    "district_pcode": "MMR005D008",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005021701",
+    "name_en": "Indaw Town",
+    "name_mm": "အင်းတော်",
+    "latitude": 24.22252,
+    "longitude": 96.14167,
+    "township_pcode": "MMR005021",
+    "district_pcode": "MMR005D004",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005021702",
+    "name_en": "Maw Lu Town",
+    "name_mm": "မော်လူး",
+    "latitude": 24.4649,
+    "longitude": 96.1796,
+    "township_pcode": "MMR005021",
+    "district_pcode": "MMR005D004",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005027701",
+    "name_en": "Kale Town",
+    "name_mm": "ကလေး",
+    "latitude": 23.1933,
+    "longitude": 94.02977,
+    "township_pcode": "MMR005027",
+    "district_pcode": "MMR005D005",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005028701",
+    "name_en": "Kalewa Town",
+    "name_mm": "ကလေးဝ",
+    "latitude": 23.1998,
+    "longitude": 94.30036,
+    "township_pcode": "MMR005028",
+    "district_pcode": "MMR005D005",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005007701",
+    "name_en": "Kanbalu Town",
+    "name_mm": "ကန့်ဘလူ",
+    "latitude": 23.20305,
+    "longitude": 95.51886,
+    "township_pcode": "MMR005007",
+    "district_pcode": "MMR005D010",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005007702",
+    "name_en": "Zee Kone Town",
+    "name_mm": "ဇီးကုန်း",
+    "latitude": 22.9311,
+    "longitude": 95.5636,
+    "township_pcode": "MMR005007",
+    "district_pcode": "MMR005D010",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005017701",
+    "name_en": "Kani Town",
+    "name_mm": "ကနီ",
+    "latitude": 22.43291,
+    "longitude": 94.84847,
+    "township_pcode": "MMR005017",
+    "district_pcode": "MMR005D009",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005020701",
+    "name_en": "Katha Town",
+    "name_mm": "ကသာ",
+    "latitude": 24.18163,
+    "longitude": 96.33167,
+    "township_pcode": "MMR005020",
+    "district_pcode": "MMR005D004",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005024701",
+    "name_en": "Kawlin Town",
+    "name_mm": "ကောလင်း",
+    "latitude": 23.79026,
+    "longitude": 95.68339,
+    "township_pcode": "MMR005024",
+    "district_pcode": "MMR005D011",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005005701",
+    "name_en": "Khin-U Town",
+    "name_mm": "ခင်ဦး",
+    "latitude": 22.77016,
+    "longitude": 95.62149,
+    "township_pcode": "MMR005005",
+    "district_pcode": "MMR005D002",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005008701",
+    "name_en": "Kyunhla Town",
+    "name_mm": "ကျွန်းလှ",
+    "latitude": 23.31964,
+    "longitude": 95.5321,
+    "township_pcode": "MMR005008",
+    "district_pcode": "MMR005D010",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005036701",
+    "name_en": "Lahe Town",
+    "name_mm": "လဟယ်",
+    "latitude": 26.32594,
+    "longitude": 95.44113,
+    "township_pcode": "MMR005036",
+    "district_pcode": "MMR005S001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005036702",
+    "name_en": "Thangpakwe Town",
+    "name_mm": "ထန်ပါခွေ",
+    "latitude": 25.96589,
+    "longitude": 95.24148,
+    "township_pcode": "MMR005036",
+    "district_pcode": "MMR005S001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005035701",
+    "name_en": "Layshi Town",
+    "name_mm": "လေရှီး",
+    "latitude": 25.4470566373,
+    "longitude": 94.9566298391,
+    "township_pcode": "MMR005035",
+    "district_pcode": "MMR005S001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005035702",
+    "name_en": "Mowailut Town",
+    "name_mm": "မိုပိုင်းလွတ်",
+    "latitude": 25.046708,
+    "longitude": 94.787483,
+    "township_pcode": "MMR005035",
+    "district_pcode": "MMR005S001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005035703",
+    "name_en": "Somra Town",
+    "name_mm": "ဆွမ္မရာ",
+    "latitude": 25.36455,
+    "longitude": 94.68729,
+    "township_pcode": "MMR005035",
+    "district_pcode": "MMR005S001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005031701",
+    "name_en": "Mawlaik Town",
+    "name_mm": "မော်လိုက်",
+    "latitude": 23.63512,
+    "longitude": 94.41201,
+    "township_pcode": "MMR005031",
+    "district_pcode": "MMR005D007",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005029701",
+    "name_en": "Mingin Town",
+    "name_mm": "မင်းကင်း",
+    "latitude": 22.87781,
+    "longitude": 94.4942,
+    "township_pcode": "MMR005029",
+    "district_pcode": "MMR005D005",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005012701",
+    "name_en": "Monywa Town",
+    "name_mm": "မုံရွာ",
+    "latitude": 22.12168,
+    "longitude": 95.13963,
+    "township_pcode": "MMR005012",
+    "district_pcode": "MMR005D003",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005003701",
+    "name_en": "Myaung Town",
+    "name_mm": "မြောင်",
+    "latitude": 21.831639681,
+    "longitude": 95.4242495673,
+    "township_pcode": "MMR005003",
+    "district_pcode": "MMR005D001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005002701",
+    "name_en": "Myinmu Town",
+    "name_mm": "မြင်းမူ",
+    "latitude": 21.9268056227,
+    "longitude": 95.5715669702,
+    "township_pcode": "MMR005002",
+    "district_pcode": "MMR005D001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005037703",
+    "name_en": "Dohi Town",
+    "name_mm": "ဒုံဟီး",
+    "latitude": 26.7756974529,
+    "longitude": 95.7916545391,
+    "township_pcode": "MMR005037",
+    "district_pcode": "MMR005S001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005037701",
+    "name_en": "Namyung Town",
+    "name_mm": "နန်းယွန်း",
+    "latitude": 26.97979,
+    "longitude": 96.16705,
+    "township_pcode": "MMR005037",
+    "district_pcode": "MMR005S001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005037702",
+    "name_en": "Pansau Town",
+    "name_mm": "ပန်ဆောင်",
+    "latitude": 27.2368319665,
+    "longitude": 96.1671161033,
+    "township_pcode": "MMR005037",
+    "district_pcode": "MMR005S001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005019701",
+    "name_en": "Pale Town",
+    "name_mm": "ပုလဲ",
+    "latitude": 21.93415,
+    "longitude": 94.87486,
+    "township_pcode": "MMR005019",
+    "district_pcode": "MMR005D009",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005032701",
+    "name_en": "Paungbyin Town",
+    "name_mm": "ဖောင်းပြင်",
+    "latitude": 24.26768,
+    "longitude": 94.81686,
+    "township_pcode": "MMR005032",
+    "district_pcode": "MMR005D007",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005026701",
+    "name_en": "Pinlebu Town",
+    "name_mm": "ပင်လည်ဘူး",
+    "latitude": 24.08089,
+    "longitude": 95.37026,
+    "township_pcode": "MMR005026",
+    "district_pcode": "MMR005D011",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005001701",
+    "name_en": "Sagaing Town",
+    "name_mm": "စစ်ကိုင်း",
+    "latitude": 21.88008,
+    "longitude": 95.96231,
+    "township_pcode": "MMR005001",
+    "district_pcode": "MMR005D001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005001702",
+    "name_en": "Sar Taung Town",
+    "name_mm": "ဆားတောင်",
+    "latitude": 22.1639,
+    "longitude": 95.7574,
+    "township_pcode": "MMR005001",
+    "district_pcode": "MMR005D001",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005018701",
+    "name_en": "Salingyi Town",
+    "name_mm": "ဆားလင်းကြီး",
+    "latitude": 21.9736313111,
+    "longitude": 95.0826935653,
+    "township_pcode": "MMR005018",
+    "district_pcode": "MMR005D009",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005004702",
+    "name_en": "Kyauk Myaung Town",
+    "name_mm": "​ကျောက်မြောင်း",
+    "latitude": 22.59329,
+    "longitude": 95.94495,
+    "township_pcode": "MMR005004",
+    "district_pcode": "MMR005D002",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005004701",
+    "name_en": "Shwebo Town",
+    "name_mm": "ရွှေဘို",
+    "latitude": 22.56996,
+    "longitude": 95.69849,
+    "township_pcode": "MMR005004",
+    "district_pcode": "MMR005D002",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005010702",
+    "name_en": "Saing Pyin Town",
+    "name_mm": "စိုင်ပြင်",
+    "latitude": 22.5561,
+    "longitude": 95.2366,
+    "township_pcode": "MMR005010",
+    "district_pcode": "MMR005D002",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005010701",
+    "name_en": "Tabayin Town",
+    "name_mm": "ဒီပဲယင်း",
+    "latitude": 22.68529,
+    "longitude": 95.32121,
+    "township_pcode": "MMR005010",
+    "district_pcode": "MMR005D002",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005030703",
+    "name_en": "Khampat Town",
+    "name_mm": "ခါမ်းပါတ်",
+    "latitude": 23.77977,
+    "longitude": 94.14575,
+    "township_pcode": "MMR005030",
+    "district_pcode": "MMR005D006",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005030702",
+    "name_en": "Myothit Town",
+    "name_mm": "မြို့သစ်",
+    "latitude": 24.51539,
+    "longitude": 94.51857,
+    "township_pcode": "MMR005030",
+    "district_pcode": "MMR005D006",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005030701",
+    "name_en": "Tamu Town",
+    "name_mm": "တမူး",
+    "latitude": 24.21149,
+    "longitude": 94.31534,
+    "township_pcode": "MMR005030",
+    "district_pcode": "MMR005D006",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005011701",
+    "name_en": "Taze Town",
+    "name_mm": "တန့်ဆည်",
+    "latitude": 22.94407,
+    "longitude": 95.37361,
+    "township_pcode": "MMR005011",
+    "district_pcode": "MMR005D002",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005022701",
+    "name_en": "Tigyaing Town",
+    "name_mm": "ထီးချိုင့်",
+    "latitude": 23.75452,
+    "longitude": 96.14833,
+    "township_pcode": "MMR005022",
+    "district_pcode": "MMR005D004",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005006701",
+    "name_en": "Wetlet Town",
+    "name_mm": "ဝက်လက်",
+    "latitude": 22.36715,
+    "longitude": 95.78812,
+    "township_pcode": "MMR005006",
+    "district_pcode": "MMR005D002",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005025701",
+    "name_en": "Wuntho Town",
+    "name_mm": "ဝန်းသို",
+    "latitude": 23.8992406392,
+    "longitude": 95.6819302656,
+    "township_pcode": "MMR005025",
+    "district_pcode": "MMR005D011",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005009701",
+    "name_en": "Ye-U Town",
+    "name_mm": "ရေဦး",
+    "latitude": 22.76914,
+    "longitude": 95.43049,
+    "township_pcode": "MMR005009",
+    "district_pcode": "MMR005D002",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005016701",
+    "name_en": "Yinmarbin Town",
+    "name_mm": "ယင်းမာပင်",
+    "latitude": 22.07779,
+    "longitude": 94.90014,
+    "township_pcode": "MMR005016",
+    "district_pcode": "MMR005D009",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR016320701",
+    "name_en": "Ho Tawng (Ho Tao) Town",
+    "name_mm": "ဟိုတောင်း",
+    "latitude": 22.0414317334,
+    "longitude": 99.5506704369,
+    "township_pcode": "MMR016320",
+    "district_pcode": "MMR016D333",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016001701",
+    "name_en": "Kengtung Town",
+    "name_mm": "ကျိုင်းတုံ",
+    "latitude": 21.29189,
+    "longitude": 99.6036,
+    "township_pcode": "MMR016001",
+    "district_pcode": "MMR016D001",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016319701",
+    "name_en": "Mong Hpen Town",
+    "name_mm": "မိုင်းဖျန်",
+    "latitude": 21.98542,
+    "longitude": 99.59892,
+    "township_pcode": "MMR016319",
+    "district_pcode": "MMR016D333",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016322701",
+    "name_en": "Mong Kar Town",
+    "name_mm": "မိုင်းကာ",
+    "latitude": 21.84343,
+    "longitude": 99.41942,
+    "township_pcode": "MMR016322",
+    "district_pcode": "MMR016D333",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016321701",
+    "name_en": "Mong Pawk Town",
+    "name_mm": "မိုင်းပေါက်",
+    "latitude": 22.008223,
+    "longitude": 99.310104,
+    "township_pcode": "MMR016321",
+    "district_pcode": "MMR016D333",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016010701",
+    "name_en": "Monghpyak Town",
+    "name_mm": "မိုင်းဖြတ်",
+    "latitude": 20.87804,
+    "longitude": 99.92333,
+    "township_pcode": "MMR016010",
+    "district_pcode": "MMR016D003",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016006701",
+    "name_en": "Monghsat Town",
+    "name_mm": "မိုင်းဆတ်",
+    "latitude": 20.50544,
+    "longitude": 99.24724,
+    "township_pcode": "MMR016006",
+    "district_pcode": "MMR016D002",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016006702",
+    "name_en": "Mongkhoke Town",
+    "name_mm": "မိုင်းခုတ်",
+    "latitude": 20.7404832998,
+    "longitude": 99.4636009715,
+    "township_pcode": "MMR016006",
+    "district_pcode": "MMR016D002",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016002701",
+    "name_en": "Mongkhet Town",
+    "name_mm": "မိုင်းခတ်",
+    "latitude": 21.7499,
+    "longitude": 99.46377,
+    "township_pcode": "MMR016002",
+    "district_pcode": "MMR016D001",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016005701",
+    "name_en": "Mongla Town",
+    "name_mm": "မိုင်းလား",
+    "latitude": 21.6729,
+    "longitude": 100.01867,
+    "township_pcode": "MMR016005",
+    "district_pcode": "MMR016D001",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016007701",
+    "name_en": "Mongping Town",
+    "name_mm": "မိုင်းပျဉ်း",
+    "latitude": 21.3502,
+    "longitude": 99.026,
+    "township_pcode": "MMR016007",
+    "district_pcode": "MMR016D001",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016007702",
+    "name_en": "Tontar Town",
+    "name_mm": "တုံတာ",
+    "latitude": 21.33004,
+    "longitude": 99.28781,
+    "township_pcode": "MMR016007",
+    "district_pcode": "MMR016D001",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016008703",
+    "name_en": "Hmone Hta Town",
+    "name_mm": "မုံးထ",
+    "latitude": 19.7978983,
+    "longitude": 98.5670835,
+    "township_pcode": "MMR016008",
+    "district_pcode": "MMR016D002",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016008701",
+    "name_en": "Mongton Town",
+    "name_mm": "မိုင်းတုံ",
+    "latitude": 20.30351,
+    "longitude": 98.90008,
+    "township_pcode": "MMR016008",
+    "district_pcode": "MMR016D002",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016008702",
+    "name_en": "Ponparkyin Town",
+    "name_mm": "ပုံပါကျင်",
+    "latitude": 19.8892,
+    "longitude": 98.9382,
+    "township_pcode": "MMR016008",
+    "district_pcode": "MMR016D002",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016003702",
+    "name_en": "Mongpauk Town",
+    "name_mm": "မိုင်းပေါက်",
+    "latitude": 22.0082,
+    "longitude": 99.3101,
+    "township_pcode": "MMR016003",
+    "district_pcode": "MMR016D001",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016003701",
+    "name_en": "Mongyang Town",
+    "name_mm": "မိုင်းယန်း",
+    "latitude": 21.84235,
+    "longitude": 99.68711,
+    "township_pcode": "MMR016003",
+    "district_pcode": "MMR016D001",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016011701",
+    "name_en": "Mongyawng Town",
+    "name_mm": "မိုင်းယောင်း",
+    "latitude": 21.1806982156,
+    "longitude": 100.357897145,
+    "township_pcode": "MMR016011",
+    "district_pcode": "MMR016D003",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016011702",
+    "name_en": "Mongyu Town",
+    "name_mm": "မိုင်းယု",
+    "latitude": 21.3297597873,
+    "longitude": 100.55082407,
+    "township_pcode": "MMR016011",
+    "district_pcode": "MMR016D003",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016323701",
+    "name_en": "Nam Hpai Town",
+    "name_mm": "နမ့်ဖိုင်",
+    "latitude": 21.9290564238,
+    "longitude": 99.2003491915,
+    "township_pcode": "MMR016323",
+    "district_pcode": "MMR016D333",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016009702",
+    "name_en": "Kenglat Town",
+    "name_mm": "ကျိုင်းလပ်",
+    "latitude": 20.867,
+    "longitude": 100.534,
+    "township_pcode": "MMR016009",
+    "district_pcode": "MMR016D003",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016009701",
+    "name_en": "Tachileik Town",
+    "name_mm": "တာချီလိတ်",
+    "latitude": 20.45304,
+    "longitude": 99.88403,
+    "township_pcode": "MMR016009",
+    "district_pcode": "MMR016D003",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016009703",
+    "name_en": "Tarlay Town",
+    "name_mm": "တာလေ",
+    "latitude": 20.7126192543,
+    "longitude": 100.093069143,
+    "township_pcode": "MMR016009",
+    "district_pcode": "MMR016D003",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR015311701",
+    "name_en": "Aik Chan (Ai' Chun) Town",
+    "name_mm": "အိုက်ချန်",
+    "latitude": 22.76395,
+    "longitude": 99.22358,
+    "township_pcode": "MMR015311",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015306701",
+    "name_en": "Hkun Mar (Hkwin Ma) Town",
+    "name_mm": "ခွန်းမား",
+    "latitude": 22.9794,
+    "longitude": 99.46016,
+    "township_pcode": "MMR015306",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015021701",
+    "name_en": "Hopang Town",
+    "name_mm": "ဟိုပန်",
+    "latitude": 23.42544,
+    "longitude": 98.75029,
+    "township_pcode": "MMR015021",
+    "district_pcode": "MMR015D006",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015021702",
+    "name_en": "Namtit Town",
+    "name_mm": "နမ့်တစ်",
+    "latitude": 23.4758305972,
+    "longitude": 98.8672192757,
+    "township_pcode": "MMR015021",
+    "district_pcode": "MMR015D006",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015021703",
+    "name_en": "Pan Lon Town",
+    "name_mm": "ပန်လုံ",
+    "latitude": 23.25641,
+    "longitude": 98.78571,
+    "township_pcode": "MMR015021",
+    "district_pcode": "MMR015D006",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015305701",
+    "name_en": "Hsawng Hpa (Saun Pha) Town",
+    "name_mm": "ဆောင်ဖ",
+    "latitude": 23.0846019847,
+    "longitude": 99.2236480153,
+    "township_pcode": "MMR015305",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015002701",
+    "name_en": "Hseni Town",
+    "name_mm": "သိန္နီ",
+    "latitude": 23.3072,
+    "longitude": 97.9736,
+    "township_pcode": "MMR015002",
+    "district_pcode": "MMR015D001",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015014701",
+    "name_en": "Hsipaw Town",
+    "name_mm": "သီပေါ",
+    "latitude": 22.61894,
+    "longitude": 97.2981,
+    "township_pcode": "MMR015014",
+    "district_pcode": "MMR015D003",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015310701",
+    "name_en": "Ka Lawng Hpar Town",
+    "name_mm": "ကလောင်ဖါ",
+    "latitude": 22.71811,
+    "longitude": 98.72545,
+    "township_pcode": "MMR015310",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015304702",
+    "name_en": "Mong Maw Town",
+    "name_mm": "မိုင်းမော",
+    "latitude": 22.96912,
+    "longitude": 98.96356,
+    "township_pcode": "MMR015304",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015023701",
+    "name_en": "Konkyan Town",
+    "name_mm": "ကုန်းကြမ်း",
+    "latitude": 23.82946,
+    "longitude": 98.53934,
+    "township_pcode": "MMR015023",
+    "district_pcode": "MMR015S002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015023702",
+    "name_en": "Maw Hteik Town",
+    "name_mm": "​မော်ထိုက်",
+    "latitude": 24.094122,
+    "longitude": 98.796794,
+    "township_pcode": "MMR015023",
+    "district_pcode": "MMR015S002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015020701",
+    "name_en": "Kunlong Town",
+    "name_mm": "ကွမ်းလုံ",
+    "latitude": 23.4164547195,
+    "longitude": 98.6505262417,
+    "township_pcode": "MMR015020",
+    "district_pcode": "MMR015D001",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015011701",
+    "name_en": "Kutkai Town",
+    "name_mm": "ကွတ်ခိုင်",
+    "latitude": 23.45921,
+    "longitude": 97.94341,
+    "township_pcode": "MMR015011",
+    "district_pcode": "MMR015D002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015011702",
+    "name_en": "Tarmoenye Town",
+    "name_mm": "တာမိုးညဲ",
+    "latitude": 23.57597,
+    "longitude": 98.09862,
+    "township_pcode": "MMR015011",
+    "district_pcode": "MMR015D002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015012701",
+    "name_en": "Kyaukme Town",
+    "name_mm": "ကျောက်မဲ",
+    "latitude": 22.54172,
+    "longitude": 97.03671,
+    "township_pcode": "MMR015012",
+    "district_pcode": "MMR015D003",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015012703",
+    "name_en": "Monglon Town",
+    "name_mm": "မိုင်းလုံ",
+    "latitude": 22.7908,
+    "longitude": 96.62431,
+    "township_pcode": "MMR015012",
+    "district_pcode": "MMR015D003",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015012702",
+    "name_en": "Mongngawt Town",
+    "name_mm": "မိုင်းငေါ့",
+    "latitude": 22.77316,
+    "longitude": 96.98402,
+    "township_pcode": "MMR015012",
+    "district_pcode": "MMR015D003",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015001701",
+    "name_en": "Lashio Town",
+    "name_mm": "လားရှိုး",
+    "latitude": 22.95277,
+    "longitude": 97.74747,
+    "township_pcode": "MMR015001",
+    "district_pcode": "MMR015D001",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015022702",
+    "name_en": "Chinshwehaw Town",
+    "name_mm": "ချင်းရွှေဟော်",
+    "latitude": 23.47557,
+    "longitude": 98.82419,
+    "township_pcode": "MMR015022",
+    "district_pcode": "MMR015S002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015022701",
+    "name_en": "Laukkaing Town",
+    "name_mm": "လောက်ကိုင်",
+    "latitude": 23.69163,
+    "longitude": 98.76408,
+    "township_pcode": "MMR015022",
+    "district_pcode": "MMR015S002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015309701",
+    "name_en": "Lin Haw Town",
+    "name_mm": "လင်ဟော်",
+    "latitude": 22.77647,
+    "longitude": 98.83702,
+    "township_pcode": "MMR015309",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015307701",
+    "name_en": "Long Htan Town",
+    "name_mm": "လုံထန်",
+    "latitude": 22.90568,
+    "longitude": 99.36871,
+    "township_pcode": "MMR015307",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015018701",
+    "name_en": "Mabein Town",
+    "name_mm": "မဘိမ်း",
+    "latitude": 23.47292,
+    "longitude": 96.6292,
+    "township_pcode": "MMR015018",
+    "district_pcode": "MMR015D008",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015313701",
+    "name_en": "Man Man Hseng Town",
+    "name_mm": "မန်မန်ဆိုင်",
+    "latitude": 22.50304,
+    "longitude": 98.76685,
+    "township_pcode": "MMR015313",
+    "district_pcode": "MMR015D332",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015303701",
+    "name_en": "Man Tun Town",
+    "name_mm": "မန်တွန်း",
+    "latitude": 22.94789,
+    "longitude": 98.612,
+    "township_pcode": "MMR015303",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015019701",
+    "name_en": "Manton Town",
+    "name_mm": "မန်တုံ",
+    "latitude": 23.246479231,
+    "longitude": 97.1222174261,
+    "township_pcode": "MMR015019",
+    "district_pcode": "MMR015S001",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015024701",
+    "name_en": "Matman Town",
+    "name_mm": "မက်မန်း",
+    "latitude": 21.9541743447,
+    "longitude": 98.8708786459,
+    "township_pcode": "MMR015024",
+    "district_pcode": "MMR015D007",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015008701",
+    "name_en": "Mongmao Town",
+    "name_mm": "မိုင်းမော",
+    "latitude": 22.9672,
+    "longitude": 98.9674,
+    "township_pcode": "MMR015008",
+    "district_pcode": "MMR015D006",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015017701",
+    "name_en": "Mongmit Town",
+    "name_mm": "မိုးမိတ်",
+    "latitude": 23.11422,
+    "longitude": 96.66999,
+    "township_pcode": "MMR015017",
+    "district_pcode": "MMR015D008",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015003701",
+    "name_en": "Mongyai Town",
+    "name_mm": "မိုင်းရယ်",
+    "latitude": 22.4276179,
+    "longitude": 98.0389972,
+    "township_pcode": "MMR015003",
+    "district_pcode": "MMR015D001",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015009703",
+    "name_en": "Manhlyoe (Manhero) Town",
+    "name_mm": "(မန်ဟျိုး) မန်ဟီးရိုး",
+    "latitude": 23.9517633685,
+    "longitude": 97.8006424545,
+    "township_pcode": "MMR015009",
+    "district_pcode": "MMR015D002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015009702",
+    "name_en": "Monekoe Town",
+    "name_mm": "မုန်းကိုး",
+    "latitude": 24.0998,
+    "longitude": 98.3031,
+    "township_pcode": "MMR015009",
+    "district_pcode": "MMR015D002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015009701",
+    "name_en": "Muse Town",
+    "name_mm": "မူဆယ်",
+    "latitude": 23.98989,
+    "longitude": 97.90165,
+    "township_pcode": "MMR015009",
+    "district_pcode": "MMR015D002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015009704",
+    "name_en": "Pang Hseng (Kyu Koke) Town",
+    "name_mm": "ပန်ဆိုင်း (ကြူကုတ်)",
+    "latitude": 24.07548,
+    "longitude": 98.06229,
+    "township_pcode": "MMR015009",
+    "district_pcode": "MMR015D002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015315701",
+    "name_en": "Nam Hkam Wu Town",
+    "name_mm": "နမ်ခမ်းဝူး",
+    "latitude": 22.47704,
+    "longitude": 99.18664,
+    "township_pcode": "MMR015315",
+    "district_pcode": "MMR015D332",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015301701",
+    "name_en": "Nam Tit Town",
+    "name_mm": "နမ့်တစ်",
+    "latitude": 23.47584,
+    "longitude": 98.86718,
+    "township_pcode": "MMR015301",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015010701",
+    "name_en": "Namhkan Town",
+    "name_mm": "နမ့်ခမ်း",
+    "latitude": 23.837,
+    "longitude": 97.6818,
+    "township_pcode": "MMR015010",
+    "district_pcode": "MMR015D002",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015016701",
+    "name_en": "Namhsan Town",
+    "name_mm": "နမ့်ဆန်",
+    "latitude": 22.96407,
+    "longitude": 97.16126,
+    "township_pcode": "MMR015016",
+    "district_pcode": "MMR015S001",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015015701",
+    "name_en": "Namtu Town",
+    "name_mm": "နမ္မတူ",
+    "latitude": 23.09361,
+    "longitude": 97.40049,
+    "township_pcode": "MMR015015",
+    "district_pcode": "MMR015D003",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015316701",
+    "name_en": "Nar Kawng Town",
+    "name_mm": "နားကောင်",
+    "latitude": 22.3736948216,
+    "longitude": 98.7102692499,
+    "township_pcode": "MMR015316",
+    "district_pcode": "MMR015D332",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015302701",
+    "name_en": "Nar Wee (Na Wi) Town",
+    "name_mm": "နာဝီး",
+    "latitude": 23.11117,
+    "longitude": 98.66354,
+    "township_pcode": "MMR015302",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015006701",
+    "name_en": "Narphan Town",
+    "name_mm": "နားဖန်",
+    "latitude": 22.6079311762,
+    "longitude": 99.0925765259,
+    "township_pcode": "MMR015006",
+    "district_pcode": "MMR015D007",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015314701",
+    "name_en": "Nawng Hkit Town",
+    "name_mm": "နောင်ခစ်",
+    "latitude": 22.43836,
+    "longitude": 98.9248,
+    "township_pcode": "MMR015314",
+    "district_pcode": "MMR015D332",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015314702",
+    "name_en": "Wein Kawn Town",
+    "name_mm": "ဝိန်းကောင်",
+    "latitude": 22.30273,
+    "longitude": 98.93896,
+    "township_pcode": "MMR015314",
+    "district_pcode": "MMR015D332",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015013701",
+    "name_en": "Nawnghkio Town",
+    "name_mm": "နောင်ချို",
+    "latitude": 22.33003,
+    "longitude": 96.79895,
+    "township_pcode": "MMR015013",
+    "district_pcode": "MMR015D003",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015317701",
+    "name_en": "Pang Hkam Town",
+    "name_mm": "ပန်ခမ့်",
+    "latitude": 22.17594,
+    "longitude": 99.17044,
+    "township_pcode": "MMR015317",
+    "district_pcode": "MMR015D332",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015318701",
+    "name_en": "Pang Yang Town",
+    "name_mm": "ပန်ယန်း",
+    "latitude": 22.1291182353,
+    "longitude": 98.7967514741,
+    "township_pcode": "MMR015318",
+    "district_pcode": "MMR015D332",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015005702",
+    "name_en": "Man Kan Town",
+    "name_mm": "မန်ကန်",
+    "latitude": 22.68954,
+    "longitude": 98.59519,
+    "township_pcode": "MMR015005",
+    "district_pcode": "MMR015D007",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015005701",
+    "name_en": "Pangsang (Panghkam) Town",
+    "name_mm": "ပန်ဆန်း (ပန်ခမ်း)",
+    "latitude": 22.17594,
+    "longitude": 99.17044,
+    "township_pcode": "MMR015005",
+    "district_pcode": "MMR015D007",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015007701",
+    "name_en": "Pangwaun Town",
+    "name_mm": "ပန်ဝိုင်",
+    "latitude": 23.0562781046,
+    "longitude": 99.3090833264,
+    "township_pcode": "MMR015007",
+    "district_pcode": "MMR015D006",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015004701",
+    "name_en": "Tangyan Town",
+    "name_mm": "တန့်ယန်း",
+    "latitude": 22.4981,
+    "longitude": 98.3968,
+    "township_pcode": "MMR015004",
+    "district_pcode": "MMR015D001",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015308701",
+    "name_en": "Yawng Lin Town",
+    "name_mm": "ယောင်လင်း",
+    "latitude": 22.95939,
+    "longitude": 99.31197,
+    "township_pcode": "MMR015308",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015312701",
+    "name_en": "Yin Pang Town",
+    "name_mm": "ရင်ဖန့်",
+    "latitude": 22.62819,
+    "longitude": 99.28307,
+    "township_pcode": "MMR015312",
+    "district_pcode": "MMR015D331",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR014003701",
+    "name_en": "Hopong Town",
+    "name_mm": "ဟိုပုံး",
+    "latitude": 20.79743,
+    "longitude": 97.17024,
+    "township_pcode": "MMR014003",
+    "district_pcode": "MMR014S002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014004701",
+    "name_en": "Hsihseng Town",
+    "name_mm": "ဆီဆိုင်",
+    "latitude": 20.1622695921,
+    "longitude": 97.251903882,
+    "township_pcode": "MMR014004",
+    "district_pcode": "MMR014S002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014005702",
+    "name_en": "Aungpan Town",
+    "name_mm": "အောင်ပန်း",
+    "latitude": 20.66122,
+    "longitude": 96.63584,
+    "township_pcode": "MMR014005",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014005703",
+    "name_en": "He Hoe Town",
+    "name_mm": "ဟဲဟိုး",
+    "latitude": 20.7221,
+    "longitude": 96.8239,
+    "township_pcode": "MMR014005",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014005701",
+    "name_en": "Kalaw Town",
+    "name_mm": "ကလော",
+    "latitude": 20.62418,
+    "longitude": 96.55864,
+    "township_pcode": "MMR014005",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014014702",
+    "name_en": "Kar Li Town",
+    "name_mm": "ကာလိ",
+    "latitude": 21.2887182142,
+    "longitude": 98.5338061837,
+    "township_pcode": "MMR014014",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014014701",
+    "name_en": "Kunhing Town",
+    "name_mm": "ကွန်ဟိန်း",
+    "latitude": 21.301,
+    "longitude": 98.424,
+    "township_pcode": "MMR014014",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014015701",
+    "name_en": "Kyethi Town",
+    "name_mm": "ကျေးသီး",
+    "latitude": 21.92515,
+    "longitude": 97.81933,
+    "township_pcode": "MMR014015",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014015702",
+    "name_en": "Mongnawng Town",
+    "name_mm": "မိုင်းနောင်",
+    "latitude": 21.645,
+    "longitude": 98.123,
+    "township_pcode": "MMR014015",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014012701",
+    "name_en": "Laihka Town",
+    "name_mm": "လဲချား",
+    "latitude": 21.27024,
+    "longitude": 97.66509,
+    "township_pcode": "MMR014012",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014018702",
+    "name_en": "Homein Town",
+    "name_mm": "ဟိုမိန်း",
+    "latitude": 19.769,
+    "longitude": 97.979,
+    "township_pcode": "MMR014018",
+    "district_pcode": "MMR014D003",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014018701",
+    "name_en": "Langkho Town",
+    "name_mm": "လင်းခေး",
+    "latitude": 20.34222,
+    "longitude": 98.00371,
+    "township_pcode": "MMR014018",
+    "district_pcode": "MMR014D003",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014008702",
+    "name_en": "Intaw Town",
+    "name_mm": "အင်တော",
+    "latitude": 21.63124,
+    "longitude": 96.92252,
+    "township_pcode": "MMR014008",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014008701",
+    "name_en": "Lawksawk Town",
+    "name_mm": "ရပ်စောက်",
+    "latitude": 21.24664,
+    "longitude": 96.86518,
+    "township_pcode": "MMR014008",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014011701",
+    "name_en": "Loilen Town",
+    "name_mm": "လွိုင်လင်",
+    "latitude": 20.92536,
+    "longitude": 97.56581,
+    "township_pcode": "MMR014011",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014011702",
+    "name_en": "Pinlon Town",
+    "name_mm": "ပင်လုံ",
+    "latitude": 20.991,
+    "longitude": 97.532,
+    "township_pcode": "MMR014011",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014020701",
+    "name_en": "Mawkmai Town",
+    "name_mm": "မောက်မယ်",
+    "latitude": 20.2305,
+    "longitude": 97.72369,
+    "township_pcode": "MMR014020",
+    "district_pcode": "MMR014D003",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014017701",
+    "name_en": "Monghsu Town",
+    "name_mm": "မိုင်းရှူး",
+    "latitude": 21.90513,
+    "longitude": 98.36044,
+    "township_pcode": "MMR014017",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014017702",
+    "name_en": "Mongsan (Hmonesan) Town",
+    "name_mm": "မိုင်းစံ (မုန်းဆန်း)",
+    "latitude": 21.65989,
+    "longitude": 98.36456,
+    "township_pcode": "MMR014017",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014016701",
+    "name_en": "Mongkaing Town",
+    "name_mm": "မိုင်းကိုင်",
+    "latitude": 21.61149,
+    "longitude": 97.52699,
+    "township_pcode": "MMR014016",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014019702",
+    "name_en": "Kengtawng Town",
+    "name_mm": "ကျိုင်းတောင်း",
+    "latitude": 20.75728,
+    "longitude": 98.29333,
+    "township_pcode": "MMR014019",
+    "district_pcode": "MMR014D003",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014019701",
+    "name_en": "Mongnai Town",
+    "name_mm": "မိုးနဲ",
+    "latitude": 20.5136,
+    "longitude": 97.8712,
+    "township_pcode": "MMR014019",
+    "district_pcode": "MMR014D003",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014021701",
+    "name_en": "Mongpan Town",
+    "name_mm": "မိုင်းပန်",
+    "latitude": 20.3188,
+    "longitude": 98.3541,
+    "township_pcode": "MMR014021",
+    "district_pcode": "MMR014D003",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014013702",
+    "name_en": "Kho Lam Town",
+    "name_mm": "ခိုလမ်",
+    "latitude": 21.09887,
+    "longitude": 98.10086,
+    "township_pcode": "MMR014013",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014013701",
+    "name_en": "Nansang Town",
+    "name_mm": "နမ့်စန်",
+    "latitude": 20.88912,
+    "longitude": 97.72022,
+    "township_pcode": "MMR014013",
+    "district_pcode": "MMR014D002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014002702",
+    "name_en": "Nang Pang Town",
+    "name_mm": "နန်းပန်",
+    "latitude": 20.4549293518,
+    "longitude": 96.905960083,
+    "township_pcode": "MMR014002",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014002701",
+    "name_en": "Nyaungshwe Town",
+    "name_mm": "ညောင်ရွှေ",
+    "latitude": 20.65957,
+    "longitude": 96.93206,
+    "township_pcode": "MMR014002",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014010701",
+    "name_en": "Pekon Town",
+    "name_mm": "ဖယ်ခုံ",
+    "latitude": 19.86348,
+    "longitude": 97.00831,
+    "township_pcode": "MMR014010",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014006701",
+    "name_en": "Pindaya Town",
+    "name_mm": "ပင်းတယ",
+    "latitude": 20.94158,
+    "longitude": 96.66279,
+    "township_pcode": "MMR014006",
+    "district_pcode": "MMR014S001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014009702",
+    "name_en": "Naungtayar Town",
+    "name_mm": "နောင်တရား",
+    "latitude": 20.29326,
+    "longitude": 96.75691,
+    "township_pcode": "MMR014009",
+    "district_pcode": "MMR014S002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014009703",
+    "name_en": "Pawng Lawng Town",
+    "name_mm": "ပေါင်းလောင်း",
+    "latitude": 19.9862621927,
+    "longitude": 96.5825446173,
+    "township_pcode": "MMR014009",
+    "district_pcode": "MMR014S002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014009701",
+    "name_en": "Pinlaung Town",
+    "name_mm": "ပင်လောင်း",
+    "latitude": 20.12439,
+    "longitude": 96.78219,
+    "township_pcode": "MMR014009",
+    "district_pcode": "MMR014S002",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014001702",
+    "name_en": "Ayetharyar Town",
+    "name_mm": "အေးသာယာ",
+    "latitude": 20.77475,
+    "longitude": 96.99882,
+    "township_pcode": "MMR014001",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014001703",
+    "name_en": "Kyauktalonegyi Town",
+    "name_mm": "ကျောက်တလုံးကြီး",
+    "latitude": 20.371,
+    "longitude": 97.024,
+    "township_pcode": "MMR014001",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014001704",
+    "name_en": "Shwenyaung Town",
+    "name_mm": "ရွှေညောင်",
+    "latitude": 20.76015,
+    "longitude": 96.93614,
+    "township_pcode": "MMR014001",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014001701",
+    "name_en": "Taunggyi Town",
+    "name_mm": "တောင်ကြီး",
+    "latitude": 20.77477,
+    "longitude": 97.03598,
+    "township_pcode": "MMR014001",
+    "district_pcode": "MMR014D001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014007701",
+    "name_en": "Ywangan Town",
+    "name_mm": "ရွာငံ",
+    "latitude": 21.16282,
+    "longitude": 96.44229,
+    "township_pcode": "MMR014007",
+    "district_pcode": "MMR014S001",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR006010701",
+    "name_en": "Bokpyin Town",
+    "name_mm": "ဘုတ်ပြင်း",
+    "latitude": 11.2650396798,
+    "longitude": 98.7590942164,
+    "township_pcode": "MMR006010",
+    "district_pcode": "MMR006D003",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006010703",
+    "name_en": "Karathuri Town",
+    "name_mm": "ကရသူရိ",
+    "latitude": 10.93336,
+    "longitude": 98.75998,
+    "township_pcode": "MMR006010",
+    "district_pcode": "MMR006D003",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006010702",
+    "name_en": "Pyigyimandaing Town",
+    "name_mm": "ပြည်ကြီးမဏ္ဍိုင်",
+    "latitude": 11.4684212529,
+    "longitude": 99.0014383295,
+    "township_pcode": "MMR006010",
+    "district_pcode": "MMR006D003",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006001701",
+    "name_en": "Dawei Town",
+    "name_mm": "ထားဝယ်",
+    "latitude": 14.07753,
+    "longitude": 98.19636,
+    "township_pcode": "MMR006001",
+    "district_pcode": "MMR006D001",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006001702",
+    "name_en": "Myitta Town",
+    "name_mm": "မေတ္တာ",
+    "latitude": 14.16355,
+    "longitude": 98.52017,
+    "township_pcode": "MMR006001",
+    "district_pcode": "MMR006D001",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006009701",
+    "name_en": "Kawthoung Town",
+    "name_mm": "ကော့သောင်း",
+    "latitude": 9.98260986197,
+    "longitude": 98.5499529834,
+    "township_pcode": "MMR006009",
+    "district_pcode": "MMR006D003",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006009702",
+    "name_en": "Khamaukgyi Town",
+    "name_mm": "ခမောက်ကြီး",
+    "latitude": 10.353,
+    "longitude": 98.625,
+    "township_pcode": "MMR006009",
+    "district_pcode": "MMR006D003",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006006701",
+    "name_en": "Kyunsu Town",
+    "name_mm": "ကျွန်းစု",
+    "latitude": 12.4738602304,
+    "longitude": 98.4544308596,
+    "township_pcode": "MMR006006",
+    "district_pcode": "MMR006D002",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006002701",
+    "name_en": "Launglon Town",
+    "name_mm": "လောင်းလုံး",
+    "latitude": 13.97522,
+    "longitude": 98.11963,
+    "township_pcode": "MMR006002",
+    "district_pcode": "MMR006D001",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006005701",
+    "name_en": "Myeik Town",
+    "name_mm": "မြိတ်",
+    "latitude": 12.44112,
+    "longitude": 98.60978,
+    "township_pcode": "MMR006005",
+    "district_pcode": "MMR006D002",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006007703",
+    "name_en": "Pala Town",
+    "name_mm": "ပလ",
+    "latitude": 12.849283,
+    "longitude": 98.6618826,
+    "township_pcode": "MMR006007",
+    "district_pcode": "MMR006D002",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006007702",
+    "name_en": "Palauk Town",
+    "name_mm": "ပလောက်",
+    "latitude": 13.2722265626,
+    "longitude": 98.6224826364,
+    "township_pcode": "MMR006007",
+    "district_pcode": "MMR006D002",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006007701",
+    "name_en": "Palaw Town",
+    "name_mm": "ပုလော",
+    "latitude": 12.9753059471,
+    "longitude": 98.6457918957,
+    "township_pcode": "MMR006007",
+    "district_pcode": "MMR006D002",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006008702",
+    "name_en": "Maw Taung Town",
+    "name_mm": "မောတောင်",
+    "latitude": 11.7952,
+    "longitude": 99.6275,
+    "township_pcode": "MMR006008",
+    "district_pcode": "MMR006D002",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006008701",
+    "name_en": "Tanintharyi Town",
+    "name_mm": "တနင်္သာရီ",
+    "latitude": 12.0894052627,
+    "longitude": 99.0127764916,
+    "township_pcode": "MMR006008",
+    "district_pcode": "MMR006D002",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006003701",
+    "name_en": "Thayetchaung Town",
+    "name_mm": "သရက်ချောင်း",
+    "latitude": 13.8687046239,
+    "longitude": 98.2625154665,
+    "township_pcode": "MMR006003",
+    "district_pcode": "MMR006D001",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006004702",
+    "name_en": "Kaleinaung Town",
+    "name_mm": "ကလိန်အောင်",
+    "latitude": 14.6237968178,
+    "longitude": 98.1384944066,
+    "township_pcode": "MMR006004",
+    "district_pcode": "MMR006D001",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006004701",
+    "name_en": "Yebyu Town",
+    "name_mm": "ရေဖြူ",
+    "latitude": 14.245909857,
+    "longitude": 98.2029072628,
+    "township_pcode": "MMR006004",
+    "district_pcode": "MMR006D001",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR013037701",
+    "name_en": "Ahlone",
+    "name_mm": "အလုံ",
+    "latitude": 16.782398,
+    "longitude": 96.127863,
+    "township_pcode": "MMR013037",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013044701",
+    "name_en": "Bahan",
+    "name_mm": "ဗဟန်း",
+    "latitude": 16.815427,
+    "longitude": 96.156112,
+    "township_pcode": "MMR013044",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013017701",
+    "name_en": "Botahtaung",
+    "name_mm": "ဗိုလ်တထောင်",
+    "latitude": 16.771967,
+    "longitude": 96.169709,
+    "township_pcode": "MMR013017",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013032701",
+    "name_en": "Cocokyun Town",
+    "name_mm": "ကိုကိုးကျွန်း",
+    "latitude": 14.1344305822,
+    "longitude": 93.3682129593,
+    "township_pcode": "MMR013032",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013043701",
+    "name_en": "Dagon",
+    "name_mm": "ဒဂုံ",
+    "latitude": 16.794952,
+    "longitude": 96.1469,
+    "township_pcode": "MMR013043",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013020701",
+    "name_en": "Dagon Myothit (East)",
+    "name_mm": "ဒဂုံမြို့သစ် (အရှေ့ပိုင်း)",
+    "latitude": 16.912805,
+    "longitude": 96.213226,
+    "township_pcode": "MMR013020",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013019701",
+    "name_en": "Dagon Myothit (North) Town",
+    "name_mm": "ဒဂုံမြို့သစ်(မြောက်ပိုင်း)",
+    "latitude": 16.87774,
+    "longitude": 96.19079,
+    "township_pcode": "MMR013019",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013021701",
+    "name_en": "Dagon Myothit (Seikkan)",
+    "name_mm": "ဒဂုံမြို့သစ် (ဆိပ်ကမ်း)",
+    "latitude": 16.840488,
+    "longitude": 96.272564,
+    "township_pcode": "MMR013021",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013018701",
+    "name_en": "Dagon Myothit (South) Town",
+    "name_mm": "ဒဂုံမြို့သစ်(တောင်ပိုင်း)",
+    "latitude": 16.84016,
+    "longitude": 96.22582,
+    "township_pcode": "MMR013018",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013030701",
+    "name_en": "Dala",
+    "name_mm": "ဒလ",
+    "latitude": 16.75855,
+    "longitude": 96.143,
+    "township_pcode": "MMR013030",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013014701",
+    "name_en": "Dawbon",
+    "name_mm": "ဒေါပုံ",
+    "latitude": 16.781917,
+    "longitude": 96.18435,
+    "township_pcode": "MMR013014",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013040701",
+    "name_en": "Hlaing",
+    "name_mm": "လှိုင်",
+    "latitude": 16.847934,
+    "longitude": 96.125227,
+    "township_pcode": "MMR013040",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013008701",
+    "name_en": "Hlaingtharya Town",
+    "name_mm": "လှိုင်သာယာ",
+    "latitude": 16.85402,
+    "longitude": 96.06893,
+    "township_pcode": "MMR013008",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013046701",
+    "name_en": "Hlaingtharya (East) Town",
+    "name_mm": "လှိုင်သာယာ (အရှေ့ပိုင်း)",
+    "latitude": null,
+    "longitude": null,
+    "township_pcode": "MMR013046",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013047701",
+    "name_en": "Hlaingtharya (West) Town",
+    "name_mm": "လှိုင်သာယာ (အနောက်ပိုင်း)",
+    "latitude": null,
+    "longitude": null,
+    "township_pcode": "MMR013047",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013004701",
+    "name_en": "Hlegu Town",
+    "name_mm": "လှည်းကူး",
+    "latitude": 17.09875,
+    "longitude": 96.22745,
+    "township_pcode": "MMR013004",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013003701",
+    "name_en": "Hmawbi Town",
+    "name_mm": "မှော်ဘီ",
+    "latitude": 17.09987,
+    "longitude": 96.0418,
+    "township_pcode": "MMR013003",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013006701",
+    "name_en": "Htantabin Town",
+    "name_mm": "ထန်းတပင်",
+    "latitude": 17.0174,
+    "longitude": 95.9827,
+    "township_pcode": "MMR013006",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013001701",
+    "name_en": "Insein",
+    "name_mm": "အင်းစိန်",
+    "latitude": 16.901771,
+    "longitude": 96.095959,
+    "township_pcode": "MMR013001",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013041701",
+    "name_en": "Kamaryut",
+    "name_mm": "ကမာရွတ်",
+    "latitude": 16.827684,
+    "longitude": 96.132439,
+    "township_pcode": "MMR013041",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013028701",
+    "name_en": "Kawhmu Town",
+    "name_mm": "ကော့မှူး",
+    "latitude": 16.54616,
+    "longitude": 96.06195,
+    "township_pcode": "MMR013028",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013026701",
+    "name_en": "Kayan Town",
+    "name_mm": "ခရမ်း",
+    "latitude": 16.90544,
+    "longitude": 96.5605,
+    "township_pcode": "MMR013026",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013029701",
+    "name_en": "Kungyangon Town",
+    "name_mm": "ကွမ်းခြံကုန်း",
+    "latitude": 16.4394,
+    "longitude": 96.0119,
+    "township_pcode": "MMR013029",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013033701",
+    "name_en": "Kyauktada",
+    "name_mm": "ကျောက်တံတား",
+    "latitude": 16.774263,
+    "longitude": 96.161642,
+    "township_pcode": "MMR013033",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013000777",
+    "name_en": "Yangon City",
+    "name_mm": "ရန်ကုန်",
+    "latitude": 16.7781861107,
+    "longitude": 96.1609261617,
+    "township_pcode": "MMR013033",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013024701",
+    "name_en": "Kyauktan Town",
+    "name_mm": "ကျောက်တန်း",
+    "latitude": 16.63393,
+    "longitude": 96.32351,
+    "township_pcode": "MMR013024",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013024702",
+    "name_en": "Tadar Town",
+    "name_mm": "တံတား",
+    "latitude": 16.64788,
+    "longitude": 96.53949,
+    "township_pcode": "MMR013024",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013038701",
+    "name_en": "Kyeemyindaing",
+    "name_mm": "ကြည့်မြင်တိုင်",
+    "latitude": 16.814573,
+    "longitude": 96.121879,
+    "township_pcode": "MMR013038",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013035701",
+    "name_en": "Lanmadaw",
+    "name_mm": "လမ်းမတော်",
+    "latitude": 16.779913,
+    "longitude": 96.142335,
+    "township_pcode": "MMR013035",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013036701",
+    "name_en": "Latha",
+    "name_mm": "လသာ",
+    "latitude": 16.77712,
+    "longitude": 96.150525,
+    "township_pcode": "MMR013036",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013042701",
+    "name_en": "Mayangone",
+    "name_mm": "မရမ်းကုန်း",
+    "latitude": 16.86619,
+    "longitude": 96.142611,
+    "township_pcode": "MMR013042",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013002702",
+    "name_en": "Htaukkyant Town",
+    "name_mm": "ထောက်ကြန့်",
+    "latitude": 17.0427556521,
+    "longitude": 96.1323128013,
+    "township_pcode": "MMR013002",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013002701",
+    "name_en": "Mingaladon",
+    "name_mm": "မင်္ဂလာဒုံ",
+    "latitude": 16.94914,
+    "longitude": 96.12795,
+    "township_pcode": "MMR013002",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013022701",
+    "name_en": "Mingalartaungnyunt",
+    "name_mm": "မင်္ဂလာတောင်ညွန့်",
+    "latitude": 16.788908,
+    "longitude": 96.167859,
+    "township_pcode": "MMR013022",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013012701",
+    "name_en": "North Okkalapa",
+    "name_mm": "မြောက်ဥက္ကလာပ",
+    "latitude": 16.918775,
+    "longitude": 96.163028,
+    "township_pcode": "MMR013012",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013034701",
+    "name_en": "Pabedan",
+    "name_mm": "ပန်းဘဲတန်း",
+    "latitude": 16.776983,
+    "longitude": 96.15601,
+    "township_pcode": "MMR013034",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013016701",
+    "name_en": "Pazundaung",
+    "name_mm": "ပုဇွန်တောင်",
+    "latitude": 16.779648,
+    "longitude": 96.174392,
+    "township_pcode": "MMR013016",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013039701",
+    "name_en": "Sanchaung",
+    "name_mm": "စမ်းချောင်း",
+    "latitude": 16.803809,
+    "longitude": 96.137291,
+    "township_pcode": "MMR013039",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013031701",
+    "name_en": "Seikgyikanaungto",
+    "name_mm": "ဆိပ်ကြီး/ခနောင်တို",
+    "latitude": 16.75779,
+    "longitude": 96.116367,
+    "township_pcode": "MMR013031",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013045701",
+    "name_en": "Seikkan",
+    "name_mm": "ဆိပ်ကမ်း",
+    "latitude": 16.770395,
+    "longitude": 96.15505,
+    "township_pcode": "MMR013045",
+    "district_pcode": "MMR013D004",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013007701",
+    "name_en": "Shwepyithar Town",
+    "name_mm": "ရွှေပြည်သာ",
+    "latitude": 16.95504,
+    "longitude": 96.08329,
+    "township_pcode": "MMR013007",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013011701",
+    "name_en": "South Okkalapa",
+    "name_mm": "တောင်ဥက္ကလာပ",
+    "latitude": 16.846249,
+    "longitude": 96.179859,
+    "township_pcode": "MMR013011",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013005703",
+    "name_en": "Ahpyauk Town",
+    "name_mm": "အဖျောက်",
+    "latitude": 17.38239,
+    "longitude": 95.69338,
+    "township_pcode": "MMR013005",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013005702",
+    "name_en": "Okekan Town",
+    "name_mm": "ဥက္ကံ",
+    "latitude": 17.49696,
+    "longitude": 95.8607,
+    "township_pcode": "MMR013005",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013005701",
+    "name_en": "Taikkyi Town",
+    "name_mm": "တိုက်ကြီး",
+    "latitude": 17.31263,
+    "longitude": 95.96344,
+    "township_pcode": "MMR013005",
+    "district_pcode": "MMR013D001",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013015701",
+    "name_en": "Tamwe",
+    "name_mm": "တာမွေ",
+    "latitude": 16.810182,
+    "longitude": 96.17646,
+    "township_pcode": "MMR013015",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013013701",
+    "name_en": "Thaketa",
+    "name_mm": "သာကေတ",
+    "latitude": 16.793009,
+    "longitude": 96.202959,
+    "township_pcode": "MMR013013",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013023701",
+    "name_en": "Thanlyin Town",
+    "name_mm": "သန်လျင်",
+    "latitude": 16.76378,
+    "longitude": 96.25184,
+    "township_pcode": "MMR013023",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013009701",
+    "name_en": "Thingangyun",
+    "name_mm": "သင်္ဃန်းကျွန်း",
+    "latitude": 16.831011,
+    "longitude": 96.19323,
+    "township_pcode": "MMR013009",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013025701",
+    "name_en": "Thongwa Town",
+    "name_mm": "သုံးခွ",
+    "latitude": 16.7586,
+    "longitude": 96.52309,
+    "township_pcode": "MMR013025",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013027701",
+    "name_en": "Twantay Town",
+    "name_mm": "တွံတေး",
+    "latitude": 16.70734,
+    "longitude": 95.93047,
+    "township_pcode": "MMR013027",
+    "district_pcode": "MMR013D003",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013010701",
+    "name_en": "Yankin",
+    "name_mm": "ရန်ကင်း",
+    "latitude": 16.83601,
+    "longitude": 96.162395,
+    "township_pcode": "MMR013010",
+    "district_pcode": "MMR013D002",
+    "sr_pcode": "MMR013"
+  }
+]

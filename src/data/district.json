@@ -1,0 +1,494 @@
+[
+  {
+    "pcode": "MMR001D001",
+    "name_en": "Myitkyina",
+    "name_mm": "မြစ်ကြီးနားခရိုင်",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001D002",
+    "name_en": "Mohnyin",
+    "name_mm": "မိုးညှင်းခရိုင်",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001D003",
+    "name_en": "Bhamo",
+    "name_mm": "ဗန်းမော်ခရိုင်",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR001D004",
+    "name_en": "Puta-O",
+    "name_mm": "ပူတာအိုခရိုင်",
+    "sr_pcode": "MMR001"
+  },
+  {
+    "pcode": "MMR002D001",
+    "name_en": "Loikaw",
+    "name_mm": "လွိုင်ကော်ခရိုင်",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR002D002",
+    "name_en": "Bawlake",
+    "name_mm": "ဘောလခဲခရိုင်",
+    "sr_pcode": "MMR002"
+  },
+  {
+    "pcode": "MMR003D001",
+    "name_en": "Hpa-An",
+    "name_mm": "ဘားအံခရိုင်",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003D002",
+    "name_en": "Myawaddy",
+    "name_mm": "မြဝတီခရိုင်",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003D003",
+    "name_en": "Kawkareik",
+    "name_mm": "ကော့ကရိတ်ခရိုင်",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR003D004",
+    "name_en": "Hpapun",
+    "name_mm": "ဖာပွန်ခရိုင်",
+    "sr_pcode": "MMR003"
+  },
+  {
+    "pcode": "MMR004D001",
+    "name_en": "Falam",
+    "name_mm": "ဖလမ်းခရိုင်",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004D002",
+    "name_en": "Mindat",
+    "name_mm": "မင်းတပ်ခရိုင်",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004D003",
+    "name_en": "Hakha",
+    "name_mm": "ဟားခါးခရိုင်",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR004D004",
+    "name_en": "Matupi",
+    "name_mm": "မတူပီခရိုင်",
+    "sr_pcode": "MMR004"
+  },
+  {
+    "pcode": "MMR005D001",
+    "name_en": "Sagaing",
+    "name_mm": "စစ်ကိုင်းခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005D002",
+    "name_en": "Shwebo",
+    "name_mm": "ရွှေဘိုခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005D003",
+    "name_en": "Monywa",
+    "name_mm": "မုံရွာခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005D004",
+    "name_en": "Katha",
+    "name_mm": "ကသာခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005D005",
+    "name_en": "Kale",
+    "name_mm": "ကလေးခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005D006",
+    "name_en": "Tamu",
+    "name_mm": "တမူးခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005D007",
+    "name_en": "Mawlaik",
+    "name_mm": "မော်လိုက်ခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005D008",
+    "name_en": "Hkamti",
+    "name_mm": "ခန္တီးခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005D009",
+    "name_en": "Yinmarbin",
+    "name_mm": "ယင်းမာပင်ခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005D010",
+    "name_en": "Kanbalu",
+    "name_mm": "ကန့်ဘလူခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR005D011",
+    "name_en": "Kawlin",
+    "name_mm": "ကောလင်းခရိုင်",
+    "sr_pcode": "MMR005"
+  },
+  {
+    "pcode": "MMR006D001",
+    "name_en": "Dawei",
+    "name_mm": "ထားဝယ်ခရိုင်",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006D002",
+    "name_en": "Myeik",
+    "name_mm": "မြိတ်ခရိုင်",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR006D003",
+    "name_en": "Kawthoung",
+    "name_mm": "ကော့သောင်းခရိုင်",
+    "sr_pcode": "MMR006"
+  },
+  {
+    "pcode": "MMR007D001",
+    "name_en": "Bago",
+    "name_mm": "ပဲခူးခရိုင်",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR007D002",
+    "name_en": "Taungoo",
+    "name_mm": "တောင်ငူခရိုင်",
+    "sr_pcode": "MMR007"
+  },
+  {
+    "pcode": "MMR008D001",
+    "name_en": "Pyay",
+    "name_mm": "ပြည်ခရိုင်",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR008D002",
+    "name_en": "Thayarwady",
+    "name_mm": "သာယာဝတီခရိုင်",
+    "sr_pcode": "MMR008"
+  },
+  {
+    "pcode": "MMR009D001",
+    "name_en": "Magway",
+    "name_mm": "မကွေးခရိုင်",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009D002",
+    "name_en": "Minbu",
+    "name_mm": "မင်းဘူးခရိုင်",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009D003",
+    "name_en": "Thayet",
+    "name_mm": "သရက်ခရိုင်",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009D004",
+    "name_en": "Pakokku",
+    "name_mm": "ပခုက္ကူခရိုင်",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR009D005",
+    "name_en": "Gangaw",
+    "name_mm": "ဂန့်ဂေါခရိုင်",
+    "sr_pcode": "MMR009"
+  },
+  {
+    "pcode": "MMR010D001",
+    "name_en": "Mandalay",
+    "name_mm": "မန္တလေးခရိုင်",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010D002",
+    "name_en": "Pyinoolwin",
+    "name_mm": "ပြင်ဦးလွင်ခရိုင်",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010D003",
+    "name_en": "Kyaukse",
+    "name_mm": "ကျောက်ဆည်ခရိုင်",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010D004",
+    "name_en": "Myingyan",
+    "name_mm": "မြင်းခြံခရိုင်",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010D005",
+    "name_en": "Nyaung-U",
+    "name_mm": "ညောင်ဦးခရိုင်",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010D006",
+    "name_en": "Yamethin",
+    "name_mm": "ရမည်းသင်းခရိုင်",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR010D007",
+    "name_en": "Meiktila",
+    "name_mm": "မိတ္ထီလာခရိုင်",
+    "sr_pcode": "MMR010"
+  },
+  {
+    "pcode": "MMR011D001",
+    "name_en": "Mawlamyine",
+    "name_mm": "မော်လမြိုင်ခရိုင်",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR011D002",
+    "name_en": "Thaton",
+    "name_mm": "သထုံခရိုင်",
+    "sr_pcode": "MMR011"
+  },
+  {
+    "pcode": "MMR012D001",
+    "name_en": "Sittwe",
+    "name_mm": "စစ်တွေခရိုင်",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012D002",
+    "name_en": "Maungdaw",
+    "name_mm": "မောင်တောခရိုင်",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012D003",
+    "name_en": "Kyaukpyu",
+    "name_mm": "ကျောက်ဖြူခရိုင်",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012D004",
+    "name_en": "Thandwe",
+    "name_mm": "သံတွဲခရိုင်",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR012D005",
+    "name_en": "Mrauk-U",
+    "name_mm": "မြောက်ဦးခရိုင်",
+    "sr_pcode": "MMR012"
+  },
+  {
+    "pcode": "MMR013D001",
+    "name_en": "Yangon (North)",
+    "name_mm": "ရန်ကုန်(မြောက်ပိုင်း)",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013D002",
+    "name_en": "Yangon (East)",
+    "name_mm": "ရန်ကုန်(အရှေ့ပိုင်း)",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013D003",
+    "name_en": "Yangon (South)",
+    "name_mm": "ရန်ကုန်(တောင်ပိုင်း)",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR013D004",
+    "name_en": "Yangon (West)",
+    "name_mm": "ရန်ကုန်(အနောက်ပိုင်း)",
+    "sr_pcode": "MMR013"
+  },
+  {
+    "pcode": "MMR014D001",
+    "name_en": "Taunggyi",
+    "name_mm": "တောင်ကြီးခရိုင်",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014D002",
+    "name_en": "Loilen",
+    "name_mm": "လွိုင်လင်ခရိုင်",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR014D003",
+    "name_en": "Langkho",
+    "name_mm": "လင်းခေးခရိုင်",
+    "sr_pcode": "MMR014"
+  },
+  {
+    "pcode": "MMR015D001",
+    "name_en": "Lashio",
+    "name_mm": "လားရှိုးခရိုင်",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015D002",
+    "name_en": "Muse",
+    "name_mm": "မူဆယ်ခရိုင်",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015D003",
+    "name_en": "Kyaukme",
+    "name_mm": "ကျောက်မဲခရိုင်",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015D004",
+    "name_en": "Kunlong",
+    "name_mm": "ကွမ်းလုံခရိုင်",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015D005",
+    "name_en": "Laukkaing",
+    "name_mm": "လောက်ကိုင်ခရိုင်",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015D006",
+    "name_en": "Hopang",
+    "name_mm": "ဟိုပန်ခရိုင်",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015D007",
+    "name_en": "Matman",
+    "name_mm": "မက်မန်းခရိုင်",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015D008",
+    "name_en": "Mongmit",
+    "name_mm": "မိုးမိတ်ခရိုင်",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015D221",
+    "name_en": "Laukkaing (Kokang SAZ)",
+    "name_mm": "လောက်ကိုင်-ကိုးကန့်အထူးဒေသ (၁)",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015D331",
+    "name_en": "Mong Maw (Wa SAD)",
+    "name_mm": "မိုင်းမော-ဝအထူးဒေသ (၂)",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR015D332",
+    "name_en": "Wein Kawng (Wein Kao) (Wa SAD)",
+    "name_mm": "ဝိန်းကောင်-ဝအထူးဒေသ (၂)",
+    "sr_pcode": "MMR015"
+  },
+  {
+    "pcode": "MMR016D001",
+    "name_en": "Kengtung",
+    "name_mm": "ကျိုင်းတုံခရိုင်",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016D002",
+    "name_en": "Monghsat",
+    "name_mm": "မိုင်းဆတ်ခရိုင်",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016D003",
+    "name_en": "Tachileik",
+    "name_mm": "တာချီလိတ်ခရိုင်",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016D004",
+    "name_en": "Monghpyak",
+    "name_mm": "မိုင်းဖြတ်ခရိုင်",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR016D333",
+    "name_en": "Mong Pawk (Wa SAD)",
+    "name_mm": "မိုင်းပေါက်-ဝအထူးဒေသ (၂)",
+    "sr_pcode": "MMR016"
+  },
+  {
+    "pcode": "MMR017D001",
+    "name_en": "Pathein",
+    "name_mm": "ပုသိမ်ခရိုင်",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017D002",
+    "name_en": "Hinthada",
+    "name_mm": "ဟင်္သာတခရိုင်",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017D003",
+    "name_en": "Myaungmya",
+    "name_mm": "မြောင်းမြခရိုင်",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017D004",
+    "name_en": "Labutta",
+    "name_mm": "လပွတ္တာခရိုင်",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017D005",
+    "name_en": "Maubin",
+    "name_mm": "မအူပင်ခရိုင်",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR017D006",
+    "name_en": "Pyapon",
+    "name_mm": "ဖျာပုံခရိုင်",
+    "sr_pcode": "MMR017"
+  },
+  {
+    "pcode": "MMR018D001",
+    "name_en": "Oke Ta Ra",
+    "name_mm": "ဥတ္တရခရိုင်",
+    "sr_pcode": "MMR018"
+  },
+  {
+    "pcode": "MMR018D002",
+    "name_en": "Det Khi Na",
+    "name_mm": "ဒက္ခိဏခရိုင်",
+    "sr_pcode": "MMR018"
+  }
+]
