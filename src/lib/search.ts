@@ -39,6 +39,28 @@ interface RawEntry {
   township_pcode?: string;
   town_pcode?: string;
   village_tract_pcode?: string;
+  latitude?: number;
+  longitude?: number;
+  local_name_en?: string | null;
+  local_name_mm?: string | null;
+}
+
+export interface BreadcrumbLink {
+  type: ResultType;
+  pcode: string;
+}
+
+export interface DetailResult extends SearchResult {
+  breadcrumb_links: BreadcrumbLink[];
+  latitude?: number;
+  longitude?: number;
+  local_name_en?: string | null;
+  local_name_mm?: string | null;
+}
+
+export interface ChildGroup {
+  type: ResultType;
+  items: SearchResult[];
 }
 
 interface DataSet {
@@ -190,4 +212,95 @@ export function groupByType(results: SearchResult[]): Map<ResultType, SearchResu
     }
   }
   return grouped;
+}
+
+function buildBreadcrumbLinks(entry: RawEntry, type: ResultType): BreadcrumbLink[] {
+  const links: BreadcrumbLink[] = [];
+
+  if (type !== "state_region" && entry.sr_pcode)
+    links.push({ type: "state_region", pcode: entry.sr_pcode });
+  if (type !== "state_region" && type !== "district" && entry.district_pcode)
+    links.push({ type: "district", pcode: entry.district_pcode });
+  if (type !== "state_region" && type !== "district" && type !== "township" && entry.township_pcode)
+    links.push({ type: "township", pcode: entry.township_pcode });
+  if (type === "ward" && entry.town_pcode)
+    links.push({ type: "town", pcode: entry.town_pcode });
+  if (type === "village" && entry.village_tract_pcode)
+    links.push({ type: "village_tract", pcode: entry.village_tract_pcode });
+
+  // Self
+  links.push({ type, pcode: entry.pcode });
+
+  return links;
+}
+
+export async function getDetail(type: ResultType, pcode: string): Promise<DetailResult | null> {
+  const all = await loadAll();
+  const dataset = all.find((d) => d.type === type);
+  if (!dataset) return null;
+
+  const entry = dataset.data.find((e) => e.pcode === pcode);
+  if (!entry) return null;
+
+  const bc = buildBreadcrumb(entry, type);
+  const bcLinks = buildBreadcrumbLinks(entry, type);
+
+  return {
+    pcode: entry.pcode,
+    name_en: entry.name_en,
+    name_mm: entry.name_mm,
+    type,
+    breadcrumb_en: bc.en,
+    breadcrumb_mm: bc.mm,
+    breadcrumb_links: bcLinks,
+    latitude: entry.latitude,
+    longitude: entry.longitude,
+    local_name_en: entry.local_name_en,
+    local_name_mm: entry.local_name_mm,
+  };
+}
+
+const childConfig: Partial<Record<ResultType, { childType: ResultType; parentField: keyof RawEntry }[]>> = {
+  state_region: [{ childType: "district", parentField: "sr_pcode" }],
+  district: [{ childType: "township", parentField: "district_pcode" }],
+  township: [
+    { childType: "town", parentField: "township_pcode" },
+    { childType: "village_tract", parentField: "township_pcode" },
+  ],
+  town: [{ childType: "ward", parentField: "town_pcode" }],
+  village_tract: [{ childType: "village", parentField: "village_tract_pcode" }],
+};
+
+export async function getChildren(type: ResultType, pcode: string): Promise<ChildGroup[]> {
+  const config = childConfig[type];
+  if (!config) return [];
+
+  const all = await loadAll();
+  const groups: ChildGroup[] = [];
+
+  for (const { childType, parentField } of config) {
+    const dataset = all.find((d) => d.type === childType);
+    if (!dataset) continue;
+
+    const items: SearchResult[] = [];
+    for (const entry of dataset.data) {
+      if (entry[parentField] === pcode) {
+        const bc = buildBreadcrumb(entry, childType);
+        items.push({
+          pcode: entry.pcode,
+          name_en: entry.name_en,
+          name_mm: entry.name_mm,
+          type: childType,
+          breadcrumb_en: bc.en,
+          breadcrumb_mm: bc.mm,
+        });
+      }
+    }
+
+    if (items.length > 0) {
+      groups.push({ type: childType, items });
+    }
+  }
+
+  return groups;
 }

@@ -79,10 +79,8 @@ function App() {
                     key={`${r.type}-${r.pcode}`}
                     className="flex cursor-pointer items-center gap-3 px-5 py-3 hover:bg-accent"
                     onClick={() => {
-                      const name = lang === "mm" ? r.name_mm : r.name_en;
-                      setQuery(name);
                       setShowResults(false);
-                      navigate(`/search?q=${encodeURIComponent(name)}`);
+                      navigate(`/detail/${r.type}/${r.pcode}`);
                     }}
                   >
                     <Search className="h-4 w-4 shrink-0 text-muted-foreground" />

@@ -124,10 +124,8 @@ function SearchResults() {
                     key={`${r.type}-${r.pcode}`}
                     className="flex cursor-pointer items-center gap-3 px-5 py-3 hover:bg-accent"
                     onClick={() => {
-                      const name =
-                        suggestLang === "mm" ? r.name_mm : r.name_en;
-                      setQuery(name);
-                      submitSearch(name);
+                      setShowSuggestions(false);
+                      navigate(`/detail/${r.type}/${r.pcode}`);
                     }}
                   >
                     <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
@@ -176,6 +174,7 @@ function SearchResults() {
                   <li
                     key={r.pcode}
                     className="flex cursor-pointer items-baseline gap-3 rounded-lg px-3 py-2.5 hover:bg-accent"
+                    onClick={() => navigate(`/detail/${r.type}/${r.pcode}`)}
                   >
                     <div className="min-w-0 flex-1">
                       <p className="font-medium">

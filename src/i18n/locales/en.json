@@ -9,5 +9,17 @@
     "loading": "Searching...",
     "noResults": "No results found.",
     "resultCount": "{{count}} results found"
+  },
+  "detail": {
+    "info": "Information",
+    "pcode": "P-Code",
+    "nameEn": "Name (English)",
+    "nameMm": "Name (Myanmar)",
+    "coordinates": "Coordinates",
+    "localNameEn": "Local Name (English)",
+    "localNameMm": "Local Name (Myanmar)",
+    "notFound": "Not found.",
+    "loading": "Loading...",
+    "children": "Contains"
   }
 }
