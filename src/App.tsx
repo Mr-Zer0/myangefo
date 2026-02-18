@@ -4,10 +4,10 @@ import { Search } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { search, getTypeLabel, type SearchResult } from "@/lib/search";
+import { search, getTypeLabel, detectLang, type SearchResult } from "@/lib/search";
 
 function App() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
@@ -52,7 +52,7 @@ function App() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const lang = i18n.language;
+  const lang = detectLang(query);
 
   return (
     <div className="flex min-h-svh w-full items-center justify-center px-6">

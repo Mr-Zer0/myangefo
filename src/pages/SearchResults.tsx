@@ -7,12 +7,13 @@ import {
   search,
   groupByType,
   getTypeLabel,
+  detectLang,
   type SearchResult,
   type ResultType,
 } from "@/lib/search";
 
 function SearchResults() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const q = searchParams.get("q") ?? "";
@@ -28,7 +29,7 @@ function SearchResults() {
   const containerRef = useRef<HTMLDivElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(null);
 
-  const lang = i18n.language;
+  const lang = detectLang(q);
 
   // Full search for results page
   useEffect(() => {

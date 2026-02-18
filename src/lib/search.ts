@@ -177,6 +177,10 @@ export async function search(query: string, limit?: number): Promise<SearchResul
   return results;
 }
 
+export function detectLang(query: string): "en" | "mm" {
+  return /[\u1000-\u109F]/.test(query) ? "mm" : "en";
+}
+
 export function groupByType(results: SearchResult[]): Map<ResultType, SearchResult[]> {
   const grouped = new Map<ResultType, SearchResult[]>();
   for (const type of TYPE_ORDER) {
