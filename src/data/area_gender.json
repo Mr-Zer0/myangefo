@@ -1,0 +1,21 @@
+[
+  {
+    "area_pcode": "MMR",
+    "area_level": "UNION",
+    "gender_inequality_index": null,
+    "gender_development_index": null,
+    "women_in_parliament_pct": {
+      "2014": 5.6,
+      "2015": 6.2,
+      "2016": 9.9,
+      "2017": 10.2,
+      "2018": 10.2,
+      "2019": 11.3,
+      "2020": 11.1,
+      "2022": 15.3,
+      "2021": 15.0
+    },
+    "women_managerial_positions_pct": null,
+    "gender_pay_gap": null
+  }
+]
