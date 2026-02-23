@@ -337,6 +337,76 @@ async function resolveBreadcrumb(
   return { en: [], mm: [] };
 }
 
+// --- Demography ---
+
+export interface DemographyData {
+  population_total: number | null;
+  population_male: number | null;
+  population_female: number | null;
+  population_rural: number | null;
+  population_urban: number | null;
+  sex_ratio: number | null;
+  num_households: number | null;
+  avg_household_size: number | null;
+  population_density: number | null;
+  urban_population_pct: number | null;
+  annual_growth_rate: number | null;
+  total_fertility_rate: number | null;
+  crude_birth_rate: number | null;
+  crude_death_rate: number | null;
+  life_expectancy_total: number | null;
+  life_expectancy_male: number | null;
+  life_expectancy_female: number | null;
+  census_year: number | null;
+  num_villages: number | null;
+  num_village_tracts: number | null;
+  num_wards: number | null;
+  num_townships: number | null;
+  num_districts: number | null;
+}
+
+export async function getDemography(pcode: string): Promise<DemographyData | null> {
+  const db = await getDb();
+  const stmt = db.prepare("SELECT * FROM area_demography WHERE area_pcode = ?");
+  stmt.bind([pcode]);
+
+  if (!stmt.step()) {
+    stmt.free();
+    return null;
+  }
+
+  const cols = stmt.getColumnNames();
+  const vals = stmt.get();
+  stmt.free();
+  const row = rowToObj(cols, vals) as Record<string, unknown>;
+
+  return {
+    population_total: row.population_total as number | null,
+    population_male: row.population_male as number | null,
+    population_female: row.population_female as number | null,
+    population_rural: row.population_rural as number | null,
+    population_urban: row.population_urban as number | null,
+    sex_ratio: row.sex_ratio as number | null,
+    num_households: row.num_households as number | null,
+    avg_household_size: row.avg_household_size as number | null,
+    population_density: row.population_density as number | null,
+    urban_population_pct: row.urban_population_pct as number | null,
+    annual_growth_rate: row.annual_growth_rate as number | null,
+    total_fertility_rate: row.total_fertility_rate as number | null,
+    crude_birth_rate: row.crude_birth_rate as number | null,
+    crude_death_rate: row.crude_death_rate as number | null,
+    life_expectancy_total: row.life_expectancy_total as number | null,
+    life_expectancy_male: row.life_expectancy_male as number | null,
+    life_expectancy_female: row.life_expectancy_female as number | null,
+    census_year: row.census_year as number | null,
+    num_villages: row.num_villages as number | null,
+    num_village_tracts: row.num_village_tracts as number | null,
+    num_wards: row.num_wards as number | null,
+    num_townships: row.num_townships as number | null,
+    num_districts: row.num_districts as number | null,
+  };
+}
+
 // --- Detail ---
 
 export async function getDetail(type: ResultType, pcode: string): Promise<DetailResult | null> {

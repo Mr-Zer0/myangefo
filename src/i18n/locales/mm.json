@@ -27,6 +27,26 @@
     "total": "စုစုပေါင်း",
     "ageRange": "အသက်အလိုက် ခွဲခြားမှု",
     "map": "မြေပုံ",
-    "dummy": "စမ်းသပ်"
+    "dummy": "စမ်းသပ်",
+    "households": "အိမ်ထောင်စု",
+    "avgHouseholdSize": "ပျမ်းမျှ အိမ်ထောင်စုအရွယ်အစား",
+    "sexRatio": "ကျား/မ အချိုး",
+    "density": "လူဦးရေ သိပ်သည်းမှု (km²)",
+    "urbanPct": "မြို့ပြ %",
+    "growthRate": "နှစ်စဉ် တိုးတက်နှုန်း",
+    "fertilityRate": "မွေးဖွားနှုန်း",
+    "birthRate": "အကြမ်းဖျဉ်း မွေးဖွားနှုန်း",
+    "deathRate": "အကြမ်းဖျဉ်း သေဆုံးနှုန်း",
+    "lifeExpectancy": "ပျမ်းမျှ သက်တမ်း",
+    "lifeExpectancyMale": "ပျမ်းမျှ သက်တမ်း (ကျား)",
+    "lifeExpectancyFemale": "ပျမ်းမျှ သက်တမ်း (မ)",
+    "censusYear": "သန်းခေါင်စာရင်း နှစ်",
+    "adminUnits": "အုပ်ချုပ်ရေး ယူနစ်များ",
+    "districts": "ခရိုင်",
+    "townships": "မြို့နယ်",
+    "wards": "ရပ်ကွက်",
+    "villageTracts": "ကျေးရွာအုပ်စု",
+    "villages": "ကျေးရွာ",
+    "demographicStats": "လူဦးရေ စာရင်းအင်း"
   }
 }

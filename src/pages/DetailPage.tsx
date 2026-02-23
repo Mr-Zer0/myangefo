@@ -1,87 +1,18 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { Loader2, ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import {
   getDetail,
   getChildren,
+  getDemography,
   getTypeLabel,
   type DetailResult,
   type ChildGroup,
+  type DemographyData,
   type ResultType,
 } from "@/lib/search";
 import mmSvg from "@/assets/mm.svg";
-
-// Simple seeded RNG from a string so the same pcode always produces the same numbers
-function seededRng(seed: string) {
-  let h = 0;
-  for (let i = 0; i < seed.length; i++) {
-    h = (Math.imul(31, h) + seed.charCodeAt(i)) | 0;
-  }
-  return () => {
-    h = (h ^ (h >>> 16)) * 0x45d9f3b;
-    h = (h ^ (h >>> 16)) * 0x45d9f3b;
-    h = h ^ (h >>> 16);
-    return (h >>> 0) / 0xffffffff;
-  };
-}
-
-interface AgeGroup {
-  range: string;
-  male: number;
-  female: number;
-  total: number;
-}
-
-interface PopulationData {
-  male: number;
-  female: number;
-  total: number;
-  ageGroups: AgeGroup[];
-}
-
-const AGE_RANGES = ["0-14", "15-24", "25-39", "40-54", "55-64", "65+"];
-
-// Rough distribution weights for age groups
-const AGE_WEIGHTS = [0.25, 0.18, 0.22, 0.17, 0.10, 0.08];
-
-// Population scale varies by entity type
-const populationScale: Record<ResultType, [number, number]> = {
-  state_region: [800_000, 8_000_000],
-  district: [200_000, 2_000_000],
-  township: [50_000, 500_000],
-  town: [5_000, 150_000],
-  ward: [1_000, 30_000],
-  village_tract: [500, 10_000],
-  village: [100, 5_000],
-};
-
-function generatePopulation(type: ResultType, pcode: string): PopulationData {
-  const rng = seededRng(pcode);
-  const [min, max] = populationScale[type];
-  const total = Math.round(min + rng() * (max - min));
-
-  // Male ratio between 0.46 and 0.52
-  const maleRatio = 0.46 + rng() * 0.06;
-  const male = Math.round(total * maleRatio);
-  const female = total - male;
-
-  const ageGroups: AgeGroup[] = AGE_RANGES.map((range, i) => {
-    // Add a little randomness to the weight
-    const w = AGE_WEIGHTS[i] * (0.8 + rng() * 0.4);
-    const groupTotal = Math.round(total * w);
-    const groupMaleRatio = 0.46 + rng() * 0.08;
-    const groupMale = Math.round(groupTotal * groupMaleRatio);
-    return {
-      range,
-      male: groupMale,
-      female: groupTotal - groupMale,
-      total: groupTotal,
-    };
-  });
-
-  return { male, female, total, ageGroups };
-}
 
 function DetailPage() {
   const { t, i18n } = useTranslation();
@@ -90,15 +21,11 @@ function DetailPage() {
 
   const [detail, setDetail] = useState<DetailResult | null>(null);
   const [children, setChildren] = useState<ChildGroup[]>([]);
+  const [demography, setDemography] = useState<DemographyData | null>(null);
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
 
   const lang = i18n.language === "mm" ? "mm" : "en";
-
-  const population = useMemo(
-    () => (detail ? generatePopulation(detail.type, detail.pcode) : null),
-    [detail]
-  );
 
   useEffect(() => {
     if (!type || !pcode) return;
@@ -109,12 +36,14 @@ function DetailPage() {
     Promise.all([
       getDetail(type as ResultType, pcode),
       getChildren(type as ResultType, pcode),
-    ]).then(([d, c]) => {
+      getDemography(pcode),
+    ]).then(([d, c, demo]) => {
       if (!d) {
         setNotFound(true);
       } else {
         setDetail(d);
         setChildren(c);
+        setDemography(demo);
       }
       setLoading(false);
     });
@@ -268,64 +197,94 @@ function DetailPage() {
           </div>
         </div>
 
-        {/* Population (dummy) */}
-        {population && <div className="mt-6 rounded-xl border bg-card p-6">
-          <h3 className="mb-4 text-lg font-semibold">
-            {t("detail.population")}
-            <span className="ml-2 rounded-full bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800">
-              {t("detail.dummy")}
-            </span>
-          </h3>
+        {/* Population & Demographics */}
+        {demography && (
+          <div className="mt-6 rounded-xl border bg-card p-6">
+            <h3 className="mb-4 text-lg font-semibold">
+              {t("detail.population")}
+              {demography.census_year != null && (
+                <span className="ml-2 text-sm font-normal text-muted-foreground">
+                  ({t("detail.censusYear")}: {demography.census_year})
+                </span>
+              )}
+            </h3>
 
-          {/* Summary */}
-          <div className="mb-6 grid grid-cols-3 gap-4 text-center">
-            <div className="rounded-lg bg-blue-50 p-4">
-              <p className="text-2xl font-bold text-blue-700">
-                {population.male.toLocaleString()}
-              </p>
-              <p className="text-sm text-blue-600">{t("detail.male")}</p>
+            {/* Population summary */}
+            <div className="mb-6 grid grid-cols-3 gap-4 text-center">
+              <div className="rounded-lg bg-blue-50 p-4">
+                <p className="text-2xl font-bold text-blue-700">
+                  {demography.population_male?.toLocaleString() ?? "—"}
+                </p>
+                <p className="text-sm text-blue-600">{t("detail.male")}</p>
+              </div>
+              <div className="rounded-lg bg-pink-50 p-4">
+                <p className="text-2xl font-bold text-pink-700">
+                  {demography.population_female?.toLocaleString() ?? "—"}
+                </p>
+                <p className="text-sm text-pink-600">{t("detail.female")}</p>
+              </div>
+              <div className="rounded-lg bg-gray-50 p-4">
+                <p className="text-2xl font-bold text-gray-800">
+                  {demography.population_total?.toLocaleString() ?? "—"}
+                </p>
+                <p className="text-sm text-gray-600">{t("detail.total")}</p>
+              </div>
             </div>
-            <div className="rounded-lg bg-pink-50 p-4">
-              <p className="text-2xl font-bold text-pink-700">
-                {population.female.toLocaleString()}
-              </p>
-              <p className="text-sm text-pink-600">{t("detail.female")}</p>
-            </div>
-            <div className="rounded-lg bg-gray-50 p-4">
-              <p className="text-2xl font-bold text-gray-800">
-                {population.total.toLocaleString()}
-              </p>
-              <p className="text-sm text-gray-600">{t("detail.total")}</p>
-            </div>
-          </div>
 
-          {/* Age distribution table */}
-          <h4 className="mb-3 text-sm font-semibold text-muted-foreground">
-            {t("detail.ageRange")}
-          </h4>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b text-left text-muted-foreground">
-                  <th className="pb-2 pr-4 font-medium">{t("detail.ageRange")}</th>
-                  <th className="pb-2 pr-4 text-right font-medium">{t("detail.male")}</th>
-                  <th className="pb-2 pr-4 text-right font-medium">{t("detail.female")}</th>
-                  <th className="pb-2 text-right font-medium">{t("detail.total")}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {population.ageGroups.map((ag) => (
-                  <tr key={ag.range} className="border-b last:border-0">
-                    <td className="py-2 pr-4 font-mono">{ag.range}</td>
-                    <td className="py-2 pr-4 text-right">{ag.male.toLocaleString()}</td>
-                    <td className="py-2 pr-4 text-right">{ag.female.toLocaleString()}</td>
-                    <td className="py-2 text-right font-medium">{ag.total.toLocaleString()}</td>
-                  </tr>
+            {/* Demographic stats grid */}
+            <h4 className="mb-3 text-sm font-semibold text-muted-foreground">
+              {t("detail.demographicStats")}
+            </h4>
+            <div className="mb-6 grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">
+              {[
+                { label: t("detail.households"), value: demography.num_households?.toLocaleString() },
+                { label: t("detail.avgHouseholdSize"), value: demography.avg_household_size?.toFixed(1) },
+                { label: t("detail.sexRatio"), value: demography.sex_ratio?.toFixed(1) },
+                { label: t("detail.density"), value: demography.population_density?.toFixed(1) },
+                { label: t("detail.urbanPct"), value: demography.urban_population_pct != null ? `${demography.urban_population_pct.toFixed(1)}%` : null },
+                { label: t("detail.growthRate"), value: demography.annual_growth_rate != null ? `${demography.annual_growth_rate.toFixed(2)}%` : null },
+                { label: t("detail.fertilityRate"), value: demography.total_fertility_rate?.toFixed(2) },
+                { label: t("detail.birthRate"), value: demography.crude_birth_rate?.toFixed(1) },
+                { label: t("detail.deathRate"), value: demography.crude_death_rate?.toFixed(1) },
+                { label: t("detail.lifeExpectancy"), value: demography.life_expectancy_total?.toFixed(1) },
+                { label: t("detail.lifeExpectancyMale"), value: demography.life_expectancy_male?.toFixed(1) },
+                { label: t("detail.lifeExpectancyFemale"), value: demography.life_expectancy_female?.toFixed(1) },
+              ]
+                .filter((s) => s.value != null)
+                .map((s) => (
+                  <div key={s.label} className="rounded-lg border px-3 py-2">
+                    <p className="text-xs text-muted-foreground">{s.label}</p>
+                    <p className="font-semibold">{s.value}</p>
+                  </div>
                 ))}
-              </tbody>
-            </table>
+            </div>
+
+            {/* Admin units (for state_region level) */}
+            {(demography.num_districts != null || demography.num_townships != null) && (
+              <>
+                <h4 className="mb-3 text-sm font-semibold text-muted-foreground">
+                  {t("detail.adminUnits")}
+                </h4>
+                <div className="grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">
+                  {[
+                    { label: t("detail.districts"), value: demography.num_districts },
+                    { label: t("detail.townships"), value: demography.num_townships },
+                    { label: t("detail.wards"), value: demography.num_wards },
+                    { label: t("detail.villageTracts"), value: demography.num_village_tracts },
+                    { label: t("detail.villages"), value: demography.num_villages },
+                  ]
+                    .filter((s) => s.value != null)
+                    .map((s) => (
+                      <div key={s.label} className="rounded-lg border px-3 py-2">
+                        <p className="text-xs text-muted-foreground">{s.label}</p>
+                        <p className="font-semibold">{s.value?.toLocaleString()}</p>
+                      </div>
+                    ))}
+                </div>
+              </>
+            )}
           </div>
-        </div>}
+        )}
 
         {/* Children */}
         {children.length > 0 && (

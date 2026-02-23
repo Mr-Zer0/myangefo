@@ -27,6 +27,26 @@
     "total": "Total",
     "ageRange": "Age Distribution",
     "map": "Map",
-    "dummy": "Dummy"
+    "dummy": "Dummy",
+    "households": "Households",
+    "avgHouseholdSize": "Avg Household Size",
+    "sexRatio": "Sex Ratio",
+    "density": "Density (per km²)",
+    "urbanPct": "Urban %",
+    "growthRate": "Growth Rate",
+    "fertilityRate": "Fertility Rate",
+    "birthRate": "Birth Rate",
+    "deathRate": "Death Rate",
+    "lifeExpectancy": "Life Expectancy",
+    "lifeExpectancyMale": "Life Exp. (Male)",
+    "lifeExpectancyFemale": "Life Exp. (Female)",
+    "censusYear": "Census Year",
+    "adminUnits": "Administrative Units",
+    "districts": "Districts",
+    "townships": "Townships",
+    "wards": "Wards",
+    "villageTracts": "Village Tracts",
+    "villages": "Villages",
+    "demographicStats": "Demographic Statistics"
   }
 }
