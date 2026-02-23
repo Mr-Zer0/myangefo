@@ -405,27 +405,56 @@ export async function getDemography(pcode: string): Promise<DemographyData | nul
     num_wards: row.num_wards as number | null,
     num_townships: row.num_townships as number | null,
     num_districts: row.num_districts as number | null,
-    population_by_religion: parseReligionData(row.population_by_religion as string | null),
+    population_by_religion: parseYearMap(row.population_by_religion as string | null),
   };
 }
 
-function parseReligionData(raw: string | null): Record<string, number> | null {
+/** Parse a JSONB column of shape { "label": { "year": value } } into { label: latestValue } */
+function parseYearMap(raw: string | null): Record<string, number> | null {
   if (!raw) return null;
   try {
     const parsed = JSON.parse(raw) as Record<string, Record<string, number>>;
     if (typeof parsed !== "object" || Object.keys(parsed).length === 0) return null;
     const result: Record<string, number> = {};
-    for (const [religion, yearMap] of Object.entries(parsed)) {
-      // Take the latest year's value
+    for (const [key, yearMap] of Object.entries(parsed)) {
       const years = Object.keys(yearMap).sort();
       if (years.length > 0) {
-        result[religion] = yearMap[years[years.length - 1]];
+        result[key] = yearMap[years[years.length - 1]];
       }
     }
     return Object.keys(result).length > 0 ? result : null;
   } catch {
     return null;
   }
+}
+
+// --- Economy ---
+
+export interface EconomyData {
+  population_by_activity_status: Record<string, number> | null;
+}
+
+export async function getEconomy(pcode: string): Promise<EconomyData | null> {
+  const db = await getDb();
+  const stmt = db.prepare("SELECT * FROM area_economy WHERE area_pcode = ?");
+  stmt.bind([pcode]);
+
+  if (!stmt.step()) {
+    stmt.free();
+    return null;
+  }
+
+  const cols = stmt.getColumnNames();
+  const vals = stmt.get();
+  stmt.free();
+  const row = rowToObj(cols, vals) as Record<string, unknown>;
+
+  const activityStatus = parseYearMap(row.population_by_activity_status as string | null);
+  if (!activityStatus) return null;
+
+  return {
+    population_by_activity_status: activityStatus,
+  };
 }
 
 // --- Detail ---

@@ -6,10 +6,12 @@ import {
   getDetail,
   getChildren,
   getDemography,
+  getEconomy,
   getTypeLabel,
   type DetailResult,
   type ChildGroup,
   type DemographyData,
+  type EconomyData,
   type ResultType,
 } from "@/lib/search";
 import mmSvg from "@/assets/mm.svg";
@@ -22,6 +24,7 @@ function DetailPage() {
   const [detail, setDetail] = useState<DetailResult | null>(null);
   const [children, setChildren] = useState<ChildGroup[]>([]);
   const [demography, setDemography] = useState<DemographyData | null>(null);
+  const [economy, setEconomy] = useState<EconomyData | null>(null);
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
 
@@ -37,13 +40,15 @@ function DetailPage() {
       getDetail(type as ResultType, pcode),
       getChildren(type as ResultType, pcode),
       getDemography(pcode),
-    ]).then(([d, c, demo]) => {
+      getEconomy(pcode),
+    ]).then(([d, c, demo, econ]) => {
       if (!d) {
         setNotFound(true);
       } else {
         setDetail(d);
         setChildren(c);
         setDemography(demo);
+        setEconomy(econ);
       }
       setLoading(false);
     });
@@ -387,6 +392,87 @@ function DetailPage() {
             })()}
           </div>
         )}
+
+        {/* Employment & Activity Status */}
+        {economy?.population_by_activity_status && (() => {
+          const raw = economy.population_by_activity_status;
+          // Only show "- Total" entries, strip the suffix for display
+          const entries = Object.entries(raw)
+            .filter(([k]) => k.endsWith(" - Total"))
+            .map(([k, v]) => [k.replace(" - Total", ""), v] as [string, number])
+            .sort((a, b) => b[1] - a[1]);
+          if (entries.length === 0) return null;
+
+          const total = entries.reduce((sum, [, v]) => sum + v, 0);
+          const colors = [
+            "#3b82f6", "#10b981", "#f59e0b", "#8b5cf6", "#ef4444",
+            "#06b6d4", "#f97316", "#ec4899", "#14b8a6", "#a855f7",
+            "#64748b", "#84cc16",
+          ];
+
+          // Build pie slices
+          const r = 80;
+          const cx = 90;
+          const cy = 90;
+          let startAngle = -90;
+          const slices = entries.map(([name, value], i) => {
+            const pct = total > 0 ? (value / total) * 100 : 0;
+            const sweep = (pct / 100) * 360;
+            const color = colors[i % colors.length];
+            let path: string;
+
+            if (sweep >= 360) {
+              path = `M${cx},${cy - r} A${r},${r} 0 1,1 ${cx - 0.01},${cy - r} A${r},${r} 0 1,1 ${cx},${cy - r} Z`;
+            } else {
+              const startRad = (startAngle * Math.PI) / 180;
+              const endRad = ((startAngle + sweep) * Math.PI) / 180;
+              const x1 = cx + r * Math.cos(startRad);
+              const y1 = cy + r * Math.sin(startRad);
+              const x2 = cx + r * Math.cos(endRad);
+              const y2 = cy + r * Math.sin(endRad);
+              const largeArc = sweep > 180 ? 1 : 0;
+              path = `M${cx},${cy} L${x1},${y1} A${r},${r} 0 ${largeArc},1 ${x2},${y2} Z`;
+            }
+            startAngle += sweep;
+            return { name, value, pct, color, path };
+          });
+
+          return (
+            <div className="mt-6 rounded-xl border bg-card p-6">
+              <h3 className="mb-4 text-lg font-semibold">
+                {t("detail.activityStatus")}
+              </h3>
+              <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
+                <svg viewBox="0 0 180 180" className="h-40 w-40 shrink-0">
+                  {slices.map((s) => (
+                    <path key={s.name} d={s.path} fill={s.color} />
+                  ))}
+                </svg>
+                <div className="flex flex-col gap-2">
+                  {slices.map((s) => (
+                    <div key={s.name} className="flex items-center gap-3">
+                      <span
+                        className="inline-block h-3 w-3 shrink-0 rounded-full"
+                        style={{ backgroundColor: s.color }}
+                      />
+                      <div>
+                        <p className="text-sm font-medium">
+                          {s.name}
+                          <span className="ml-1 text-xs font-normal text-muted-foreground">
+                            ({s.pct.toFixed(1)}%)
+                          </span>
+                        </p>
+                        <p className="text-xs text-muted-foreground">
+                          {s.value.toLocaleString()}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          );
+        })()}
 
         {/* Map (dummy) */}
         <div className="mt-6 rounded-xl border bg-card p-6">
