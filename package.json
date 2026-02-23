@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "chart.js": "^4.5.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "firebase": "^12.9.0",
@@ -19,6 +20,7 @@
     "lucide-react": "^0.574.0",
     "radix-ui": "^1.4.3",
     "react": "^19.2.0",
+    "react-chartjs-2": "^5.3.1",
     "react-dom": "^19.2.0",
     "react-i18next": "^16.5.4",
     "react-router-dom": "^7.13.0",

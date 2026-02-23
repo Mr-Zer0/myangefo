@@ -3,6 +3,13 @@ import { useParams, useNavigate, Link } from "react-router-dom";
 import { Loader2, ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import {
+  Chart as ChartJS,
+  ArcElement,
+  Tooltip,
+  Legend,
+} from "chart.js";
+import { Doughnut } from "react-chartjs-2";
+import {
   getDetail,
   getChildren,
   getDemography,
@@ -15,6 +22,8 @@ import {
   type ResultType,
 } from "@/lib/search";
 import mmSvg from "@/assets/mm.svg";
+
+ChartJS.register(ArcElement, Tooltip, Legend);
 
 function DetailPage() {
   const { t, i18n } = useTranslation();
@@ -197,33 +206,44 @@ function DetailPage() {
               )}
             </h3>
 
-            {/* Population pie chart + legend */}
+            {/* Population doughnut chart + legend */}
             {(() => {
               const male = demography.population_male ?? 0;
               const female = demography.population_female ?? 0;
               const total = demography.population_total ?? male + female;
               const malePct = total > 0 ? (male / total) * 100 : 50;
-              // SVG pie via two arc slices on a circle of radius 80, centered at 90,90
-              const r = 80;
-              const cx = 90;
-              const cy = 90;
-              const angle = (malePct / 100) * 360;
-              const rad = (angle - 90) * (Math.PI / 180);
-              const largeArc = angle > 180 ? 1 : 0;
-              const x = cx + r * Math.cos(rad);
-              const y = cy + r * Math.sin(rad);
-              // Male slice starts at top (0,-r), arcs clockwise
-              const malePath = `M${cx},${cy} L${cx},${cy - r} A${r},${r} 0 ${largeArc},1 ${x},${y} Z`;
-              const femaleLargeArc = angle <= 180 ? 1 : 0;
-              const femalePath = `M${cx},${cy} L${x},${y} A${r},${r} 0 ${femaleLargeArc},1 ${cx},${cy - r} Z`;
 
               return (
                 <div className="mb-6 flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
-                  {/* Pie chart */}
-                  <svg viewBox="0 0 180 180" className="h-40 w-40 shrink-0">
-                    <path d={malePath} fill="#3b82f6" />
-                    <path d={femalePath} fill="#ec4899" />
-                  </svg>
+                  <div className="shrink-0" style={{ width: 320 }}>
+                    <Doughnut
+                      data={{
+                        labels: [t("detail.male"), t("detail.female")],
+                        datasets: [{
+                          data: [male, female],
+                          backgroundColor: ["#3b82f6", "#ec4899"],
+                          borderWidth: 0,
+                        }],
+                      }}
+                      options={{
+                        responsive: true,
+                        maintainAspectRatio: true,
+                        cutout: "50%",
+                        plugins: {
+                          legend: { display: false },
+                          tooltip: {
+                            callbacks: {
+                              label: (ctx) => {
+                                const val = ctx.parsed;
+                                const pct = total > 0 ? ((val / total) * 100).toFixed(1) : "0.0";
+                                return `${ctx.label}: ${val.toLocaleString()} (${pct}%)`;
+                              },
+                            },
+                          },
+                        },
+                      }}
+                    />
+                  </div>
 
                   {/* Legend */}
                   <div className="flex flex-col gap-3">
@@ -320,69 +340,54 @@ function DetailPage() {
               const total = entries.reduce((sum, [, v]) => sum + v, 0);
               const colors = ["#f59e0b", "#3b82f6", "#10b981", "#8b5cf6", "#ef4444", "#6b7280"];
 
-              // Build pie slices
-              const slices: { name: string; value: number; pct: number; color: string; path: string }[] = [];
-              const r = 80;
-              const cx = 90;
-              const cy = 90;
-              let startAngle = -90; // start from top
-
-              entries.forEach(([name, value], i) => {
-                const pct = total > 0 ? (value / total) * 100 : 0;
-                const sweep = (pct / 100) * 360;
-                const color = colors[i % colors.length];
-
-                if (sweep >= 360) {
-                  // Full circle
-                  slices.push({
-                    name, value, pct, color,
-                    path: `M${cx},${cy - r} A${r},${r} 0 1,1 ${cx - 0.01},${cy - r} A${r},${r} 0 1,1 ${cx},${cy - r} Z`,
-                  });
-                } else {
-                  const startRad = (startAngle * Math.PI) / 180;
-                  const endRad = ((startAngle + sweep) * Math.PI) / 180;
-                  const x1 = cx + r * Math.cos(startRad);
-                  const y1 = cy + r * Math.sin(startRad);
-                  const x2 = cx + r * Math.cos(endRad);
-                  const y2 = cy + r * Math.sin(endRad);
-                  const largeArc = sweep > 180 ? 1 : 0;
-                  slices.push({
-                    name, value, pct, color,
-                    path: `M${cx},${cy} L${x1},${y1} A${r},${r} 0 ${largeArc},1 ${x2},${y2} Z`,
-                  });
-                }
-                startAngle += sweep;
-              });
-
               return (
                 <>
                   <h4 className="mt-6 mb-3 text-sm font-semibold text-muted-foreground">
                     {t("detail.religion")}
                   </h4>
-                  <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
-                    <svg viewBox="0 0 180 180" className="h-40 w-40 shrink-0">
-                      {slices.map((s) => (
-                        <path key={s.name} d={s.path} fill={s.color} />
-                      ))}
-                    </svg>
-                    <div className="flex flex-col gap-2">
-                      {slices.map((s) => (
-                        <div key={s.name} className="flex items-center gap-3">
+                  <div className="flex flex-col items-center gap-4">
+                    <div style={{ width: 320 }}>
+                      <Doughnut
+                        data={{
+                          labels: entries.map(([name]) => name),
+                          datasets: [{
+                            data: entries.map(([, v]) => v),
+                            backgroundColor: entries.map((_, i) => colors[i % colors.length]),
+                            borderWidth: 0,
+                          }],
+                        }}
+                        options={{
+                          responsive: true,
+                          maintainAspectRatio: true,
+                          cutout: "50%",
+                          plugins: {
+                            legend: { display: false },
+                            tooltip: {
+                              callbacks: {
+                                label: (ctx) => {
+                                  const val = ctx.parsed;
+                                  const pct = total > 0 ? ((val / total) * 100).toFixed(1) : "0.0";
+                                  return `${ctx.label}: ${val.toLocaleString()} (${pct}%)`;
+                                },
+                              },
+                            },
+                          },
+                        }}
+                      />
+                    </div>
+                    <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
+                      {entries.map(([name, value], i) => (
+                        <div key={name} className="flex items-center gap-2">
                           <span
                             className="inline-block h-3 w-3 shrink-0 rounded-full"
-                            style={{ backgroundColor: s.color }}
+                            style={{ backgroundColor: colors[i % colors.length] }}
                           />
-                          <div>
-                            <p className="text-sm font-medium">
-                              {s.name}
-                              <span className="ml-1 text-xs font-normal text-muted-foreground">
-                                ({s.pct.toFixed(1)}%)
-                              </span>
-                            </p>
-                            <p className="text-xs text-muted-foreground">
-                              {s.value.toLocaleString()}
-                            </p>
-                          </div>
+                          <span className="text-sm">
+                            {name}
+                            <span className="ml-1 text-xs text-muted-foreground">
+                              ({(total > 0 ? (value / total) * 100 : 0).toFixed(1)}%)
+                            </span>
+                          </span>
                         </div>
                       ))}
                     </div>
@@ -410,62 +415,54 @@ function DetailPage() {
             "#64748b", "#84cc16",
           ];
 
-          // Build pie slices
-          const r = 80;
-          const cx = 90;
-          const cy = 90;
-          let startAngle = -90;
-          const slices = entries.map(([name, value], i) => {
-            const pct = total > 0 ? (value / total) * 100 : 0;
-            const sweep = (pct / 100) * 360;
-            const color = colors[i % colors.length];
-            let path: string;
-
-            if (sweep >= 360) {
-              path = `M${cx},${cy - r} A${r},${r} 0 1,1 ${cx - 0.01},${cy - r} A${r},${r} 0 1,1 ${cx},${cy - r} Z`;
-            } else {
-              const startRad = (startAngle * Math.PI) / 180;
-              const endRad = ((startAngle + sweep) * Math.PI) / 180;
-              const x1 = cx + r * Math.cos(startRad);
-              const y1 = cy + r * Math.sin(startRad);
-              const x2 = cx + r * Math.cos(endRad);
-              const y2 = cy + r * Math.sin(endRad);
-              const largeArc = sweep > 180 ? 1 : 0;
-              path = `M${cx},${cy} L${x1},${y1} A${r},${r} 0 ${largeArc},1 ${x2},${y2} Z`;
-            }
-            startAngle += sweep;
-            return { name, value, pct, color, path };
-          });
-
           return (
             <div className="mt-6 rounded-xl border bg-card p-6">
               <h3 className="mb-4 text-lg font-semibold">
                 {t("detail.activityStatus")}
               </h3>
-              <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
-                <svg viewBox="0 0 180 180" className="h-40 w-40 shrink-0">
-                  {slices.map((s) => (
-                    <path key={s.name} d={s.path} fill={s.color} />
-                  ))}
-                </svg>
-                <div className="flex flex-col gap-2">
-                  {slices.map((s) => (
-                    <div key={s.name} className="flex items-center gap-3">
+              <div className="flex flex-col items-center gap-4">
+                <div style={{ width: 320 }}>
+                  <Doughnut
+                    data={{
+                      labels: entries.map(([name]) => name),
+                      datasets: [{
+                        data: entries.map(([, v]) => v),
+                        backgroundColor: entries.map((_, i) => colors[i % colors.length]),
+                        borderWidth: 0,
+                      }],
+                    }}
+                    options={{
+                      responsive: true,
+                      maintainAspectRatio: true,
+                      cutout: "50%",
+                      plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                          callbacks: {
+                            label: (ctx) => {
+                              const val = ctx.parsed;
+                              const pct = total > 0 ? ((val / total) * 100).toFixed(1) : "0.0";
+                              return `${ctx.label}: ${val.toLocaleString()} (${pct}%)`;
+                            },
+                          },
+                        },
+                      },
+                    }}
+                  />
+                </div>
+                <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
+                  {entries.map(([name, value], i) => (
+                    <div key={name} className="flex items-center gap-2">
                       <span
                         className="inline-block h-3 w-3 shrink-0 rounded-full"
-                        style={{ backgroundColor: s.color }}
+                        style={{ backgroundColor: colors[i % colors.length] }}
                       />
-                      <div>
-                        <p className="text-sm font-medium">
-                          {s.name}
-                          <span className="ml-1 text-xs font-normal text-muted-foreground">
-                            ({s.pct.toFixed(1)}%)
-                          </span>
-                        </p>
-                        <p className="text-xs text-muted-foreground">
-                          {s.value.toLocaleString()}
-                        </p>
-                      </div>
+                      <span className="text-sm">
+                        {name}
+                        <span className="ml-1 text-xs text-muted-foreground">
+                          ({(total > 0 ? (value / total) * 100 : 0).toFixed(1)}%)
+                        </span>
+                      </span>
                     </div>
                   ))}
                 </div>
