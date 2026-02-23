@@ -11,6 +11,7 @@ import {
   type SearchResult,
   type ResultType,
 } from "@/lib/search";
+import { LanguageSwitch } from "@/components/LanguageSwitch";
 
 function SearchResults() {
   const { t } = useTranslation();
@@ -97,12 +98,15 @@ function SearchResults() {
   return (
     <div className="min-h-svh w-full px-6">
       <div className="mx-auto max-w-3xl pt-10">
-        <h1
-          className="cursor-pointer text-3xl font-bold"
-          onClick={() => navigate("/")}
-        >
-          {t("app.title")}
-        </h1>
+        <div className="flex items-center justify-between">
+          <h1
+            className="cursor-pointer text-3xl font-bold"
+            onClick={() => navigate("/")}
+          >
+            {t("app.title")}
+          </h1>
+          <LanguageSwitch />
+        </div>
 
         <div ref={containerRef} className="relative mt-6">
           <Search className="absolute left-5 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />

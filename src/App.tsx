@@ -13,6 +13,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { search, getTypeLabel, detectLang, type SearchResult } from "@/lib/search";
+import { LanguageSwitch } from "@/components/LanguageSwitch";
 
 function App() {
   const { t } = useTranslation();
@@ -64,7 +65,10 @@ function App() {
 
   return (
     <div className="flex min-h-svh w-full items-center justify-center px-6">
-      <div className="flex w-full max-w-3xl flex-col items-center gap-8">
+      <div className="absolute top-6 right-6">
+        <LanguageSwitch />
+      </div>
+      <div className="flex w-full max-w-3xl flex-col items-center gap-8 -mt-60 md:mt-0">
         <h1 className="text-5xl font-bold">{t("app.title")}</h1>
 
         <div ref={containerRef} className="relative w-full">

@@ -22,6 +22,7 @@ import {
   type ResultType,
 } from "@/lib/search";
 import mmSvg from "@/assets/mm.svg";
+import { LanguageSwitch } from "@/components/LanguageSwitch";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -67,12 +68,15 @@ function DetailPage() {
     return (
       <div className="min-h-svh w-full px-6">
         <div className="mx-auto max-w-3xl pt-10">
-          <h1
-            className="cursor-pointer text-3xl font-bold"
-            onClick={() => navigate("/")}
-          >
-            {t("app.title")}
-          </h1>
+          <div className="flex items-center justify-between">
+            <h1
+              className="cursor-pointer text-3xl font-bold"
+              onClick={() => navigate("/")}
+            >
+              {t("app.title")}
+            </h1>
+            <LanguageSwitch />
+          </div>
           <div className="mt-12 flex items-center gap-2 text-muted-foreground">
             <Loader2 className="h-4 w-4 animate-spin" />
             <span>{t("detail.loading")}</span>
@@ -86,12 +90,15 @@ function DetailPage() {
     return (
       <div className="min-h-svh w-full px-6">
         <div className="mx-auto max-w-3xl pt-10">
-          <h1
-            className="cursor-pointer text-3xl font-bold"
-            onClick={() => navigate("/")}
-          >
-            {t("app.title")}
-          </h1>
+          <div className="flex items-center justify-between">
+            <h1
+              className="cursor-pointer text-3xl font-bold"
+              onClick={() => navigate("/")}
+            >
+              {t("app.title")}
+            </h1>
+            <LanguageSwitch />
+          </div>
           <p className="mt-12 text-muted-foreground">{t("detail.notFound")}</p>
         </div>
       </div>
@@ -104,12 +111,15 @@ function DetailPage() {
   return (
     <div className="min-h-svh w-full px-6">
       <div className="mx-auto max-w-3xl pt-10 pb-16">
-        <h1
-          className="cursor-pointer text-3xl font-bold"
-          onClick={() => navigate("/")}
-        >
-          {t("app.title")}
-        </h1>
+        <div className="flex items-center justify-between">
+          <h1
+            className="cursor-pointer text-3xl font-bold"
+            onClick={() => navigate("/")}
+          >
+            {t("app.title")}
+          </h1>
+          <LanguageSwitch />
+        </div>
 
         {/* Breadcrumb */}
         <nav className="mt-6 flex flex-wrap items-center gap-1 text-sm text-muted-foreground">
