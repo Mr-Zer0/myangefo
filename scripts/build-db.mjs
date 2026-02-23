@@ -1,5 +1,5 @@
 import Database from "better-sqlite3";
-import { readFileSync, copyFileSync, mkdirSync, rmSync } from "fs";
+import { readFileSync, copyFileSync, mkdirSync, rmSync, readdirSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -91,17 +91,18 @@ db.exec(`
 
 db.exec(`
   CREATE TABLE baseline_indicator (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY,
     area_pcode TEXT NOT NULL,
+    area_name TEXT,
     area_level TEXT NOT NULL,
     sector TEXT NOT NULL,
     sub_sector TEXT,
     indicator_name TEXT NOT NULL,
     indicator_type TEXT,
     unit TEXT,
+    source_name TEXT,
     data_year INTEGER,
-    value REAL,
-    source_name TEXT
+    value REAL
   );
 
   CREATE TABLE area_demography (
@@ -388,6 +389,37 @@ const insertFts = db.transaction(() => {
 
 insertFts();
 console.log("FTS4 index populated");
+
+// --- Insert baseline_indicator from baseline_*.json chunk files ---
+
+{
+  const baselineFiles = readdirSync(dataDir)
+    .filter((f) => f.startsWith("baseline_") && f.endsWith(".json"))
+    .sort();
+
+  const cols = [
+    "id", "area_pcode", "area_name", "area_level", "sector", "sub_sector",
+    "indicator_name", "indicator_type", "unit", "source_name", "data_year", "value",
+  ];
+  const placeholders = cols.map(() => "?").join(", ");
+  const stmt = db.prepare(
+    `INSERT INTO baseline_indicator (${cols.join(", ")}) VALUES (${placeholders})`
+  );
+
+  let total = 0;
+  for (const file of baselineFiles) {
+    const data = loadJson(file);
+    const insertChunk = db.transaction((rows) => {
+      for (const row of rows) {
+        stmt.run(...cols.map((c) => row[c] ?? null));
+      }
+    });
+    insertChunk(data);
+    total += data.length;
+    console.log(`  ${file}: ${data.length} rows`);
+  }
+  console.log(`baseline_indicator: inserted ${total} rows total`);
+}
 
 // --- Insert area_* JSON data ---
 // Fields that are objects/arrays get stored as JSON TEXT; scalars stay as-is.
