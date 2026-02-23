@@ -9,6 +9,8 @@ lerna-debug.log*
 
 node_modules
 dist
+public/myangefo.db
+public/sql-wasm.wasm
 dist-ssr
 *.local
 .env
