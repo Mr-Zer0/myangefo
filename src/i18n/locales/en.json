@@ -6,6 +6,7 @@
     "placeholder": "Search states, townships, villages...",
     "button": "Search",
     "advanced": "Advanced Search",
+    "advancedWip": "Advanced Search is currently under development. Stay tuned!",
     "loading": "Searching...",
     "noResults": "No results found.",
     "resultCount": "{{count}} results found"

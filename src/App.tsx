@@ -4,6 +4,14 @@ import { Search } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import { search, getTypeLabel, detectLang, type SearchResult } from "@/lib/search";
 
 function App() {
@@ -101,7 +109,17 @@ function App() {
 
         <div className="flex gap-3">
           <Button onClick={submitSearch}>{t("search.button")}</Button>
-          <Button variant="outline">{t("search.advanced")}</Button>
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button variant="outline">{t("search.advanced")}</Button>
+            </DialogTrigger>
+            <DialogContent>
+              <DialogHeader>
+                <DialogTitle>{t("search.advanced")}</DialogTitle>
+                <DialogDescription>{t("search.advancedWip")}</DialogDescription>
+              </DialogHeader>
+            </DialogContent>
+          </Dialog>
         </div>
       </div>
     </div>
