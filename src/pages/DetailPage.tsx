@@ -180,23 +180,6 @@ function DetailPage() {
           </dl>
         </div>
 
-        {/* Map (dummy) */}
-        <div className="mt-6 rounded-xl border bg-card p-6">
-          <h3 className="mb-4 text-lg font-semibold">
-            {t("detail.map")}
-            <span className="ml-2 rounded-full bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800">
-              {t("detail.dummy")}
-            </span>
-          </h3>
-          <div className="flex justify-center rounded-lg bg-muted/50 p-4">
-            <img
-              src={mmSvg}
-              alt="Myanmar map"
-              className="h-80 w-auto"
-            />
-          </div>
-        </div>
-
         {/* Population & Demographics */}
         {demography && (
           <div className="mt-6 rounded-xl border bg-card p-6">
@@ -209,27 +192,68 @@ function DetailPage() {
               )}
             </h3>
 
-            {/* Population summary */}
-            <div className="mb-6 grid grid-cols-3 gap-4 text-center">
-              <div className="rounded-lg bg-blue-50 p-4">
-                <p className="text-2xl font-bold text-blue-700">
-                  {demography.population_male?.toLocaleString() ?? "—"}
-                </p>
-                <p className="text-sm text-blue-600">{t("detail.male")}</p>
-              </div>
-              <div className="rounded-lg bg-pink-50 p-4">
-                <p className="text-2xl font-bold text-pink-700">
-                  {demography.population_female?.toLocaleString() ?? "—"}
-                </p>
-                <p className="text-sm text-pink-600">{t("detail.female")}</p>
-              </div>
-              <div className="rounded-lg bg-gray-50 p-4">
-                <p className="text-2xl font-bold text-gray-800">
-                  {demography.population_total?.toLocaleString() ?? "—"}
-                </p>
-                <p className="text-sm text-gray-600">{t("detail.total")}</p>
-              </div>
-            </div>
+            {/* Population pie chart + legend */}
+            {(() => {
+              const male = demography.population_male ?? 0;
+              const female = demography.population_female ?? 0;
+              const total = demography.population_total ?? male + female;
+              const malePct = total > 0 ? (male / total) * 100 : 50;
+              // SVG pie via two arc slices on a circle of radius 80, centered at 90,90
+              const r = 80;
+              const cx = 90;
+              const cy = 90;
+              const angle = (malePct / 100) * 360;
+              const rad = (angle - 90) * (Math.PI / 180);
+              const largeArc = angle > 180 ? 1 : 0;
+              const x = cx + r * Math.cos(rad);
+              const y = cy + r * Math.sin(rad);
+              // Male slice starts at top (0,-r), arcs clockwise
+              const malePath = `M${cx},${cy} L${cx},${cy - r} A${r},${r} 0 ${largeArc},1 ${x},${y} Z`;
+              const femaleLargeArc = angle <= 180 ? 1 : 0;
+              const femalePath = `M${cx},${cy} L${x},${y} A${r},${r} 0 ${femaleLargeArc},1 ${cx},${cy - r} Z`;
+
+              return (
+                <div className="mb-6 flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
+                  {/* Pie chart */}
+                  <svg viewBox="0 0 180 180" className="h-40 w-40 shrink-0">
+                    <path d={malePath} fill="#3b82f6" />
+                    <path d={femalePath} fill="#ec4899" />
+                  </svg>
+
+                  {/* Legend */}
+                  <div className="flex flex-col gap-3">
+                    <div className="flex items-center gap-3">
+                      <span className="inline-block h-3 w-3 rounded-full bg-blue-500" />
+                      <div>
+                        <p className="text-sm text-muted-foreground">{t("detail.male")}</p>
+                        <p className="text-lg font-bold">
+                          {male.toLocaleString()}
+                          <span className="ml-1 text-sm font-normal text-muted-foreground">
+                            ({malePct.toFixed(1)}%)
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <span className="inline-block h-3 w-3 rounded-full bg-pink-500" />
+                      <div>
+                        <p className="text-sm text-muted-foreground">{t("detail.female")}</p>
+                        <p className="text-lg font-bold">
+                          {female.toLocaleString()}
+                          <span className="ml-1 text-sm font-normal text-muted-foreground">
+                            ({(100 - malePct).toFixed(1)}%)
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="border-t pt-2">
+                      <p className="text-sm text-muted-foreground">{t("detail.total")}</p>
+                      <p className="text-xl font-bold">{total.toLocaleString()}</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })()}
 
             {/* Demographic stats grid */}
             <h4 className="mb-3 text-sm font-semibold text-muted-foreground">
@@ -285,6 +309,23 @@ function DetailPage() {
             )}
           </div>
         )}
+
+        {/* Map (dummy) */}
+        <div className="mt-6 rounded-xl border bg-card p-6">
+          <h3 className="mb-4 text-lg font-semibold">
+            {t("detail.map")}
+            <span className="ml-2 rounded-full bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800">
+              {t("detail.dummy")}
+            </span>
+          </h3>
+          <div className="flex justify-center rounded-lg bg-muted/50 p-4">
+            <img
+              src={mmSvg}
+              alt="Myanmar map"
+              className="h-80 w-auto"
+            />
+          </div>
+        </div>
 
         {/* Children */}
         {children.length > 0 && (
