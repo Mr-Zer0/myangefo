@@ -307,6 +307,84 @@ function DetailPage() {
                 </div>
               </>
             )}
+
+            {/* Religion breakdown */}
+            {demography.population_by_religion && (() => {
+              const entries = Object.entries(demography.population_by_religion)
+                .sort((a, b) => b[1] - a[1]);
+              const total = entries.reduce((sum, [, v]) => sum + v, 0);
+              const colors = ["#f59e0b", "#3b82f6", "#10b981", "#8b5cf6", "#ef4444", "#6b7280"];
+
+              // Build pie slices
+              const slices: { name: string; value: number; pct: number; color: string; path: string }[] = [];
+              const r = 80;
+              const cx = 90;
+              const cy = 90;
+              let startAngle = -90; // start from top
+
+              entries.forEach(([name, value], i) => {
+                const pct = total > 0 ? (value / total) * 100 : 0;
+                const sweep = (pct / 100) * 360;
+                const color = colors[i % colors.length];
+
+                if (sweep >= 360) {
+                  // Full circle
+                  slices.push({
+                    name, value, pct, color,
+                    path: `M${cx},${cy - r} A${r},${r} 0 1,1 ${cx - 0.01},${cy - r} A${r},${r} 0 1,1 ${cx},${cy - r} Z`,
+                  });
+                } else {
+                  const startRad = (startAngle * Math.PI) / 180;
+                  const endRad = ((startAngle + sweep) * Math.PI) / 180;
+                  const x1 = cx + r * Math.cos(startRad);
+                  const y1 = cy + r * Math.sin(startRad);
+                  const x2 = cx + r * Math.cos(endRad);
+                  const y2 = cy + r * Math.sin(endRad);
+                  const largeArc = sweep > 180 ? 1 : 0;
+                  slices.push({
+                    name, value, pct, color,
+                    path: `M${cx},${cy} L${x1},${y1} A${r},${r} 0 ${largeArc},1 ${x2},${y2} Z`,
+                  });
+                }
+                startAngle += sweep;
+              });
+
+              return (
+                <>
+                  <h4 className="mt-6 mb-3 text-sm font-semibold text-muted-foreground">
+                    {t("detail.religion")}
+                  </h4>
+                  <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
+                    <svg viewBox="0 0 180 180" className="h-40 w-40 shrink-0">
+                      {slices.map((s) => (
+                        <path key={s.name} d={s.path} fill={s.color} />
+                      ))}
+                    </svg>
+                    <div className="flex flex-col gap-2">
+                      {slices.map((s) => (
+                        <div key={s.name} className="flex items-center gap-3">
+                          <span
+                            className="inline-block h-3 w-3 shrink-0 rounded-full"
+                            style={{ backgroundColor: s.color }}
+                          />
+                          <div>
+                            <p className="text-sm font-medium">
+                              {s.name}
+                              <span className="ml-1 text-xs font-normal text-muted-foreground">
+                                ({s.pct.toFixed(1)}%)
+                              </span>
+                            </p>
+                            <p className="text-xs text-muted-foreground">
+                              {s.value.toLocaleString()}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              );
+            })()}
           </div>
         )}
 

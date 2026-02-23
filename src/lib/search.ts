@@ -363,6 +363,7 @@ export interface DemographyData {
   num_wards: number | null;
   num_townships: number | null;
   num_districts: number | null;
+  population_by_religion: Record<string, number> | null;
 }
 
 export async function getDemography(pcode: string): Promise<DemographyData | null> {
@@ -404,7 +405,27 @@ export async function getDemography(pcode: string): Promise<DemographyData | nul
     num_wards: row.num_wards as number | null,
     num_townships: row.num_townships as number | null,
     num_districts: row.num_districts as number | null,
+    population_by_religion: parseReligionData(row.population_by_religion as string | null),
   };
+}
+
+function parseReligionData(raw: string | null): Record<string, number> | null {
+  if (!raw) return null;
+  try {
+    const parsed = JSON.parse(raw) as Record<string, Record<string, number>>;
+    if (typeof parsed !== "object" || Object.keys(parsed).length === 0) return null;
+    const result: Record<string, number> = {};
+    for (const [religion, yearMap] of Object.entries(parsed)) {
+      // Take the latest year's value
+      const years = Object.keys(yearMap).sort();
+      if (years.length > 0) {
+        result[religion] = yearMap[years[years.length - 1]];
+      }
+    }
+    return Object.keys(result).length > 0 ? result : null;
+  } catch {
+    return null;
+  }
 }
 
 // --- Detail ---
