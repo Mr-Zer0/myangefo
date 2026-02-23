@@ -519,6 +519,18 @@ function DetailPage() {
             ))}
           </div>
         )}
+        {/* Data credit */}
+        <p className="mt-10 text-center text-xs text-muted-foreground">
+          {t("detail.dataCredit")}{" "}
+          <a
+            href="https://themimu.info"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:underline"
+          >
+            MIMU
+          </a>
+        </p>
       </div>
     </div>
   );

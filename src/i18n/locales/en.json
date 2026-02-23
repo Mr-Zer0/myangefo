@@ -50,6 +50,7 @@
     "villages": "Villages",
     "demographicStats": "Demographic Statistics",
     "religion": "Religion",
-    "activityStatus": "Employment & Activity Status"
+    "activityStatus": "Employment & Activity Status",
+    "dataCredit": "Data provided by"
   }
 }
